@@ -1,0 +1,46 @@
+{
+  "character": "ARYA",
+  "version": "TSA_CHARACTER_004_V4_SKIN_CONFORM_FIX",
+  "source_strategy": "V3 form preserved; tiger-stripe ornaments converted from floating plates to body-conforming skin decals",
+  "coordinate_system": {
+    "front_axis": "-Y",
+    "up_axis": "+Z",
+    "symmetry_plane": "X=0"
+  },
+  "locked_rangga_base": {
+    "BODY_W": 2.2,
+    "BODY_D": 1.34,
+    "BODY_H": 3.1,
+    "BODY_Z": 2.05,
+    "lower_volume": [
+      1.05,
+      0.63,
+      0.78
+    ],
+    "arm_scale": [
+      0.34,
+      0.42,
+      0.82
+    ],
+    "leg_dimensions": [
+      0.58,
+      0.74,
+      0.9
+    ]
+  },
+  "arya_features": {
+    "single_center_horn": true,
+    "horn_black_flush_bands": true,
+    "three_eyes": true,
+    "mouth_corner_fangs": true,
+    "visible_mouth_cavity": true,
+    "tongue_originates_inside_mouth": true,
+    "organic_tongue": true,
+    "concentric_belly_target": true,
+    "jagged_tiger_stripes": true,
+    "character_right_hand_club_grip": true,
+    "back_nub": true
+  },
+  "skin_markings": "shrinkwrapped body-conforming decals",
+  "tsa_gate": "STATIC_MODEL_FORM_LOCK"
+}

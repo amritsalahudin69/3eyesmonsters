@@ -1,0 +1,33 @@
+{
+  "character": "GALIH",
+  "version": "TSA_CHARACTER_008_V5_STANDARD_ARMS_NO_TRIDENT",
+  "source_strategy": "V4 body/face/horns/tail preserved; trident and special weapon-hand construction removed; both arms restored to standard family baseline",
+  "coordinate_system": {
+    "front_axis": "-Y",
+    "up_axis": "+Z",
+    "symmetry_plane": "X=0"
+  },
+  "family_base": {
+    "BODY_W": 2.2,
+    "BODY_D": 1.34,
+    "BODY_H": 3.1,
+    "BODY_Z": 2.05
+  },
+  "galih_features": {
+    "three_eyes": true,
+    "angry_red_eyelids": true,
+    "mouth_fangs": true,
+    "mouth_backing_anchor": true,
+    "embedded_face_parts": true,
+    "two_small_horns": true,
+    "devil_tail_arrow_tip": true,
+    "trident": false,
+    "standard_empty_hands": true,
+    "arm_pose": "standard relaxed hanging arms matching family baseline",
+    "character_left_hand_on_hip": true
+  },
+  "face_rule": "mouth/fangs remain inside exclusive face zone; no accessory crosses face",
+  "hand_rule": "both hands are empty standard family hands; no weapon-specific wrist/finger chain",
+  "tsa_gate": "STATIC_MODEL_FORM_LOCK",
+  "face_gate": "FACE_FORM_LOCK"
+}

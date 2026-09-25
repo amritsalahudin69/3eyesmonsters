@@ -1,0 +1,21 @@
+{
+  "character": "JOKO",
+  "version": "TSA_CHARACTER_005_V5_MASK_MATCH",
+  "source_strategy": "Rangga family body baseline + full black shell + yellow center mask geometry",
+  "coordinate_system": {
+    "front_axis": "-Y",
+    "up_axis": "+Z",
+    "symmetry_plane": "X=0"
+  },
+  "mask_rules": {
+    "top_back": "full black",
+    "front": "black field with yellow forehead + narrow center bridge",
+    "lower_eyes": "sit on black mask field",
+    "peaks": "integrated black side peaks, not detached horns"
+  },
+  "claw_rules": {
+    "orientation": "downward",
+    "layout": "parallel vertical fingers side-by-side"
+  },
+  "tsa_gate": "STATIC_MODEL_FORM_LOCK"
+}

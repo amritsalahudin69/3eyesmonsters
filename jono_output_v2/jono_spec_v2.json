@@ -1,0 +1,31 @@
+{
+  "character": "JONO",
+  "version": "TSA_CHARACTER_005_V2_MOUTH_ZONE_FIX",
+  "source_strategy": "V1 Rangga-family base preserved; targeted mouth-zone, cable-route and logo-spacing correction",
+  "coordinate_system": {
+    "front_axis": "-Y",
+    "up_axis": "+Z",
+    "symmetry_plane": "X=0"
+  },
+  "rangga_base": {
+    "BODY_W": 2.2,
+    "BODY_D": 1.34,
+    "BODY_H": 3.1,
+    "BODY_Z": 2.05
+  },
+  "jono_features": {
+    "three_eyes": true,
+    "blue_eyelids": true,
+    "buck_teeth": true,
+    "headphone_true_3d": true,
+    "headphone_band_wraps_head": true,
+    "headphone_cable_curve": true,
+    "music_player": true,
+    "chest_logo": true,
+    "mouth_zone_exclusion": true,
+    "cable_avoids_face": true,
+    "back_nub": true
+  },
+  "skin_rule": "body markings must conform to body surface; no floating plates",
+  "tsa_gate": "STATIC_MODEL_FORM_LOCK"
+}

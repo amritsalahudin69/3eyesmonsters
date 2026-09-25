@@ -1,0 +1,188 @@
+{
+  "character": "TOTOK",
+  "version": "TSA_CHARACTER_002_V4_FORM_REFINEMENT",
+  "coordinate_system": {
+    "front_axis": "-Y",
+    "up_axis": "+Z",
+    "symmetry_plane": "X=0"
+  },
+  "head": {
+    "center": [
+      0.0,
+      0.0,
+      2.755
+    ],
+    "dimensions": [
+      2.04,
+      1.46,
+      1.1
+    ],
+    "bevel": 0.15
+  },
+  "body_sections": [
+    [
+      2.2,
+      1.7,
+      1.32
+    ],
+    [
+      1.98,
+      1.78,
+      1.38
+    ],
+    [
+      1.48,
+      1.82,
+      1.44
+    ],
+    [
+      0.92,
+      1.72,
+      1.36
+    ],
+    [
+      0.61,
+      1.48,
+      1.18
+    ]
+  ],
+  "bottom_tip": {
+    "center": [
+      0.0,
+      0.0,
+      0.345
+    ],
+    "top_radius": 0.43,
+    "bottom_radius": 0.035,
+    "depth": 0.53
+  },
+  "roof_slab": {
+    "center": [
+      0.0,
+      0.0,
+      3.355
+    ],
+    "dimensions": [
+      2.18,
+      1.58,
+      0.11
+    ],
+    "bevel": 0.03
+  },
+  "roof": {
+    "base_z": 3.405,
+    "apex_z": 4.205,
+    "half_width": 0.72,
+    "half_depth": 0.61,
+    "bevel": 0.035
+  },
+  "halo": {
+    "center": [
+      0.0,
+      -0.02,
+      4.58
+    ],
+    "major_radius": 0.68,
+    "minor_radius": 0.068,
+    "tilt_x_deg": 24.0
+  },
+  "eyes": {
+    "white_scale": [
+      0.255,
+      0.108,
+      0.255
+    ],
+    "pupil_scale": [
+      0.105,
+      0.047,
+      0.105
+    ],
+    "centers": {
+      "EYE.TOP": [
+        0.0,
+        -0.748,
+        2.98
+      ],
+      "EYE.LEFT": [
+        -0.41,
+        -0.765,
+        2.61
+      ],
+      "EYE.RIGHT": [
+        0.41,
+        -0.765,
+        2.61
+      ]
+    },
+    "pupil_front_offset": -0.106,
+    "pupil_z_offset": -0.012
+  },
+  "mouth": {
+    "center_z": 2.285,
+    "half_width": 0.43,
+    "front_y": -0.77
+  },
+  "tongue": {
+    "center": [
+      0.0,
+      -0.815,
+      1.625
+    ],
+    "dimensions": [
+      0.48,
+      0.15,
+      1.24
+    ],
+    "bevel": 0.068
+  },
+  "arms": {
+    "left_center": [
+      -1.0,
+      0.0,
+      1.53
+    ],
+    "right_center": [
+      1.0,
+      0.0,
+      1.53
+    ],
+    "scale": [
+      0.225,
+      0.285,
+      0.49
+    ],
+    "left_rot_y_deg": -8.0,
+    "right_rot_y_deg": 8.0
+  },
+  "tail": {
+    "points": [
+      [
+        -0.7,
+        0.55,
+        1.07
+      ],
+      [
+        -1.12,
+        0.88,
+        0.91
+      ],
+      [
+        -1.48,
+        0.78,
+        1.08
+      ],
+      [
+        -1.42,
+        0.58,
+        1.4
+      ],
+      [
+        -1.18,
+        0.54,
+        1.6
+      ]
+    ],
+    "bevel": 0.067,
+    "tip_radius": 0.082
+  }
+}

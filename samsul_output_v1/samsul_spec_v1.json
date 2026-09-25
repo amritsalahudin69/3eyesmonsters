@@ -1,0 +1,32 @@
+{
+  "character": "SAMSUL",
+  "version": "TSA_CHARACTER_006_V1_RANGGA_FAMILY",
+  "source_strategy": "Rangga family body baseline + Samsul face/hat/skin cosmetics",
+  "coordinate_system": {
+    "front_axis": "-Y",
+    "up_axis": "+Z",
+    "symmetry_plane": "X=0"
+  },
+  "rangga_family_base": {
+    "BODY_W": 2.2,
+    "BODY_D": 1.34,
+    "BODY_H": 3.1,
+    "BODY_Z": 2.05
+  },
+  "samsul_features": {
+    "three_eyes": true,
+    "pink_eyelids": true,
+    "mouth_cavity": true,
+    "cream_teeth_row": true,
+    "cyan_nose_droplet": true,
+    "red_hat": true,
+    "drooping_hat_tail": true,
+    "yellow_surface_spots": true,
+    "cream_belly_patch": true,
+    "belly_logo": true,
+    "back_nub": true
+  },
+  "skin_rule": "all skin/hat spots conform to target surface; no floating plates",
+  "face_gate": "FACE_FORM_LOCK",
+  "tsa_gate": "STATIC_MODEL_FORM_LOCK"
+}
