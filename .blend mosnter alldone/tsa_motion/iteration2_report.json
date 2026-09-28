@@ -1,0 +1,18 @@
+{
+  "iteration": "RANGGA-MOTION-BASELINE-1",
+  "source": "rangga_rig_v1.blend",
+  "output": "rangga_motion_v1.blend",
+  "rig_contract_preserved": true,
+  "actions_created": 6,
+  "idle_loop_pass": true,
+  "walk_cycle_pass": true,
+  "walk_foot_plant_pass": true,
+  "run_cycle_pass": true,
+  "run_airborne_phase_pass": true,
+  "point_anatomy_pass": true,
+  "turn_left_pass": true,
+  "turn_right_pass": true,
+  "face_attachment_pass": true,
+  "character_identity_preserved": true,
+  "status": "PASS"
+}
