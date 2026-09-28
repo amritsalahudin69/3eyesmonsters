@@ -1,0 +1,26 @@
+{
+  "character": "JONO",
+  "version": "TSA_CHARACTER_005_V3_TSA_ANATOMY_FACE_LOCK",
+  "source_strategy": "Rangga-family baseline preserved; rebuilt face, mouth zone, true anatomy limbs, and clean chest layout.",
+  "coordinate_system": {
+    "front_axis": "-Y",
+    "up_axis": "+Z",
+    "symmetry_plane": "X=0"
+  },
+  "rangga_base": {
+    "BODY_W": 2.2,
+    "BODY_D": 1.34,
+    "BODY_H": 3.1,
+    "BODY_Z": 2.08
+  },
+  "locks": {
+    "eyes_integrated_not_sticker": true,
+    "mouth_zone_clean": true,
+    "headphones_true_3d": true,
+    "cable_avoids_face": true,
+    "arms_anatomy_chain": true,
+    "legs_anatomy_chain": true,
+    "player_and_logo_separated": true
+  },
+  "tsa_gate": "STATIC_MODEL_FORM_LOCK"
+}
