@@ -1,0 +1,33 @@
+{
+  "character": "ALIF",
+  "version": "TSA_CHARACTER_009_V1",
+  "source_strategy": "family baseline + Frankenstein head + zombie suit shell with true boolean tear openings",
+  "coordinate_system": {
+    "front_axis": "-Y",
+    "up_axis": "+Z",
+    "symmetry_plane": "X=0"
+  },
+  "family_base": {
+    "HEAD_W": 2.25,
+    "HEAD_D": 1.52,
+    "HEAD_H": 2.2,
+    "TORSO_W": 2.06,
+    "TORSO_D": 1.38,
+    "TORSO_H": 2.15
+  },
+  "alif_features": {
+    "three_bloodshot_eyes": true,
+    "frankenstein_side_bolts": true,
+    "forehead_zipper_seam": true,
+    "black_suit": true,
+    "red_tie": true,
+    "ragged_hem": true,
+    "torn_suit_openings_are_true_holes": true,
+    "green_underlayer_visible_through_holes": true
+  },
+  "tsa_locks": {
+    "suit_damage_rule": "All tears and holes in the black suit must be true cut-through geometry via boolean subtraction, never decal-like tempelan.",
+    "tear_depth_rule": "Inner green torso/body must remain visible behind openings so damage reads as cloth thickness + depth."
+  },
+  "tsa_gate": "FORM_LOCK / SUIT-TEAR_DEPTH_LOCK"
+}

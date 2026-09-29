@@ -1,0 +1,50 @@
+{
+  "character": "ALIF",
+  "iteration": 3,
+  "rig_version": "ALIF_RIG_V1",
+  "coordinate_system": {
+    "front": "-Y",
+    "up": "+Z",
+    "symmetry": "X=0"
+  },
+  "armature_object": "ALIF_RIG",
+  "bone_count": 27,
+  "bones": [
+    "ROOT",
+    "COG",
+    "PELVIS",
+    "SPINE",
+    "CHEST",
+    "NECK",
+    "HEAD",
+    "SHOULDER.L",
+    "UPPER_ARM.L",
+    "FOREARM.L",
+    "WRIST.L",
+    "HAND.L",
+    "SHOULDER.R",
+    "UPPER_ARM.R",
+    "FOREARM.R",
+    "WRIST.R",
+    "HAND.R",
+    "HIP.L",
+    "THIGH.L",
+    "SHIN.L",
+    "ANKLE.L",
+    "FOOT.L",
+    "HIP.R",
+    "THIGH.R",
+    "SHIN.R",
+    "ANKLE.R",
+    "FOOT.R"
+  ],
+  "symmetry_tolerance": {
+    "x_max_diff": 0.02,
+    "length_max_rel_diff": 0.02
+  },
+  "visual_joint_geometry": false,
+  "mesh_binding": false,
+  "armature_modifiers": false,
+  "vertex_weights": false,
+  "animation": false
+}

@@ -1,0 +1,384 @@
+{
+  "objects": [
+    {
+      "name": "HEAD",
+      "type": "MESH",
+      "parent": null,
+      "tsa_region": "HEAD"
+    },
+    {
+      "name": "NECK_BRIDGE",
+      "type": "MESH",
+      "parent": null,
+      "tsa_region": "NECK_BRIDGE"
+    },
+    {
+      "name": "TORSO_UNDER",
+      "type": "MESH",
+      "parent": null,
+      "tsa_region": "TORSO_UNDER"
+    },
+    {
+      "name": "SUIT_SHELL",
+      "type": "MESH",
+      "parent": null,
+      "tsa_region": "SUIT_SHELL"
+    },
+    {
+      "name": "ARM_L",
+      "type": "MESH",
+      "parent": null,
+      "tsa_region": "ARM_L"
+    },
+    {
+      "name": "ARM_R",
+      "type": "MESH",
+      "parent": null,
+      "tsa_region": "ARM_R"
+    },
+    {
+      "name": "HAND_L",
+      "type": "MESH",
+      "parent": null,
+      "tsa_region": "HAND_L"
+    },
+    {
+      "name": "HAND_R",
+      "type": "MESH",
+      "parent": null,
+      "tsa_region": "HAND_R"
+    },
+    {
+      "name": "LEG_L_SUIT",
+      "type": "MESH",
+      "parent": null,
+      "tsa_region": "LEG_L_SUIT"
+    },
+    {
+      "name": "LEG_R_SUIT",
+      "type": "MESH",
+      "parent": null,
+      "tsa_region": "LEG_R_SUIT"
+    },
+    {
+      "name": "FOOT_L",
+      "type": "MESH",
+      "parent": null,
+      "tsa_region": "FOOT_L"
+    },
+    {
+      "name": "FOOT_R",
+      "type": "MESH",
+      "parent": null,
+      "tsa_region": "FOOT_R"
+    }
+  ],
+  "mesh_object_count": 64,
+  "armature_count": 0,
+  "action_count": 0,
+  "materials": [
+    "GREEN",
+    "GREEN_DARK",
+    "BLACK",
+    "BLACK_SOFT",
+    "SUIT_GREY",
+    "WHITE",
+    "PUPIL",
+    "RED",
+    "TOOTH",
+    "BOLT_DARK",
+    "BOLT_LIGHT"
+  ],
+  "tsa_region_objects": {
+    "HEAD": "HEAD",
+    "NECK_BRIDGE": "NECK_BRIDGE",
+    "TORSO_UNDER": "TORSO_UNDER",
+    "SUIT_SHELL": "SUIT_SHELL",
+    "ARM_L": "ARM_L",
+    "ARM_R": "ARM_R",
+    "HAND_L": "HAND_L",
+    "HAND_R": "HAND_R",
+    "LEG_L_SUIT": "LEG_L_SUIT",
+    "LEG_R_SUIT": "LEG_R_SUIT",
+    "FOOT_L": "FOOT_L",
+    "FOOT_R": "FOOT_R"
+  },
+  "target_region_transforms": {
+    "HEAD": {
+      "object_name": "HEAD",
+      "dimensions": [
+        2.25,
+        1.52,
+        2.2
+      ],
+      "location": [
+        0.0,
+        0.0,
+        3.06
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "NECK_BRIDGE": {
+      "object_name": "NECK_BRIDGE",
+      "dimensions": [
+        0.95,
+        0.72,
+        0.65
+      ],
+      "location": [
+        0.0,
+        0.0,
+        2.45
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "TORSO_UNDER": {
+      "object_name": "TORSO_UNDER",
+      "dimensions": [
+        2.06,
+        1.38,
+        2.15
+      ],
+      "location": [
+        0.0,
+        0.0,
+        1.58
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "SUIT_SHELL": {
+      "object_name": "SUIT_SHELL",
+      "dimensions": [
+        2.12,
+        1.44,
+        2.2
+      ],
+      "location": [
+        0.0,
+        0.0,
+        1.58
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ARM_L": {
+      "object_name": "ARM_L",
+      "dimensions": [
+        0.68,
+        0.68,
+        1.62
+      ],
+      "location": [
+        1.32,
+        0.0,
+        1.72
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ARM_R": {
+      "object_name": "ARM_R",
+      "dimensions": [
+        0.68,
+        0.68,
+        1.62
+      ],
+      "location": [
+        -1.32,
+        0.0,
+        1.72
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "HAND_L": {
+      "object_name": "HAND_L",
+      "dimensions": [
+        0.72,
+        0.62,
+        0.75
+      ],
+      "location": [
+        1.35,
+        0.0,
+        0.76
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "HAND_R": {
+      "object_name": "HAND_R",
+      "dimensions": [
+        0.72,
+        0.62,
+        0.75
+      ],
+      "location": [
+        -1.35,
+        0.0,
+        0.76
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "LEG_L_SUIT": {
+      "object_name": "LEG_L_SUIT",
+      "dimensions": [
+        0.74,
+        0.74,
+        1.35
+      ],
+      "location": [
+        0.58,
+        0.0,
+        0.62
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "LEG_R_SUIT": {
+      "object_name": "LEG_R_SUIT",
+      "dimensions": [
+        0.74,
+        0.74,
+        1.35
+      ],
+      "location": [
+        -0.58,
+        0.0,
+        0.62
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "FOOT_L": {
+      "object_name": "FOOT_L",
+      "dimensions": [
+        0.78,
+        1.12,
+        0.48
+      ],
+      "location": [
+        0.58,
+        -0.15,
+        -0.22
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "FOOT_R": {
+      "object_name": "FOOT_R",
+      "dimensions": [
+        0.78,
+        1.12,
+        0.48
+      ],
+      "location": [
+        -0.58,
+        -0.15,
+        -0.22
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  }
+}

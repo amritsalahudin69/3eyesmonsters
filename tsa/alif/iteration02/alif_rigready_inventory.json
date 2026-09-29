@@ -1,0 +1,1645 @@
+{
+  "objects": [
+    {
+      "name": "ALIF_ROOT",
+      "type": "EMPTY",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": null
+    },
+    {
+      "name": "ARM_L",
+      "type": "MESH",
+      "parent": "ARM_L_REGION",
+      "location": [
+        -1.01,
+        0.02,
+        1.62
+      ],
+      "rotation": [
+        0.0,
+        0.1745,
+        -0.0698
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "ARM"
+    },
+    {
+      "name": "ARM_L_REGION",
+      "type": "EMPTY",
+      "parent": "ALIF_ROOT",
+      "location": [
+        1.32,
+        0.0,
+        1.72
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": null
+    },
+    {
+      "name": "ARM_R",
+      "type": "MESH",
+      "parent": "ARM_R_REGION",
+      "location": [
+        1.01,
+        0.02,
+        1.62
+      ],
+      "rotation": [
+        0.0,
+        -0.1745,
+        0.0698
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "ARM"
+    },
+    {
+      "name": "ARM_R_REGION",
+      "type": "EMPTY",
+      "parent": "ALIF_ROOT",
+      "location": [
+        -1.32,
+        0.0,
+        1.72
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": null
+    },
+    {
+      "name": "BELLY_CORE",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.0,
+        0.02,
+        0.95
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "TORSO"
+    },
+    {
+      "name": "BOLT_BASE_L",
+      "type": "MESH",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        -1.2,
+        0.0,
+        3.26
+      ],
+      "rotation": [
+        0.0,
+        1.5708,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "BOLT"
+    },
+    {
+      "name": "BOLT_BASE_R",
+      "type": "MESH",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        1.2,
+        0.0,
+        3.26
+      ],
+      "rotation": [
+        0.0,
+        1.5708,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "BOLT"
+    },
+    {
+      "name": "BOLT_CAP_L",
+      "type": "MESH",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        -1.36,
+        0.0,
+        3.26
+      ],
+      "rotation": [
+        0.0,
+        1.5708,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "BOLT"
+    },
+    {
+      "name": "BOLT_CAP_R",
+      "type": "MESH",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        1.36,
+        0.0,
+        3.26
+      ],
+      "rotation": [
+        0.0,
+        1.5708,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "BOLT"
+    },
+    {
+      "name": "BOLT_TIP_L",
+      "type": "MESH",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        -1.3,
+        0.0,
+        3.26
+      ],
+      "rotation": [
+        0.0,
+        1.5708,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "BOLT"
+    },
+    {
+      "name": "BOLT_TIP_R",
+      "type": "MESH",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        1.3,
+        0.0,
+        3.26
+      ],
+      "rotation": [
+        0.0,
+        1.5708,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "BOLT"
+    },
+    {
+      "name": "BUTTON_0",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.0,
+        0.72,
+        1.52
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "SUIT"
+    },
+    {
+      "name": "BUTTON_1",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.0,
+        0.72,
+        1.24
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "SUIT"
+    },
+    {
+      "name": "Camera",
+      "type": "CAMERA",
+      "parent": null,
+      "location": [
+        -7.07,
+        -7.07,
+        2.0
+      ],
+      "rotation": [
+        1.5708,
+        0.0,
+        -0.7854
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": null
+    },
+    {
+      "name": "COLLAR_L",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        -0.16,
+        0.41,
+        2.17
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.3142
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "CLOTH"
+    },
+    {
+      "name": "COLLAR_R",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.16,
+        0.41,
+        2.17
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.3142
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "CLOTH"
+    },
+    {
+      "name": "EYE_L_PUPIL",
+      "type": "MESH",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        -0.42,
+        1.0,
+        2.77
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "PUPIL"
+    },
+    {
+      "name": "EYE_L_VEIN_0",
+      "type": "CURVE",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "EYE_VEIN"
+    },
+    {
+      "name": "EYE_L_VEIN_1",
+      "type": "CURVE",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "EYE_VEIN"
+    },
+    {
+      "name": "EYE_L_VEIN_2",
+      "type": "CURVE",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "EYE_VEIN"
+    },
+    {
+      "name": "EYE_L_WHITE",
+      "type": "MESH",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        -0.42,
+        0.79,
+        2.77
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "EYE"
+    },
+    {
+      "name": "EYE_R_PUPIL",
+      "type": "MESH",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        0.42,
+        1.0,
+        2.77
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "PUPIL"
+    },
+    {
+      "name": "EYE_R_VEIN_0",
+      "type": "CURVE",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "EYE_VEIN"
+    },
+    {
+      "name": "EYE_R_VEIN_1",
+      "type": "CURVE",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "EYE_VEIN"
+    },
+    {
+      "name": "EYE_R_VEIN_2",
+      "type": "CURVE",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "EYE_VEIN"
+    },
+    {
+      "name": "EYE_R_WHITE",
+      "type": "MESH",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        0.42,
+        0.79,
+        2.77
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "EYE"
+    },
+    {
+      "name": "EYE_TOP_PUPIL",
+      "type": "MESH",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        0.0,
+        1.0,
+        3.27
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "PUPIL"
+    },
+    {
+      "name": "EYE_TOP_VEIN_0",
+      "type": "CURVE",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "EYE_VEIN"
+    },
+    {
+      "name": "EYE_TOP_VEIN_1",
+      "type": "CURVE",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "EYE_VEIN"
+    },
+    {
+      "name": "EYE_TOP_VEIN_2",
+      "type": "CURVE",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "EYE_VEIN"
+    },
+    {
+      "name": "EYE_TOP_WHITE",
+      "type": "MESH",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        0.0,
+        0.79,
+        3.27
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "EYE"
+    },
+    {
+      "name": "FILL",
+      "type": "LIGHT",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        4.5,
+        -3.1,
+        4.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": null
+    },
+    {
+      "name": "FOOT_L",
+      "type": "MESH",
+      "parent": "LEG_L_REGION",
+      "location": [
+        -0.42,
+        0.0,
+        0.2
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "FOOT"
+    },
+    {
+      "name": "FOOT_R",
+      "type": "MESH",
+      "parent": "LEG_R_REGION",
+      "location": [
+        0.42,
+        0.0,
+        0.2
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "FOOT"
+    },
+    {
+      "name": "HAND_L",
+      "type": "MESH",
+      "parent": "ARM_L_REGION",
+      "location": [
+        -1.0,
+        0.06,
+        0.86
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "HAND"
+    },
+    {
+      "name": "HAND_R",
+      "type": "MESH",
+      "parent": "ARM_R_REGION",
+      "location": [
+        1.0,
+        0.06,
+        0.86
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "HAND"
+    },
+    {
+      "name": "HEAD",
+      "type": "MESH",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        0.0,
+        0.0,
+        3.06
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "HEAD"
+    },
+    {
+      "name": "HEAD_CTRL_REGION",
+      "type": "EMPTY",
+      "parent": "ALIF_ROOT",
+      "location": [
+        0.0,
+        0.0,
+        3.06
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": null
+    },
+    {
+      "name": "HEAD_SEAM_BAR",
+      "type": "MESH",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        0.0,
+        0.77,
+        3.92
+      ],
+      "rotation": [
+        1.5708,
+        0.0,
+        1.5708
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "HEAD_SEAM"
+    },
+    {
+      "name": "INNER_PATCH_B",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.7,
+        -0.56,
+        1.74
+      ],
+      "rotation": [
+        1.5708,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "SUIT_TEAR_INNER"
+    },
+    {
+      "name": "INNER_PATCH_L",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        -0.83,
+        0.07,
+        1.66
+      ],
+      "rotation": [
+        1.5708,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "SUIT_TEAR_INNER"
+    },
+    {
+      "name": "INNER_PATCH_R",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.82,
+        0.07,
+        1.63
+      ],
+      "rotation": [
+        1.5708,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "SUIT_TEAR_INNER"
+    },
+    {
+      "name": "KEY",
+      "type": "LIGHT",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        -4.7,
+        -5.3,
+        7.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": null
+    },
+    {
+      "name": "LEG_L_REGION",
+      "type": "EMPTY",
+      "parent": "ALIF_ROOT",
+      "location": [
+        0.58,
+        0.0,
+        0.62
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": null
+    },
+    {
+      "name": "LEG_L_SUIT",
+      "type": "MESH",
+      "parent": "LEG_L_REGION",
+      "location": [
+        -0.42,
+        0.0,
+        0.54
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "LEG"
+    },
+    {
+      "name": "LEG_R_REGION",
+      "type": "EMPTY",
+      "parent": "ALIF_ROOT",
+      "location": [
+        -0.58,
+        0.0,
+        0.62
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": null
+    },
+    {
+      "name": "LEG_R_SUIT",
+      "type": "MESH",
+      "parent": "LEG_R_REGION",
+      "location": [
+        0.42,
+        0.0,
+        0.54
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "LEG"
+    },
+    {
+      "name": "LEG_S_LOW",
+      "type": "CURVE",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "LEG_LOGO"
+    },
+    {
+      "name": "LEG_S_UP",
+      "type": "CURVE",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "LEG_LOGO"
+    },
+    {
+      "name": "NECK_BRIDGE",
+      "type": "MESH",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        0.0,
+        0.0,
+        2.18
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "TORSO"
+    },
+    {
+      "name": "RIM",
+      "type": "LIGHT",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.0,
+        4.8,
+        6.8
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": null
+    },
+    {
+      "name": "SEAM_TOOTH_0",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        -0.66,
+        0.78,
+        3.92
+      ],
+      "rotation": [
+        0.4363,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "HEAD_SEAM"
+    },
+    {
+      "name": "SEAM_TOOTH_1",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        -0.54,
+        0.78,
+        3.92
+      ],
+      "rotation": [
+        0.4363,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "HEAD_SEAM"
+    },
+    {
+      "name": "SEAM_TOOTH_10",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.54,
+        0.78,
+        3.92
+      ],
+      "rotation": [
+        0.4363,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "HEAD_SEAM"
+    },
+    {
+      "name": "SEAM_TOOTH_11",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.66,
+        0.78,
+        3.92
+      ],
+      "rotation": [
+        0.4363,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "HEAD_SEAM"
+    },
+    {
+      "name": "SEAM_TOOTH_2",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        -0.42,
+        0.78,
+        3.92
+      ],
+      "rotation": [
+        0.4363,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "HEAD_SEAM"
+    },
+    {
+      "name": "SEAM_TOOTH_3",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        -0.3,
+        0.78,
+        3.92
+      ],
+      "rotation": [
+        0.4363,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "HEAD_SEAM"
+    },
+    {
+      "name": "SEAM_TOOTH_4",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        -0.18,
+        0.78,
+        3.92
+      ],
+      "rotation": [
+        0.4363,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "HEAD_SEAM"
+    },
+    {
+      "name": "SEAM_TOOTH_5",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        -0.06,
+        0.78,
+        3.92
+      ],
+      "rotation": [
+        0.4363,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "HEAD_SEAM"
+    },
+    {
+      "name": "SEAM_TOOTH_6",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.06,
+        0.78,
+        3.92
+      ],
+      "rotation": [
+        0.4363,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "HEAD_SEAM"
+    },
+    {
+      "name": "SEAM_TOOTH_7",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.18,
+        0.78,
+        3.92
+      ],
+      "rotation": [
+        0.4363,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "HEAD_SEAM"
+    },
+    {
+      "name": "SEAM_TOOTH_8",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.3,
+        0.78,
+        3.92
+      ],
+      "rotation": [
+        0.4363,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "HEAD_SEAM"
+    },
+    {
+      "name": "SEAM_TOOTH_9",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.42,
+        0.78,
+        3.92
+      ],
+      "rotation": [
+        0.4363,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "HEAD_SEAM"
+    },
+    {
+      "name": "SHIRT_V",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.0,
+        0.38,
+        2.04
+      ],
+      "rotation": [
+        0.9599,
+        0.0,
+        0.7854
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "CLOTH"
+    },
+    {
+      "name": "SHIRT_V_R",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.0,
+        0.38,
+        2.04
+      ],
+      "rotation": [
+        0.9599,
+        0.0,
+        -0.7854
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "CLOTH"
+    },
+    {
+      "name": "SUIT_SHELL",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.0,
+        -0.01,
+        1.58
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "SUIT"
+    },
+    {
+      "name": "TEAR_REVEAL_0",
+      "type": "MESH",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        -0.84,
+        0.51,
+        1.66
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "SUIT_TEAR_REVEAL"
+    },
+    {
+      "name": "TEAR_REVEAL_1",
+      "type": "MESH",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        0.81,
+        0.49,
+        1.63
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "SUIT_TEAR_REVEAL"
+    },
+    {
+      "name": "TEAR_REVEAL_2",
+      "type": "MESH",
+      "parent": "HEAD_CTRL_REGION",
+      "location": [
+        0.7,
+        -0.42,
+        1.74
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "SUIT_TEAR_REVEAL"
+    },
+    {
+      "name": "TIE_BODY",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.0,
+        0.42,
+        1.67
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7854
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "CLOTH"
+    },
+    {
+      "name": "TIE_KNOT",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.0,
+        0.44,
+        1.95
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "CLOTH"
+    },
+    {
+      "name": "TOOTH_L",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        -0.13,
+        0.78,
+        2.26
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "MOUTH"
+    },
+    {
+      "name": "TOOTH_R",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.13,
+        0.78,
+        2.26
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "MOUTH"
+    },
+    {
+      "name": "TORSO_CTRL_REGION",
+      "type": "EMPTY",
+      "parent": "ALIF_ROOT",
+      "location": [
+        0.0,
+        0.0,
+        1.58
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": null
+    },
+    {
+      "name": "TORSO_UNDER",
+      "type": "MESH",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.0,
+        0.0,
+        1.58
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": "TORSO"
+    },
+    {
+      "name": "TSA_CAMERA",
+      "type": "CAMERA",
+      "parent": "TORSO_CTRL_REGION",
+      "location": [
+        0.0,
+        -8.2,
+        2.1
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tsa_region": null
+    }
+  ],
+  "mesh_object_count": 54,
+  "armature_count": 0,
+  "action_count": 0,
+  "materials": [
+    "MAT_BLACK",
+    "MAT_BOLT_DARK",
+    "MAT_BOLT_LIGHT",
+    "MAT_GREEN",
+    "MAT_GREEN_DARK",
+    "MAT_PUPIL",
+    "MAT_RED",
+    "MAT_SUIT",
+    "MAT_TOOTH",
+    "MAT_WHITE"
+  ],
+  "semantic_regions": [
+    "ALIF_ROOT",
+    "HEAD_CTRL_REGION",
+    "TORSO_CTRL_REGION",
+    "ARM_L_REGION",
+    "ARM_R_REGION",
+    "LEG_L_REGION",
+    "LEG_R_REGION"
+  ]
+}

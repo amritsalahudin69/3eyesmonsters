@@ -1,0 +1,184 @@
+{
+  "character": "TOTOK",
+  "version": "TSA_CHARACTER_002_V6_GHOST_TAIL_NO_LEGS",
+  "coordinate_system": {
+    "front_axis": "-Y",
+    "up_axis": "+Z",
+    "symmetry_plane": "X=0"
+  },
+  "head": {
+    "center": [
+      0.0,
+      0.0,
+      2.755
+    ],
+    "dimensions": [
+      2.04,
+      1.46,
+      1.1
+    ],
+    "bevel": 0.15
+  },
+  "body_sections": [
+    [
+      2.2,
+      1.7,
+      1.32
+    ],
+    [
+      1.98,
+      1.78,
+      1.38
+    ],
+    [
+      1.48,
+      1.82,
+      1.44
+    ],
+    [
+      0.92,
+      1.72,
+      1.36
+    ],
+    [
+      0.61,
+      1.48,
+      1.18
+    ]
+  ],
+  "bottom_tip": {
+    "center": [
+      0.0,
+      0.0,
+      0.345
+    ],
+    "top_radius": 0.43,
+    "bottom_radius": 0.035,
+    "depth": 0.53
+  },
+  "roof_slab": {
+    "center": [
+      0.0,
+      0.0,
+      3.355
+    ],
+    "dimensions": [
+      2.18,
+      1.58,
+      0.11
+    ],
+    "bevel": 0.03
+  },
+  "roof": {
+    "base_z": 3.405,
+    "apex_z": 4.205,
+    "half_width": 0.72,
+    "half_depth": 0.61,
+    "bevel": 0.035
+  },
+  "halo": {
+    "center": [
+      0.0,
+      -0.02,
+      4.58
+    ],
+    "major_radius": 0.68,
+    "minor_radius": 0.068,
+    "tilt_x_deg": 24.0
+  },
+  "eyes": {
+    "white_scale": [
+      0.255,
+      0.12,
+      0.255
+    ],
+    "pupil_scale": [
+      0.105,
+      0.048,
+      0.105
+    ],
+    "centers": {
+      "EYE.TOP": [
+        0.0,
+        -0.735,
+        2.98
+      ],
+      "EYE.LEFT": [
+        -0.41,
+        -0.748,
+        2.61
+      ],
+      "EYE.RIGHT": [
+        0.41,
+        -0.748,
+        2.61
+      ]
+    },
+    "socket_scale": [
+      0.295,
+      0.185,
+      0.295
+    ],
+    "pupil_front_offset": -0.128,
+    "pupil_z_offset": -0.012
+  },
+  "mouth": {
+    "center_z": 2.285,
+    "half_width": 0.43,
+    "front_y": -0.746
+  },
+  "tongue": {
+    "center": [
+      0.0,
+      -0.805,
+      1.625
+    ],
+    "dimensions": [
+      0.48,
+      0.15,
+      1.24
+    ],
+    "bevel": 0.068
+  },
+  "tail": {
+    "points": [
+      [
+        -0.7,
+        0.55,
+        1.07
+      ],
+      [
+        -1.12,
+        0.88,
+        0.91
+      ],
+      [
+        -1.48,
+        0.78,
+        1.08
+      ],
+      [
+        -1.42,
+        0.58,
+        1.4
+      ],
+      [
+        -1.18,
+        0.54,
+        1.6
+      ]
+    ],
+    "bevel": 0.067,
+    "tip_radius": 0.082
+  },
+  "tsa_locks": {
+    "preserve_primary_form": true,
+    "eye_depth_rule": "Three eyes remain recessed/inset into the head.",
+    "arm_anatomy_rule": "Each arm keeps shoulder, upper arm, elbow, forearm, wrist, palm and simplified digits.",
+    "ghost_leg_rule": "Totok has no anatomical legs or feet.",
+    "spirit_tail_rule": "The pointed lower spirit-tail under the torso is preserved as the lower-body termination.",
+    "side_tail_rule": "The side ghost tail at the waist-down area remains preserved.",
+    "rig_gate": "No rig/animation until ghost form is approved."
+  },
+  "tsa_gate": "FORM_LOCK / FACE_DEPTH_LOCK / ARM_ANATOMY_LOCK / GHOST_BODY_LOCK / SURFACE_INTEGRATION_LOCK"
+}

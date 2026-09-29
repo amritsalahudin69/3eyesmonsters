@@ -1,0 +1,36 @@
+{
+  "character": "ALIF",
+  "version": "TSA_CHARACTER_009_V2_TSA_ANATOMY_FACE_LOCK",
+  "source_strategy": "Alif V1 preserved for head, face identity, bolts, zipper seam, suit shell, tie, and real suit tears. Arms and legs rebuilt to TSA anatomy lock.",
+  "coordinate_system": {
+    "front_axis": "-Y",
+    "up_axis": "+Z",
+    "symmetry_plane": "X=0"
+  },
+  "family_base": {
+    "HEAD_W": 2.25,
+    "HEAD_D": 1.52,
+    "HEAD_H": 2.2,
+    "TORSO_W": 2.06,
+    "TORSO_D": 1.38,
+    "TORSO_H": 2.15
+  },
+  "locked_preserve": {
+    "three_bloodshot_eyes": true,
+    "frankenstein_side_bolts": true,
+    "forehead_zipper_seam": true,
+    "black_suit": true,
+    "red_tie": true,
+    "ragged_hem": true,
+    "torn_suit_openings_are_true_holes": true,
+    "green_underlayer_visible_through_holes": true,
+    "body_face_clothing_identity_preserved": true
+  },
+  "tsa_locks": {
+    "anatomy_rule": "Arms must read as shoulder-upperarm-elbow-forearm-wrist-hand; legs must read as thigh-knee-calf-ankle-foot.",
+    "face_rule": "Eyes must read as embedded facial forms, not flat stickers.",
+    "suit_damage_rule": "All tears and holes in the black suit must be true cut-through geometry via boolean subtraction, never decal-like tempelan.",
+    "tear_depth_rule": "Inner green torso/body must remain visible behind openings so damage reads as cloth thickness + depth."
+  },
+  "tsa_gate": "FORM_LOCK / ANATOMY_LOCK / FACE_LOCK / SUIT-TEAR_DEPTH_LOCK"
+}

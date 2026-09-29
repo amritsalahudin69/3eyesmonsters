@@ -1,0 +1,434 @@
+[
+  {
+    "name": "ROOT",
+    "head": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tail": [
+      0.0,
+      0.0,
+      0.2
+    ],
+    "length": 0.2,
+    "parent": null,
+    "use_deform": false
+  },
+  {
+    "name": "COG",
+    "head": [
+      0.0,
+      0.0,
+      1.58
+    ],
+    "tail": [
+      0.0,
+      0.0,
+      1.78
+    ],
+    "length": 0.2,
+    "parent": "ROOT",
+    "use_deform": false
+  },
+  {
+    "name": "PELVIS",
+    "head": [
+      0.0,
+      0.0,
+      1.28
+    ],
+    "tail": [
+      0.0,
+      0.0,
+      1.58
+    ],
+    "length": 0.3,
+    "parent": "COG",
+    "use_deform": true
+  },
+  {
+    "name": "SPINE",
+    "head": [
+      0.0,
+      0.0,
+      1.58
+    ],
+    "tail": [
+      0.0,
+      0.0,
+      2.0
+    ],
+    "length": 0.42,
+    "parent": "PELVIS",
+    "use_deform": true
+  },
+  {
+    "name": "CHEST",
+    "head": [
+      0.0,
+      0.0,
+      2.0
+    ],
+    "tail": [
+      0.0,
+      0.0,
+      2.45
+    ],
+    "length": 0.45,
+    "parent": "SPINE",
+    "use_deform": true
+  },
+  {
+    "name": "NECK",
+    "head": [
+      0.0,
+      0.0,
+      2.45
+    ],
+    "tail": [
+      0.0,
+      0.0,
+      2.8
+    ],
+    "length": 0.35,
+    "parent": "CHEST",
+    "use_deform": true
+  },
+  {
+    "name": "HEAD",
+    "head": [
+      0.0,
+      0.0,
+      2.8
+    ],
+    "tail": [
+      0.0,
+      0.0,
+      3.5
+    ],
+    "length": 0.7,
+    "parent": "NECK",
+    "use_deform": true
+  },
+  {
+    "name": "SHOULDER.L",
+    "head": [
+      0.3,
+      0.0,
+      2.25
+    ],
+    "tail": [
+      1.32,
+      0.0,
+      2.25
+    ],
+    "length": 1.02,
+    "parent": "CHEST",
+    "use_deform": true
+  },
+  {
+    "name": "UPPER_ARM.L",
+    "head": [
+      1.32,
+      0.0,
+      2.25
+    ],
+    "tail": [
+      1.32,
+      0.0,
+      1.5
+    ],
+    "length": 0.75,
+    "parent": "SHOULDER.L",
+    "use_deform": true
+  },
+  {
+    "name": "FOREARM.L",
+    "head": [
+      1.32,
+      0.0,
+      1.5
+    ],
+    "tail": [
+      1.35,
+      0.0,
+      0.95
+    ],
+    "length": 0.5508,
+    "parent": "UPPER_ARM.L",
+    "use_deform": true
+  },
+  {
+    "name": "WRIST.L",
+    "head": [
+      1.35,
+      0.0,
+      0.95
+    ],
+    "tail": [
+      1.35,
+      0.0,
+      0.76
+    ],
+    "length": 0.19,
+    "parent": "FOREARM.L",
+    "use_deform": true
+  },
+  {
+    "name": "HAND.L",
+    "head": [
+      1.35,
+      0.0,
+      0.76
+    ],
+    "tail": [
+      1.35,
+      0.0,
+      0.45
+    ],
+    "length": 0.31,
+    "parent": "WRIST.L",
+    "use_deform": true
+  },
+  {
+    "name": "SHOULDER.R",
+    "head": [
+      -0.3,
+      0.0,
+      2.25
+    ],
+    "tail": [
+      -1.32,
+      0.0,
+      2.25
+    ],
+    "length": 1.02,
+    "parent": "CHEST",
+    "use_deform": true
+  },
+  {
+    "name": "UPPER_ARM.R",
+    "head": [
+      -1.32,
+      0.0,
+      2.25
+    ],
+    "tail": [
+      -1.32,
+      0.0,
+      1.5
+    ],
+    "length": 0.75,
+    "parent": "SHOULDER.R",
+    "use_deform": true
+  },
+  {
+    "name": "FOREARM.R",
+    "head": [
+      -1.32,
+      0.0,
+      1.5
+    ],
+    "tail": [
+      -1.35,
+      0.0,
+      0.95
+    ],
+    "length": 0.5508,
+    "parent": "UPPER_ARM.R",
+    "use_deform": true
+  },
+  {
+    "name": "WRIST.R",
+    "head": [
+      -1.35,
+      0.0,
+      0.95
+    ],
+    "tail": [
+      -1.35,
+      0.0,
+      0.76
+    ],
+    "length": 0.19,
+    "parent": "FOREARM.R",
+    "use_deform": true
+  },
+  {
+    "name": "HAND.R",
+    "head": [
+      -1.35,
+      0.0,
+      0.76
+    ],
+    "tail": [
+      -1.35,
+      0.0,
+      0.45
+    ],
+    "length": 0.31,
+    "parent": "WRIST.R",
+    "use_deform": true
+  },
+  {
+    "name": "HIP.L",
+    "head": [
+      0.2,
+      0.0,
+      1.28
+    ],
+    "tail": [
+      0.58,
+      0.0,
+      1.15
+    ],
+    "length": 0.4016,
+    "parent": "PELVIS",
+    "use_deform": true
+  },
+  {
+    "name": "THIGH.L",
+    "head": [
+      0.58,
+      0.0,
+      1.15
+    ],
+    "tail": [
+      0.58,
+      0.0,
+      0.6
+    ],
+    "length": 0.55,
+    "parent": "HIP.L",
+    "use_deform": true
+  },
+  {
+    "name": "SHIN.L",
+    "head": [
+      0.58,
+      0.0,
+      0.6
+    ],
+    "tail": [
+      0.58,
+      0.0,
+      0.1
+    ],
+    "length": 0.5,
+    "parent": "THIGH.L",
+    "use_deform": true
+  },
+  {
+    "name": "ANKLE.L",
+    "head": [
+      0.58,
+      0.0,
+      0.1
+    ],
+    "tail": [
+      0.58,
+      -0.15,
+      -0.1
+    ],
+    "length": 0.25,
+    "parent": "SHIN.L",
+    "use_deform": true
+  },
+  {
+    "name": "FOOT.L",
+    "head": [
+      0.58,
+      -0.15,
+      -0.1
+    ],
+    "tail": [
+      0.58,
+      -0.5,
+      -0.1
+    ],
+    "length": 0.35,
+    "parent": "ANKLE.L",
+    "use_deform": true
+  },
+  {
+    "name": "HIP.R",
+    "head": [
+      -0.2,
+      0.0,
+      1.28
+    ],
+    "tail": [
+      -0.58,
+      0.0,
+      1.15
+    ],
+    "length": 0.4016,
+    "parent": "PELVIS",
+    "use_deform": true
+  },
+  {
+    "name": "THIGH.R",
+    "head": [
+      -0.58,
+      0.0,
+      1.15
+    ],
+    "tail": [
+      -0.58,
+      0.0,
+      0.6
+    ],
+    "length": 0.55,
+    "parent": "HIP.R",
+    "use_deform": true
+  },
+  {
+    "name": "SHIN.R",
+    "head": [
+      -0.58,
+      0.0,
+      0.6
+    ],
+    "tail": [
+      -0.58,
+      0.0,
+      0.1
+    ],
+    "length": 0.5,
+    "parent": "THIGH.R",
+    "use_deform": true
+  },
+  {
+    "name": "ANKLE.R",
+    "head": [
+      -0.58,
+      0.0,
+      0.1
+    ],
+    "tail": [
+      -0.58,
+      -0.15,
+      -0.1
+    ],
+    "length": 0.25,
+    "parent": "SHIN.R",
+    "use_deform": true
+  },
+  {
+    "name": "FOOT.R",
+    "head": [
+      -0.58,
+      -0.15,
+      -0.1
+    ],
+    "tail": [
+      -0.58,
+      -0.5,
+      -0.1
+    ],
+    "length": 0.35,
+    "parent": "ANKLE.R",
+    "use_deform": true
+  }
+]
