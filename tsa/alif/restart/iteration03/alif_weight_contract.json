@@ -1,0 +1,7 @@
+{
+  "status": "NOT_CREATED",
+  "reason": "TOPOLOGY_LIMITATION",
+  "automatic_weights_used": false,
+  "binding_performed": false,
+  "meshes": {}
+}

@@ -1,0 +1,68 @@
+{
+  "method": "deterministic_manual_geometry_weighting",
+  "coordinate_space": "world",
+  "normalization_tolerance": 0.001,
+  "max_influences": 3,
+  "meshes": {
+    "ARM_L": {
+      "vertex_count": 1986,
+      "weighted_vertex_count": 1986,
+      "unweighted_count": 0,
+      "min_weight_sum": 0.9999999999999998,
+      "max_weight_sum": 1.0000000000000002,
+      "max_influences_per_vertex": 2,
+      "allowed_groups": [
+        "SHOULDER.L",
+        "UPPER_ARM.L",
+        "FOREARM.L",
+        "WRIST.L"
+      ],
+      "algorithm": "two nearest canonical bone segments, inverse-square, normalized, world coordinates"
+    },
+    "ARM_R": {
+      "vertex_count": 1986,
+      "weighted_vertex_count": 1986,
+      "unweighted_count": 0,
+      "min_weight_sum": 0.9999999999999998,
+      "max_weight_sum": 1.0000000000000002,
+      "max_influences_per_vertex": 2,
+      "allowed_groups": [
+        "SHOULDER.R",
+        "UPPER_ARM.R",
+        "FOREARM.R",
+        "WRIST.R"
+      ],
+      "algorithm": "two nearest canonical bone segments, inverse-square, normalized, world coordinates"
+    },
+    "LEG_L_SUIT": {
+      "vertex_count": 488,
+      "weighted_vertex_count": 488,
+      "unweighted_count": 0,
+      "min_weight_sum": 0.9999999999999998,
+      "max_weight_sum": 1.0000000000000002,
+      "max_influences_per_vertex": 2,
+      "allowed_groups": [
+        "HIP.L",
+        "THIGH.L",
+        "SHIN.L",
+        "ANKLE.L"
+      ],
+      "algorithm": "two nearest canonical bone segments, inverse-square, normalized, world coordinates"
+    },
+    "LEG_R_SUIT": {
+      "vertex_count": 488,
+      "weighted_vertex_count": 488,
+      "unweighted_count": 0,
+      "min_weight_sum": 0.9999999999999998,
+      "max_weight_sum": 1.0000000000000002,
+      "max_influences_per_vertex": 2,
+      "allowed_groups": [
+        "HIP.R",
+        "THIGH.R",
+        "SHIN.R",
+        "ANKLE.R"
+      ],
+      "algorithm": "two nearest canonical bone segments, inverse-square, normalized, world coordinates"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "blockers": [],
+  "checks": {
+    "canonical_source_preserved": true,
+    "source_copy_initial_hash_identical": true,
+    "pre_rig_visual_matches": true,
+    "armature_count_one": true,
+    "primary_bones_27": true,
+    "hierarchy_complete": true,
+    "symmetry_valid": true,
+    "existing_parents_unchanged": true,
+    "existing_matrix_world_unchanged": true,
+    "origins_unchanged": true,
+    "mesh_geometry_unchanged": true,
+    "all_existing_state_unchanged": true,
+    "post_rig_visual_matches": true,
+    "armature_modifiers_zero": true,
+    "new_vertex_groups_zero": true,
+    "constraints_zero": true,
+    "drivers_zero": true,
+    "actions_zero": true
+  }
+}

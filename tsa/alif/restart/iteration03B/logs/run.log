@@ -1,0 +1,37 @@
+{
+  "status": "BLOCKED",
+  "blockers": [
+    "elbow_45",
+    "elbow_90",
+    "knee_45",
+    "knee_90",
+    "DEFORMATION_QUALITY_LIMIT"
+  ],
+  "checks": {
+    "iteration03A_source_preserved": true,
+    "source_copy_initial_identical": true,
+    "prebind_visual_identity": true,
+    "topology_readiness": true,
+    "deterministic_weights": true,
+    "rest_bound_identity": true,
+    "head_plus_minus_30": true,
+    "shoulder_L_R": true,
+    "elbow_45": false,
+    "elbow_90": false,
+    "wrist": true,
+    "hip": true,
+    "knee_45": false,
+    "knee_90": false,
+    "ankle": true,
+    "joint_gap_contact": true,
+    "topology_unchanged": true,
+    "suit_and_tears_preserved": true,
+    "final_neutral_identity": true,
+    "manual_FK_posing_available": true,
+    "pose_neutral": true,
+    "actions_zero": true,
+    "keyframes_zero": true,
+    "constraints_zero": true,
+    "drivers_zero": true
+  }
+}

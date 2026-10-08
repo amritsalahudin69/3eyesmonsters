@@ -1,0 +1,218 @@
+{
+  "left": {
+    "before": {
+      "vertex_count": 488,
+      "edge_count": 972,
+      "polygon_count": 486,
+      "knee_center": 0.5400000214576721,
+      "blend_band": [
+        0.4800000214576721,
+        0.6000000214576722
+      ],
+      "vertices_inside_knee_band": 0,
+      "unique_longitudinal_samples": [],
+      "maximum_spacing_inside_band": 0.12000000000000005,
+      "vertices_above_knee": 0,
+      "vertices_at_knee": 0,
+      "vertices_below_knee": 0
+    },
+    "after": {
+      "vertex_count": 668,
+      "edge_count": 1332,
+      "polygon_count": 666,
+      "knee_center": 0.5400000214576721,
+      "blend_band": [
+        0.4800000214576721,
+        0.6000000214576722
+      ],
+      "vertices_inside_knee_band": 180,
+      "unique_longitudinal_samples": [
+        0.48,
+        0.51,
+        0.54,
+        0.57,
+        0.6
+      ],
+      "maximum_spacing_inside_band": 0.030000000000000027,
+      "vertices_above_knee": 72,
+      "vertices_at_knee": 36,
+      "vertices_below_knee": 72
+    },
+    "surface_validation": {
+      "original_vertex_count": 488,
+      "new_vertex_count": 180,
+      "original_vertices_moved_count": 0,
+      "max_original_vertex_displacement": 0.0,
+      "max_new_vertex_distance_to_original_surface": 3.332000986233652e-08,
+      "new_vertices_outside_knee_band": 0
+    }
+  },
+  "right": {
+    "before": {
+      "vertex_count": 488,
+      "edge_count": 972,
+      "polygon_count": 486,
+      "knee_center": 0.5400000214576721,
+      "blend_band": [
+        0.4800000214576721,
+        0.6000000214576722
+      ],
+      "vertices_inside_knee_band": 0,
+      "unique_longitudinal_samples": [],
+      "maximum_spacing_inside_band": 0.12000000000000005,
+      "vertices_above_knee": 0,
+      "vertices_at_knee": 0,
+      "vertices_below_knee": 0
+    },
+    "after": {
+      "vertex_count": 668,
+      "edge_count": 1332,
+      "polygon_count": 666,
+      "knee_center": 0.5400000214576721,
+      "blend_band": [
+        0.4800000214576721,
+        0.6000000214576722
+      ],
+      "vertices_inside_knee_band": 180,
+      "unique_longitudinal_samples": [
+        0.48,
+        0.51,
+        0.54,
+        0.57,
+        0.6
+      ],
+      "maximum_spacing_inside_band": 0.030000000000000027,
+      "vertices_above_knee": 72,
+      "vertices_at_knee": 36,
+      "vertices_below_knee": 72
+    },
+    "surface_validation": {
+      "original_vertex_count": 488,
+      "new_vertex_count": 180,
+      "original_vertices_moved_count": 0,
+      "max_original_vertex_displacement": 0.0,
+      "max_new_vertex_distance_to_original_surface": 3.332000986233652e-08,
+      "new_vertices_outside_knee_band": 0
+    }
+  },
+  "original_vertices_moved_count": 0,
+  "max_original_vertex_displacement": 0.0,
+  "other_meshes_modified_count": 0,
+  "other_meshes_modified": [],
+  "armature_change_count": 0,
+  "transform_change_count": 0,
+  "maximum_transform_delta": 0,
+  "parents_changed_count": 0,
+  "prepatch_visual_comparison": {
+    "front": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_pixel_difference": 0.0,
+      "max_pixel_difference": 0.0,
+      "pass": true
+    },
+    "three_q_l": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_pixel_difference": 0.0,
+      "max_pixel_difference": 0.0,
+      "pass": true
+    },
+    "left": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_pixel_difference": 0.0,
+      "max_pixel_difference": 0.0,
+      "pass": true
+    },
+    "back": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_pixel_difference": 0.0,
+      "max_pixel_difference": 0.0,
+      "pass": true
+    },
+    "right": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_pixel_difference": 0.0,
+      "max_pixel_difference": 0.0,
+      "pass": true
+    },
+    "three_q_r": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_pixel_difference": 0.0,
+      "max_pixel_difference": 0.0,
+      "pass": true
+    }
+  },
+  "postpatch_visual_comparison": {
+    "front": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_pixel_difference": 2.1897108979374025e-06,
+      "max_pixel_difference": 0.003921568393707275,
+      "pass": true
+    },
+    "three_q_l": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_pixel_difference": 2.214955216572889e-06,
+      "max_pixel_difference": 0.003921568393707275,
+      "pass": true
+    },
+    "left": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_pixel_difference": 1.165913531053775e-06,
+      "max_pixel_difference": 0.003921568393707275,
+      "pass": true
+    },
+    "back": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_pixel_difference": 1.7717771783054559e-06,
+      "max_pixel_difference": 0.003921568393707275,
+      "pass": true
+    },
+    "right": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_pixel_difference": 1.1182298180756334e-06,
+      "max_pixel_difference": 0.003921568393707275,
+      "pass": true
+    },
+    "three_q_r": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_pixel_difference": 2.040114935653037e-06,
+      "max_pixel_difference": 0.003921568393707275,
+      "pass": true
+    }
+  }
+}

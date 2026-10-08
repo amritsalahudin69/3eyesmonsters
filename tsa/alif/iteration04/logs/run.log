@@ -1,0 +1,23 @@
+{
+  "iteration": 4,
+  "character": "ALIF",
+  "objective": "controlled_skinning_and_deformation_proof",
+  "status": "PASS",
+  "blockers": [],
+  "iteration3_source_preserved": true,
+  "rest_pose_identity": true,
+  "head_rotation_pass": true,
+  "arm_weights_normalized": true,
+  "leg_weights_normalized": true,
+  "topology_unchanged": true,
+  "edge_thresholds_pass": true,
+  "armature_count": 1,
+  "action_count": 0,
+  "constraints": 0,
+  "ik_constraints": 0,
+  "drivers": 0,
+  "automatic_weights_used": false,
+  "robot_joint_geometry_added": false,
+  "remesh_or_subdivision_used": false,
+  "final_neutral_pose": true
+}

@@ -1,0 +1,434 @@
+[
+  {
+    "name": "ROOT",
+    "head": [
+      0.0,
+      0.0,
+      0.06000000238418579
+    ],
+    "tail": [
+      0.0,
+      0.0,
+      0.2600000023841858
+    ],
+    "parent": null,
+    "use_deform": false,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "COG",
+    "head": [
+      0.0,
+      0.0,
+      1.4600001621246337
+    ],
+    "tail": [
+      0.0,
+      0.0,
+      1.700000162124634
+    ],
+    "parent": "ROOT",
+    "use_deform": false,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "PELVIS",
+    "head": [
+      0.0,
+      0.0,
+      0.8249999952316285
+    ],
+    "tail": [
+      0.0,
+      0.0,
+      1.5800001621246338
+    ],
+    "parent": "COG",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "SPINE",
+    "head": [
+      0.0,
+      0.0,
+      1.5800001621246338
+    ],
+    "tail": [
+      0.0,
+      0.0,
+      2.2350002098083497
+    ],
+    "parent": "PELVIS",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "CHEST",
+    "head": [
+      0.0,
+      0.0,
+      2.2350002098083497
+    ],
+    "tail": [
+      0.0,
+      0.0,
+      2.5750002098083495
+    ],
+    "parent": "SPINE",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "NECK",
+    "head": [
+      0.0,
+      0.0,
+      1.9800000667572022
+    ],
+    "tail": [
+      0.0,
+      0.0,
+      2.3800000667572023
+    ],
+    "parent": "CHEST",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "HEAD",
+    "head": [
+      0.0,
+      0.0,
+      2.109999918937683
+    ],
+    "tail": [
+      0.0,
+      0.0,
+      3.9099998474121094
+    ],
+    "parent": "NECK",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "SHOULDER.L",
+    "head": [
+      -0.3,
+      0.020000040531158447,
+      2.260244436264038
+    ],
+    "tail": [
+      -1.0099999904632568,
+      0.020000040531158447,
+      2.260244436264038
+    ],
+    "parent": "CHEST",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "UPPER_ARM.L",
+    "head": [
+      -1.0099999904632568,
+      0.020000040531158447,
+      2.260244436264038
+    ],
+    "tail": [
+      -1.0099999904632568,
+      0.020000040531158447,
+      1.6200000047683716
+    ],
+    "parent": "SHOULDER.L",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "FOREARM.L",
+    "head": [
+      -1.0099999904632568,
+      0.020000040531158447,
+      1.6200000047683716
+    ],
+    "tail": [
+      -1.0099999904632568,
+      0.020000040531158447,
+      0.9497555732727051
+    ],
+    "parent": "UPPER_ARM.L",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "WRIST.L",
+    "head": [
+      -1.0099999904632568,
+      0.020000040531158447,
+      0.9497555732727051
+    ],
+    "tail": [
+      -1.0,
+      0.060000017285346985,
+      0.8600000143051147
+    ],
+    "parent": "FOREARM.L",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "HAND.L",
+    "head": [
+      -1.0,
+      0.060000017285346985,
+      0.8600000143051147
+    ],
+    "tail": [
+      -1.0,
+      0.060000017285346985,
+      0.7200000047683716
+    ],
+    "parent": "WRIST.L",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "SHOULDER.R",
+    "head": [
+      0.3,
+      0.02000005543231964,
+      2.260244436264038
+    ],
+    "tail": [
+      1.0099999904632568,
+      0.02000005543231964,
+      2.260244436264038
+    ],
+    "parent": "CHEST",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "UPPER_ARM.R",
+    "head": [
+      1.0099999904632568,
+      0.02000005543231964,
+      2.260244436264038
+    ],
+    "tail": [
+      1.0099999904632568,
+      0.02000005543231964,
+      1.6200000047683716
+    ],
+    "parent": "SHOULDER.R",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "FOREARM.R",
+    "head": [
+      1.0099999904632568,
+      0.02000005543231964,
+      1.6200000047683716
+    ],
+    "tail": [
+      1.0099999904632568,
+      0.02000005543231964,
+      0.9497555732727051
+    ],
+    "parent": "UPPER_ARM.R",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "WRIST.R",
+    "head": [
+      1.0099999904632568,
+      0.02000005543231964,
+      0.9497555732727051
+    ],
+    "tail": [
+      1.0,
+      0.060000017285346985,
+      0.8600000143051147
+    ],
+    "parent": "FOREARM.R",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "HAND.R",
+    "head": [
+      1.0,
+      0.060000017285346985,
+      0.8600000143051147
+    ],
+    "tail": [
+      1.0,
+      0.060000017285346985,
+      0.7200000047683716
+    ],
+    "parent": "WRIST.R",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "HIP.L",
+    "head": [
+      -0.18,
+      0.0,
+      0.7100000619888306
+    ],
+    "tail": [
+      -0.41999998688697815,
+      0.0,
+      0.7100000619888306
+    ],
+    "parent": "PELVIS",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "THIGH.L",
+    "head": [
+      -0.41999998688697815,
+      0.0,
+      0.7100000619888306
+    ],
+    "tail": [
+      -0.41999998688697815,
+      0.0,
+      0.5400000363588333
+    ],
+    "parent": "HIP.L",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "SHIN.L",
+    "head": [
+      -0.41999998688697815,
+      0.0,
+      0.5400000363588333
+    ],
+    "tail": [
+      -0.41999998688697815,
+      0.0,
+      0.37000001072883604
+    ],
+    "parent": "THIGH.L",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "ANKLE.L",
+    "head": [
+      -0.41999998688697815,
+      0.0,
+      0.37000001072883604
+    ],
+    "tail": [
+      -0.41999998688697815,
+      0.0,
+      0.26000000357627867
+    ],
+    "parent": "SHIN.L",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "FOOT.L",
+    "head": [
+      -0.41999998688697815,
+      0.0,
+      0.26000000357627867
+    ],
+    "tail": [
+      -0.41999998688697815,
+      -0.13999999463558196,
+      0.20000000298023224
+    ],
+    "parent": "ANKLE.L",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "HIP.R",
+    "head": [
+      0.18,
+      0.0,
+      0.7100000619888306
+    ],
+    "tail": [
+      0.41999998688697815,
+      0.0,
+      0.7100000619888306
+    ],
+    "parent": "PELVIS",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "THIGH.R",
+    "head": [
+      0.41999998688697815,
+      0.0,
+      0.7100000619888306
+    ],
+    "tail": [
+      0.41999998688697815,
+      0.0,
+      0.5400000363588333
+    ],
+    "parent": "HIP.R",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "SHIN.R",
+    "head": [
+      0.41999998688697815,
+      0.0,
+      0.5400000363588333
+    ],
+    "tail": [
+      0.41999998688697815,
+      0.0,
+      0.37000001072883604
+    ],
+    "parent": "THIGH.R",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "ANKLE.R",
+    "head": [
+      0.41999998688697815,
+      0.0,
+      0.37000001072883604
+    ],
+    "tail": [
+      0.41999998688697815,
+      0.0,
+      0.26000000357627867
+    ],
+    "parent": "SHIN.R",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  },
+  {
+    "name": "FOOT.R",
+    "head": [
+      0.41999998688697815,
+      0.0,
+      0.26000000357627867
+    ],
+    "tail": [
+      0.41999998688697815,
+      -0.13999999463558196,
+      0.20000000298023224
+    ],
+    "parent": "ANKLE.R",
+    "use_deform": true,
+    "placement_source": "canonical Iteration 1 object bounds"
+  }
+]

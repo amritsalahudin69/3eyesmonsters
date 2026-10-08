@@ -1,0 +1,578 @@
+[
+  {
+    "name": "ALIF_RIG",
+    "type": "ARMATURE",
+    "parent": "ALIF_ROOT",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": null
+  },
+  {
+    "name": "ARM_L",
+    "type": "MESH",
+    "parent": "ARM_L_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "ARM_L_REGION",
+    "type": "EMPTY",
+    "parent": "ALIF_ROOT",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": null
+  },
+  {
+    "name": "ARM_R",
+    "type": "MESH",
+    "parent": "ARM_R_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "ARM_R_REGION",
+    "type": "EMPTY",
+    "parent": "ALIF_ROOT",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": null
+  },
+  {
+    "name": "BELLY_CORE",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "BOLT_BASE_L",
+    "type": "MESH",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "BOLT_BASE_R",
+    "type": "MESH",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "BOLT_CAP_L",
+    "type": "MESH",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "BOLT_CAP_R",
+    "type": "MESH",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "BOLT_TIP_L",
+    "type": "MESH",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "BOLT_TIP_R",
+    "type": "MESH",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "BUTTON_0",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "BUTTON_1",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "COLLAR_L",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 488
+  },
+  {
+    "name": "COLLAR_R",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 488
+  },
+  {
+    "name": "EYE_L_PUPIL",
+    "type": "MESH",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "EYE_L_VEIN_0",
+    "type": "CURVE",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": null
+  },
+  {
+    "name": "EYE_L_VEIN_1",
+    "type": "CURVE",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": null
+  },
+  {
+    "name": "EYE_L_VEIN_2",
+    "type": "CURVE",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": null
+  },
+  {
+    "name": "EYE_L_WHITE",
+    "type": "MESH",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "EYE_R_PUPIL",
+    "type": "MESH",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "EYE_R_VEIN_0",
+    "type": "CURVE",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": null
+  },
+  {
+    "name": "EYE_R_VEIN_1",
+    "type": "CURVE",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": null
+  },
+  {
+    "name": "EYE_R_VEIN_2",
+    "type": "CURVE",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": null
+  },
+  {
+    "name": "EYE_R_WHITE",
+    "type": "MESH",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "EYE_TOP_PUPIL",
+    "type": "MESH",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "EYE_TOP_VEIN_0",
+    "type": "CURVE",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": null
+  },
+  {
+    "name": "EYE_TOP_VEIN_1",
+    "type": "CURVE",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": null
+  },
+  {
+    "name": "EYE_TOP_VEIN_2",
+    "type": "CURVE",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": null
+  },
+  {
+    "name": "EYE_TOP_WHITE",
+    "type": "MESH",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "FOOT_L",
+    "type": "MESH",
+    "parent": "LEG_L_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 488
+  },
+  {
+    "name": "FOOT_R",
+    "type": "MESH",
+    "parent": "LEG_R_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 488
+  },
+  {
+    "name": "HAND_L",
+    "type": "MESH",
+    "parent": "ARM_L_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "HAND_R",
+    "type": "MESH",
+    "parent": "ARM_R_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "HEAD",
+    "type": "MESH",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 488
+  },
+  {
+    "name": "HEAD_CTRL_REGION",
+    "type": "EMPTY",
+    "parent": "ALIF_ROOT",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": null
+  },
+  {
+    "name": "HEAD_SEAM_BAR",
+    "type": "MESH",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "INNER_PATCH_B",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "INNER_PATCH_L",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "INNER_PATCH_R",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "LEG_L_REGION",
+    "type": "EMPTY",
+    "parent": "ALIF_ROOT",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": null
+  },
+  {
+    "name": "LEG_L_SUIT",
+    "type": "MESH",
+    "parent": "LEG_L_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 488
+  },
+  {
+    "name": "LEG_R_REGION",
+    "type": "EMPTY",
+    "parent": "ALIF_ROOT",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": null
+  },
+  {
+    "name": "LEG_R_SUIT",
+    "type": "MESH",
+    "parent": "LEG_R_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 488
+  },
+  {
+    "name": "LEG_S_LOW",
+    "type": "CURVE",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": null
+  },
+  {
+    "name": "LEG_S_UP",
+    "type": "CURVE",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": null
+  },
+  {
+    "name": "NECK_BRIDGE",
+    "type": "MESH",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 488
+  },
+  {
+    "name": "SEAM_TOOTH_0",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "SEAM_TOOTH_1",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "SEAM_TOOTH_10",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "SEAM_TOOTH_11",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "SEAM_TOOTH_2",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "SEAM_TOOTH_3",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "SEAM_TOOTH_4",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "SEAM_TOOTH_5",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "SEAM_TOOTH_6",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "SEAM_TOOTH_7",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "SEAM_TOOTH_8",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "SEAM_TOOTH_9",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 96
+  },
+  {
+    "name": "SHIRT_V",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 488
+  },
+  {
+    "name": "SHIRT_V_R",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 488
+  },
+  {
+    "name": "SUIT_SHELL",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1570
+  },
+  {
+    "name": "TEAR_REVEAL_0",
+    "type": "MESH",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "TEAR_REVEAL_1",
+    "type": "MESH",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "TEAR_REVEAL_2",
+    "type": "MESH",
+    "parent": "HEAD_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 1986
+  },
+  {
+    "name": "TIE_BODY",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 488
+  },
+  {
+    "name": "TIE_KNOT",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 488
+  },
+  {
+    "name": "TOOTH_L",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 488
+  },
+  {
+    "name": "TOOTH_R",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 488
+  },
+  {
+    "name": "TORSO_CTRL_REGION",
+    "type": "EMPTY",
+    "parent": "ALIF_ROOT",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": null
+  },
+  {
+    "name": "TORSO_UNDER",
+    "type": "MESH",
+    "parent": "TORSO_CTRL_REGION",
+    "parent_type": "OBJECT",
+    "parent_bone": "",
+    "vertices": 488
+  }
+]

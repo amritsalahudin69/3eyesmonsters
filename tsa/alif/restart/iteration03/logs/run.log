@@ -1,0 +1,24 @@
+{
+  "iteration": "3R",
+  "character": "ALIF",
+  "objective": "controlled_binding_and_deformation_proof",
+  "status": "BLOCKED",
+  "blockers": [
+    "TOPOLOGY_LIMITATION"
+  ],
+  "iteration02R_sha256_before": "77b75adea2e880e73f0ee2acce68d29cb3e11aac37cb44b79768e4779c80742c",
+  "iteration02R_sha256_after": "77b75adea2e880e73f0ee2acce68d29cb3e11aac37cb44b79768e4779c80742c",
+  "copy_initial_sha256": "77b75adea2e880e73f0ee2acce68d29cb3e11aac37cb44b79768e4779c80742c",
+  "copy_current_sha256": "77b75adea2e880e73f0ee2acce68d29cb3e11aac37cb44b79768e4779c80742c",
+  "iteration02R_source_preserved": true,
+  "source_copy_still_identical": true,
+  "prebind_visual_identity": true,
+  "topology_readiness": false,
+  "binding_performed": false,
+  "automatic_weights_used": false,
+  "remesh_or_subdivision_used": false,
+  "actions": 0,
+  "constraints": 0,
+  "ik": 0,
+  "next_action": "Resolve proven knee topology limitation under explicit future scope; do not advance to Iteration 4R."
+}

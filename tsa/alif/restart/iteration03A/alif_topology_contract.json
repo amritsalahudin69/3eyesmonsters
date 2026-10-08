@@ -1,0 +1,23 @@
+{
+  "iteration": "3R-A",
+  "allowed_modified_objects": [
+    "LEG_L_SUIT",
+    "LEG_R_SUIT"
+  ],
+  "knee_centers": {
+    "L": 0.5400000214576721,
+    "R": 0.5400000214576721
+  },
+  "knee_blend_half_width": 0.06,
+  "insertion_offsets": [
+    -0.06,
+    -0.03,
+    0,
+    0.03,
+    0.06
+  ],
+  "target_maximum_spacing": 0.04,
+  "topology_method": "five local bmesh bisect-plane loop insertions per leg; no global subdivision or remesh",
+  "surface_preservation_method": "retain all original coordinates; bisect intersections lie on original polygon surface; validate new vertices against original BVH",
+  "symmetry_rule": "identical offsets and operation for mirrored leg meshes"
+}

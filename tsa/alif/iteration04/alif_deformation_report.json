@@ -1,0 +1,315 @@
+{
+  "weight_validation": {
+    "ARM_L": {
+      "vertex_count": 1986,
+      "weighted_vertex_count": 1986,
+      "unweighted_count": 0,
+      "min_weight_sum": 0.9999999999999998,
+      "max_weight_sum": 1.0000000000000002,
+      "max_influences_per_vertex": 2,
+      "allowed_groups": [
+        "SHOULDER.L",
+        "UPPER_ARM.L",
+        "FOREARM.L",
+        "WRIST.L"
+      ],
+      "algorithm": "two nearest canonical bone segments, inverse-square, normalized, world coordinates"
+    },
+    "ARM_R": {
+      "vertex_count": 1986,
+      "weighted_vertex_count": 1986,
+      "unweighted_count": 0,
+      "min_weight_sum": 0.9999999999999998,
+      "max_weight_sum": 1.0000000000000002,
+      "max_influences_per_vertex": 2,
+      "allowed_groups": [
+        "SHOULDER.R",
+        "UPPER_ARM.R",
+        "FOREARM.R",
+        "WRIST.R"
+      ],
+      "algorithm": "two nearest canonical bone segments, inverse-square, normalized, world coordinates"
+    },
+    "LEG_L_SUIT": {
+      "vertex_count": 488,
+      "weighted_vertex_count": 488,
+      "unweighted_count": 0,
+      "min_weight_sum": 0.9999999999999998,
+      "max_weight_sum": 1.0000000000000002,
+      "max_influences_per_vertex": 2,
+      "allowed_groups": [
+        "HIP.L",
+        "THIGH.L",
+        "SHIN.L",
+        "ANKLE.L"
+      ],
+      "algorithm": "two nearest canonical bone segments, inverse-square, normalized, world coordinates"
+    },
+    "LEG_R_SUIT": {
+      "vertex_count": 488,
+      "weighted_vertex_count": 488,
+      "unweighted_count": 0,
+      "min_weight_sum": 0.9999999999999998,
+      "max_weight_sum": 1.0000000000000002,
+      "max_influences_per_vertex": 2,
+      "allowed_groups": [
+        "HIP.R",
+        "THIGH.R",
+        "SHIN.R",
+        "ANKLE.R"
+      ],
+      "algorithm": "two nearest canonical bone segments, inverse-square, normalized, world coordinates"
+    }
+  },
+  "rest_pose_comparison": {
+    "front": {
+      "dimensions": [
+        480,
+        480
+      ],
+      "mean_absolute_pixel_difference": 2.978621826817592e-08,
+      "max_pixel_difference": 0.003921568393707275
+    },
+    "three_q_l": {
+      "dimensions": [
+        480,
+        480
+      ],
+      "mean_absolute_pixel_difference": 2.5531044229865074e-08,
+      "max_pixel_difference": 0.003921568393707275
+    },
+    "left": {
+      "dimensions": [
+        480,
+        480
+      ],
+      "mean_absolute_pixel_difference": 2.5531044229865074e-08,
+      "max_pixel_difference": 0.003921568393707275
+    },
+    "back": {
+      "dimensions": [
+        480,
+        480
+      ],
+      "mean_absolute_pixel_difference": 6.382761057466268e-08,
+      "max_pixel_difference": 0.003921568393707275
+    },
+    "right": {
+      "dimensions": [
+        480,
+        480
+      ],
+      "mean_absolute_pixel_difference": 8.510348076621692e-09,
+      "max_pixel_difference": 0.003921568393707275
+    },
+    "three_q_r": {
+      "dimensions": [
+        480,
+        480
+      ],
+      "mean_absolute_pixel_difference": 1.7020696153243384e-08,
+      "max_pixel_difference": 0.003921568393707275
+    }
+  },
+  "head_independence": {
+    "head_plus30": {
+      "torso_max_vertex_delta": 0.0,
+      "suit_max_vertex_delta": 0.0,
+      "head_details_follow": true
+    },
+    "head_minus30": {
+      "torso_max_vertex_delta": 0.0,
+      "suit_max_vertex_delta": 0.0,
+      "head_details_follow": true
+    }
+  },
+  "pose_tests": {
+    "head_plus30": {
+      "torso_max_vertex_delta": 0.0,
+      "suit_max_vertex_delta": 0.0,
+      "head_details_follow": true
+    },
+    "head_minus30": {
+      "torso_max_vertex_delta": 0.0,
+      "suit_max_vertex_delta": 0.0,
+      "head_details_follow": true
+    },
+    "shoulder25_L": {
+      "contact": 0.45845580101013184
+    },
+    "shoulder25_R": {
+      "contact": 0.4486982524394989
+    },
+    "elbow45": {
+      "arm_hand_contact": 0.5359167456626892
+    },
+    "elbow90": {
+      "arm_hand_contact": 1.31522798538208
+    },
+    "elbow45_R": {
+      "arm_hand_contact": 0.5999693870544434
+    },
+    "elbow90_R": {
+      "arm_hand_contact": 1.3654733896255493
+    },
+    "wrist20_L": {
+      "arm_hand_contact": 0.2608676850795746
+    },
+    "wrist20_R": {
+      "arm_hand_contact": 0.3320086896419525
+    },
+    "hip20_L": {
+      "contact": 0.9128364324569702
+    },
+    "knee45": {
+      "leg_foot_contact": 0.11399092525243759
+    },
+    "knee90": {
+      "leg_foot_contact": 0.08287285268306732
+    },
+    "knee45_R": {
+      "leg_foot_contact": 0.11399077624082565
+    },
+    "knee90_R": {
+      "leg_foot_contact": 0.08287286013364792
+    },
+    "ankle20_L": {
+      "leg_foot_contact": 0.02135941945016384
+    },
+    "ankle20_R": {
+      "leg_foot_contact": 0.05652494356036186
+    }
+  },
+  "edge_metrics": {
+    "elbow45": {
+      "median_ratio": 1.0,
+      "p95_ratio": 1.0,
+      "p99_ratio": 1.0,
+      "p01_ratio": 1.0,
+      "minimum_ratio": 1.0,
+      "maximum_ratio": 1.0,
+      "nan_or_infinite_vertices": 0
+    },
+    "elbow90": {
+      "median_ratio": 1.0,
+      "p95_ratio": 1.0,
+      "p99_ratio": 1.0,
+      "p01_ratio": 1.0,
+      "minimum_ratio": 1.0,
+      "maximum_ratio": 1.0,
+      "nan_or_infinite_vertices": 0
+    },
+    "elbow45_R": {
+      "median_ratio": 1.0,
+      "p95_ratio": 1.0,
+      "p99_ratio": 1.0,
+      "p01_ratio": 1.0,
+      "minimum_ratio": 1.0,
+      "maximum_ratio": 1.0,
+      "nan_or_infinite_vertices": 0
+    },
+    "elbow90_R": {
+      "median_ratio": 1.0,
+      "p95_ratio": 1.0,
+      "p99_ratio": 1.0,
+      "p01_ratio": 1.0,
+      "minimum_ratio": 1.0,
+      "maximum_ratio": 1.0,
+      "nan_or_infinite_vertices": 0
+    },
+    "knee45": {
+      "median_ratio": 1.0,
+      "p95_ratio": 1.0,
+      "p99_ratio": 1.0,
+      "p01_ratio": 1.0,
+      "minimum_ratio": 1.0,
+      "maximum_ratio": 1.0,
+      "nan_or_infinite_vertices": 0
+    },
+    "knee90": {
+      "median_ratio": 1.0,
+      "p95_ratio": 1.0,
+      "p99_ratio": 1.0,
+      "p01_ratio": 1.0,
+      "minimum_ratio": 1.0,
+      "maximum_ratio": 1.0,
+      "nan_or_infinite_vertices": 0
+    },
+    "knee45_R": {
+      "median_ratio": 1.0,
+      "p95_ratio": 1.0,
+      "p99_ratio": 1.0,
+      "p01_ratio": 1.0,
+      "minimum_ratio": 1.0,
+      "maximum_ratio": 1.0,
+      "nan_or_infinite_vertices": 0
+    },
+    "knee90_R": {
+      "median_ratio": 1.0,
+      "p95_ratio": 1.0,
+      "p99_ratio": 1.0,
+      "p01_ratio": 1.0,
+      "minimum_ratio": 1.0,
+      "maximum_ratio": 1.0,
+      "nan_or_infinite_vertices": 0
+    }
+  },
+  "contact_gap_measurements": {
+    "rest": {
+      "shoulder_torso_L": 0.5984484553337097,
+      "arm_hand_L": 0.00333666754886508,
+      "hip_torso_L": 0.9196842312812805,
+      "leg_foot_L": 0.007762190420180559
+    }
+  },
+  "topology_before": {
+    "ARM_L": {
+      "vertices": 1986,
+      "edges": 4032,
+      "polygons": 2048
+    },
+    "ARM_R": {
+      "vertices": 1986,
+      "edges": 4032,
+      "polygons": 2048
+    },
+    "LEG_L_SUIT": {
+      "vertices": 488,
+      "edges": 972,
+      "polygons": 486
+    },
+    "LEG_R_SUIT": {
+      "vertices": 488,
+      "edges": 972,
+      "polygons": 486
+    }
+  },
+  "topology_after": {
+    "ARM_L": {
+      "vertices": 1986,
+      "edges": 4032,
+      "polygons": 2048
+    },
+    "ARM_R": {
+      "vertices": 1986,
+      "edges": 4032,
+      "polygons": 2048
+    },
+    "LEG_L_SUIT": {
+      "vertices": 488,
+      "edges": 972,
+      "polygons": 486
+    },
+    "LEG_R_SUIT": {
+      "vertices": 488,
+      "edges": 972,
+      "polygons": 486
+    }
+  },
+  "topology_unchanged": true,
+  "source_hash_before": "f3abf09108c8d0b6e4bb3d948b53f8bde07b489ec4d61a74a8c07e200a55b9e2",
+  "source_hash_after": "f3abf09108c8d0b6e4bb3d948b53f8bde07b489ec4d61a74a8c07e200a55b9e2",
+  "source_preserved": true,
+  "automatic_weights_used": false,
+  "remesh_or_subdivision_used": false
+}

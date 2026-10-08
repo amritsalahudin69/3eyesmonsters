@@ -1,0 +1,221 @@
+{
+  "status": "BLOCKED",
+  "blocker": "TOPOLOGY_LIMITATION",
+  "topology_readiness": {
+    "ARM_L": {
+      "mesh": "ARM_L",
+      "vertex_count": 1986,
+      "unique_longitudinal_levels": 1034,
+      "zones": [
+        {
+          "joint_z": 2.260244369506836,
+          "blend_half_width": 0.08323176741600037,
+          "vertex_count": 279,
+          "max_longitudinal_spacing": 0.005106000000000055
+        },
+        {
+          "joint_z": 1.6200000047683716,
+          "blend_half_width": 0.1024390983581543,
+          "vertex_count": 164,
+          "max_longitudinal_spacing": 0.005106000000000055
+        },
+        {
+          "joint_z": 0.9497555494308472,
+          "blend_half_width": 0.1206440019607544,
+          "vertex_count": 478,
+          "max_longitudinal_spacing": 0.005106000000000055
+        }
+      ],
+      "useful_joint_blend_zones": true
+    },
+    "LEG_L_SUIT": {
+      "mesh": "LEG_L_SUIT",
+      "vertex_count": 488,
+      "unique_longitudinal_levels": 88,
+      "zones": [
+        {
+          "joint_z": 0.7100000381469727,
+          "blend_half_width": 0.08,
+          "vertex_count": 184,
+          "max_longitudinal_spacing": 0.38
+        },
+        {
+          "joint_z": 0.5400000214576721,
+          "blend_half_width": 0.06,
+          "vertex_count": 0,
+          "max_longitudinal_spacing": 0.38
+        },
+        {
+          "joint_z": 0.3700000047683716,
+          "blend_half_width": 0.05,
+          "vertex_count": 76,
+          "max_longitudinal_spacing": 0.38
+        }
+      ],
+      "useful_joint_blend_zones": false
+    },
+    "ARM_R": {
+      "mesh": "ARM_R",
+      "vertex_count": 1986,
+      "unique_longitudinal_levels": 1035,
+      "zones": [
+        {
+          "joint_z": 2.260244369506836,
+          "blend_half_width": 0.08323176741600037,
+          "vertex_count": 279,
+          "max_longitudinal_spacing": 0.005106000000000055
+        },
+        {
+          "joint_z": 1.6200000047683716,
+          "blend_half_width": 0.1024390983581543,
+          "vertex_count": 164,
+          "max_longitudinal_spacing": 0.005106000000000055
+        },
+        {
+          "joint_z": 0.9497555494308472,
+          "blend_half_width": 0.1206440019607544,
+          "vertex_count": 478,
+          "max_longitudinal_spacing": 0.005106000000000055
+        }
+      ],
+      "useful_joint_blend_zones": true
+    },
+    "LEG_R_SUIT": {
+      "mesh": "LEG_R_SUIT",
+      "vertex_count": 488,
+      "unique_longitudinal_levels": 88,
+      "zones": [
+        {
+          "joint_z": 0.7100000381469727,
+          "blend_half_width": 0.08,
+          "vertex_count": 184,
+          "max_longitudinal_spacing": 0.38
+        },
+        {
+          "joint_z": 0.5400000214576721,
+          "blend_half_width": 0.06,
+          "vertex_count": 0,
+          "max_longitudinal_spacing": 0.38
+        },
+        {
+          "joint_z": 0.3700000047683716,
+          "blend_half_width": 0.05,
+          "vertex_count": 76,
+          "max_longitudinal_spacing": 0.38
+        }
+      ],
+      "useful_joint_blend_zones": false
+    }
+  },
+  "prebind_identity": {
+    "front": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_pixel_difference": 0.0,
+      "max_pixel_difference": 0.0,
+      "pass": true
+    },
+    "three_q_l": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_pixel_difference": 0.0,
+      "max_pixel_difference": 0.0,
+      "pass": true
+    },
+    "left": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_pixel_difference": 0.0,
+      "max_pixel_difference": 0.0,
+      "pass": true
+    },
+    "back": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_pixel_difference": 0.0,
+      "max_pixel_difference": 0.0,
+      "pass": true
+    },
+    "right": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_pixel_difference": 0.0,
+      "max_pixel_difference": 0.0,
+      "pass": true
+    },
+    "three_q_r": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_pixel_difference": 0.0,
+      "max_pixel_difference": 0.0,
+      "pass": true
+    }
+  },
+  "weight_normalization": {
+    "status": "NOT_RUN",
+    "reason": "TOPOLOGY_LIMITATION detected before binding"
+  },
+  "rest_bound_identity": {
+    "status": "NOT_RUN",
+    "reason": "TOPOLOGY_LIMITATION detected before binding"
+  },
+  "head_independence": {
+    "status": "NOT_RUN",
+    "reason": "TOPOLOGY_LIMITATION detected before binding"
+  },
+  "shoulder_result": {
+    "status": "NOT_RUN",
+    "reason": "TOPOLOGY_LIMITATION detected before binding"
+  },
+  "elbow_result": {
+    "status": "NOT_RUN",
+    "reason": "TOPOLOGY_LIMITATION detected before binding"
+  },
+  "wrist_result": {
+    "status": "NOT_RUN",
+    "reason": "TOPOLOGY_LIMITATION detected before binding"
+  },
+  "hip_result": {
+    "status": "NOT_RUN",
+    "reason": "TOPOLOGY_LIMITATION detected before binding"
+  },
+  "knee_result": {
+    "status": "NOT_RUN",
+    "reason": "TOPOLOGY_LIMITATION detected before binding"
+  },
+  "ankle_result": {
+    "status": "NOT_RUN",
+    "reason": "TOPOLOGY_LIMITATION detected before binding"
+  },
+  "edge_deformation_metrics": {
+    "status": "NOT_RUN",
+    "reason": "TOPOLOGY_LIMITATION detected before binding"
+  },
+  "contact_gap_measurements": {
+    "status": "NOT_RUN",
+    "reason": "TOPOLOGY_LIMITATION detected before binding"
+  },
+  "topology_preservation": {
+    "source_copy_unchanged": true
+  },
+  "suit_tear_preservation": {
+    "status": "NOT_RUN",
+    "reason": "TOPOLOGY_LIMITATION detected before binding"
+  },
+  "final_neutral_identity": {
+    "status": "NOT_RUN",
+    "reason": "TOPOLOGY_LIMITATION detected before binding"
+  }
+}

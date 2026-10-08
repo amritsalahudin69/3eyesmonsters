@@ -1,0 +1,154 @@
+{
+  "iteration": "2R",
+  "character": "ALIF",
+  "objective": "repository_knowledge_and_clone_only_internal_armature",
+  "status": "PASS",
+  "blockers": [],
+  "canonical_input": "C:\\Users\\HWI-ADMIN\\alif_output_v1\\alif_v1.blend",
+  "canonical_iter1_sha256_before": "55adbf0846a0a701797a203b1ab543e03f4ee37cdac73160772955821bc73d2b",
+  "canonical_iter1_sha256_after": "55adbf0846a0a701797a203b1ab543e03f4ee37cdac73160772955821bc73d2b",
+  "copy_initial_sha256": "55adbf0846a0a701797a203b1ab543e03f4ee37cdac73160772955821bc73d2b",
+  "environment": {
+    "agent": "WSL Ubuntu 24.04",
+    "blender": "Windows-native Blender 5.2",
+    "windows_root": "C:\\Users\\HWI-ADMIN\\Downloads\\3d",
+    "wsl_root": "/mnt/c/Users/HWI-ADMIN/Downloads/3d/"
+  },
+  "blender_version": "5.2.0 LTS",
+  "checks": {
+    "canonical_source_preserved": true,
+    "source_copy_initial_hash_identical": true,
+    "pre_rig_visual_matches": true,
+    "armature_count_one": true,
+    "primary_bones_27": true,
+    "hierarchy_complete": true,
+    "symmetry_valid": true,
+    "existing_parents_unchanged": true,
+    "existing_matrix_world_unchanged": true,
+    "origins_unchanged": true,
+    "mesh_geometry_unchanged": true,
+    "all_existing_state_unchanged": true,
+    "post_rig_visual_matches": true,
+    "armature_modifiers_zero": true,
+    "new_vertex_groups_zero": true,
+    "constraints_zero": true,
+    "drivers_zero": true,
+    "actions_zero": true
+  },
+  "existing_object_max_numeric_delta": 0.0,
+  "existing_matrix_world_max_delta": 0.0,
+  "pre_rig_comparison": {
+    "front": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_absolute_difference": 0.0,
+      "max_difference": 0.0,
+      "pass": true
+    },
+    "three_q_l": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_absolute_difference": 0.0,
+      "max_difference": 0.0,
+      "pass": true
+    },
+    "left": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_absolute_difference": 0.0,
+      "max_difference": 0.0,
+      "pass": true
+    },
+    "back": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_absolute_difference": 0.0,
+      "max_difference": 0.0,
+      "pass": true
+    },
+    "right": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_absolute_difference": 0.0,
+      "max_difference": 0.0,
+      "pass": true
+    },
+    "three_q_r": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_absolute_difference": 0.0,
+      "max_difference": 0.0,
+      "pass": true
+    }
+  },
+  "post_rig_comparison": {
+    "front": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_absolute_difference": 0.0,
+      "max_difference": 0.0,
+      "pass": true
+    },
+    "three_q_l": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_absolute_difference": 0.0,
+      "max_difference": 0.0,
+      "pass": true
+    },
+    "left": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_absolute_difference": 0.0,
+      "max_difference": 0.0,
+      "pass": true
+    },
+    "back": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_absolute_difference": 0.0,
+      "max_difference": 0.0,
+      "pass": true
+    },
+    "right": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_absolute_difference": 0.0,
+      "max_difference": 0.0,
+      "pass": true
+    },
+    "three_q_r": {
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mean_absolute_difference": 0.0,
+      "max_difference": 0.0,
+      "pass": true
+    }
+  },
+  "armature_contract": "alif_armature_contract.json",
+  "bone_landmarks": "alif_bone_landmarks.json"
+}

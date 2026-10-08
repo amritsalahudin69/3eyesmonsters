@@ -1,0 +1,384 @@
+{
+  "method": "deterministic manual chain-relative longitudinal smoothstep weighting",
+  "automatic_weights_used": false,
+  "normalization_tolerance": 0.001,
+  "maximum_influences": 2,
+  "meshes": {
+    "ARM_L": {
+      "total_vertices": 1986,
+      "weighted_vertices": 1986,
+      "unweighted_deformable_vertices": 0,
+      "allowed_bones": [
+        "SHOULDER.L",
+        "UPPER_ARM.L",
+        "FOREARM.L",
+        "WRIST.L"
+      ],
+      "actual_bone_groups_used": [
+        "FOREARM.L",
+        "SHOULDER.L",
+        "UPPER_ARM.L",
+        "WRIST.L"
+      ],
+      "min_weight_sum": 1.0,
+      "max_weight_sum": 1.0,
+      "max_influence_count": 2,
+      "opposite_side_contamination": 0,
+      "nan_weights": 0,
+      "negative_weights": 0,
+      "joint_positions_z": [
+        2.260244369506836,
+        1.6200000047683716,
+        0.9497555494308472
+      ],
+      "blend_half_widths": [
+        0.08,
+        0.1,
+        0.07
+      ]
+    },
+    "LEG_L_SUIT": {
+      "total_vertices": 668,
+      "weighted_vertices": 668,
+      "unweighted_deformable_vertices": 0,
+      "allowed_bones": [
+        "HIP.L",
+        "THIGH.L",
+        "SHIN.L",
+        "ANKLE.L"
+      ],
+      "actual_bone_groups_used": [
+        "ANKLE.L",
+        "HIP.L",
+        "SHIN.L",
+        "THIGH.L"
+      ],
+      "min_weight_sum": 1.0,
+      "max_weight_sum": 1.0,
+      "max_influence_count": 2,
+      "opposite_side_contamination": 0,
+      "nan_weights": 0,
+      "negative_weights": 0,
+      "joint_positions_z": [
+        0.7100000381469727,
+        0.5400000214576721,
+        0.3700000047683716
+      ],
+      "blend_half_widths": [
+        0.06,
+        0.06,
+        0.05
+      ]
+    },
+    "HAND_L": {
+      "rigid_bone": "HAND.L",
+      "weighted_vertices": 1986
+    },
+    "FOOT_L": {
+      "rigid_bone": "FOOT.L",
+      "weighted_vertices": 488
+    },
+    "ARM_R": {
+      "total_vertices": 1986,
+      "weighted_vertices": 1986,
+      "unweighted_deformable_vertices": 0,
+      "allowed_bones": [
+        "SHOULDER.R",
+        "UPPER_ARM.R",
+        "FOREARM.R",
+        "WRIST.R"
+      ],
+      "actual_bone_groups_used": [
+        "FOREARM.R",
+        "SHOULDER.R",
+        "UPPER_ARM.R",
+        "WRIST.R"
+      ],
+      "min_weight_sum": 1.0,
+      "max_weight_sum": 1.0,
+      "max_influence_count": 2,
+      "opposite_side_contamination": 0,
+      "nan_weights": 0,
+      "negative_weights": 0,
+      "joint_positions_z": [
+        2.260244369506836,
+        1.6200000047683716,
+        0.9497555494308472
+      ],
+      "blend_half_widths": [
+        0.08,
+        0.1,
+        0.07
+      ]
+    },
+    "LEG_R_SUIT": {
+      "total_vertices": 668,
+      "weighted_vertices": 668,
+      "unweighted_deformable_vertices": 0,
+      "allowed_bones": [
+        "HIP.R",
+        "THIGH.R",
+        "SHIN.R",
+        "ANKLE.R"
+      ],
+      "actual_bone_groups_used": [
+        "ANKLE.R",
+        "HIP.R",
+        "SHIN.R",
+        "THIGH.R"
+      ],
+      "min_weight_sum": 1.0,
+      "max_weight_sum": 1.0,
+      "max_influence_count": 2,
+      "opposite_side_contamination": 0,
+      "nan_weights": 0,
+      "negative_weights": 0,
+      "joint_positions_z": [
+        0.7100000381469727,
+        0.5400000214576721,
+        0.3700000047683716
+      ],
+      "blend_half_widths": [
+        0.06,
+        0.06,
+        0.05
+      ]
+    },
+    "HAND_R": {
+      "rigid_bone": "HAND.R",
+      "weighted_vertices": 1986
+    },
+    "FOOT_R": {
+      "rigid_bone": "FOOT.R",
+      "weighted_vertices": 488
+    },
+    "BELLY_CORE": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 1986
+    },
+    "BOLT_BASE_L": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "BOLT_BASE_R": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "BOLT_CAP_L": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "BOLT_CAP_R": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "BOLT_TIP_L": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "BOLT_TIP_R": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "BUTTON_0": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 1986
+    },
+    "BUTTON_1": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 1986
+    },
+    "COLLAR_L": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 488
+    },
+    "COLLAR_R": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 488
+    },
+    "EYE_L_PUPIL": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 1986
+    },
+    "EYE_L_VEIN_0": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 3
+    },
+    "EYE_L_VEIN_1": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 3
+    },
+    "EYE_L_VEIN_2": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 3
+    },
+    "EYE_L_WHITE": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 1986
+    },
+    "EYE_R_PUPIL": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 1986
+    },
+    "EYE_R_VEIN_0": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 3
+    },
+    "EYE_R_VEIN_1": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 3
+    },
+    "EYE_R_VEIN_2": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 3
+    },
+    "EYE_R_WHITE": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 1986
+    },
+    "EYE_TOP_PUPIL": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 1986
+    },
+    "EYE_TOP_VEIN_0": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 3
+    },
+    "EYE_TOP_VEIN_1": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 3
+    },
+    "EYE_TOP_VEIN_2": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 3
+    },
+    "EYE_TOP_WHITE": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 1986
+    },
+    "HEAD": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 488
+    },
+    "HEAD_SEAM_BAR": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "INNER_PATCH_B": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 1986
+    },
+    "INNER_PATCH_L": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 1986
+    },
+    "INNER_PATCH_R": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 1986
+    },
+    "LEG_S_LOW": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 3
+    },
+    "LEG_S_UP": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 3
+    },
+    "NECK_BRIDGE": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 488
+    },
+    "SEAM_TOOTH_0": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "SEAM_TOOTH_1": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "SEAM_TOOTH_10": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "SEAM_TOOTH_11": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "SEAM_TOOTH_2": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "SEAM_TOOTH_3": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "SEAM_TOOTH_4": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "SEAM_TOOTH_5": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "SEAM_TOOTH_6": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "SEAM_TOOTH_7": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "SEAM_TOOTH_8": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "SEAM_TOOTH_9": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 96
+    },
+    "SHIRT_V": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 488
+    },
+    "SHIRT_V_R": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 488
+    },
+    "SUIT_SHELL": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 1570
+    },
+    "TEAR_REVEAL_0": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 1986
+    },
+    "TEAR_REVEAL_1": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 1986
+    },
+    "TEAR_REVEAL_2": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 1986
+    },
+    "TIE_BODY": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 488
+    },
+    "TIE_KNOT": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 488
+    },
+    "TOOTH_L": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 488
+    },
+    "TOOTH_R": {
+      "rigid_bone": "HEAD",
+      "weighted_points": 488
+    },
+    "TORSO_UNDER": {
+      "rigid_bone": "CHEST",
+      "weighted_points": 488
+    }
+  }
+}
