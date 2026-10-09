@@ -1,0 +1,83 @@
+{
+  "pose": "LEAN_RIGHT",
+  "bone_rotations_degrees_local_xyz": {
+    "COG": [
+      0,
+      0,
+      -8
+    ]
+  },
+  "bone_locations_local": {},
+  "root_cog_offset": {
+    "ROOT": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "COG": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "safe_envelope_compliance": true,
+  "envelope_issues": [],
+  "deformation_metrics": {
+    "arm_L": {
+      "p01": 0.999979537006739,
+      "median": 0.9999999887830229,
+      "p99": 1.0000196014680636,
+      "minimum": 0.999922979488577,
+      "maximum": 1.0001024530710338,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.0033366275019943714,
+      "root_gap": 0.44271451234817505
+    },
+    "leg_L": {
+      "p01": 0.9999929187973691,
+      "median": 1.0000000174622974,
+      "p99": 1.000008688302088,
+      "minimum": 0.999983542020943,
+      "maximum": 1.0000132037841836,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.007762052584439516,
+      "root_gap": 0.39436426758766174
+    },
+    "arm_R": {
+      "p01": 0.9999823475940621,
+      "median": 0.9999999692567962,
+      "p99": 1.0000177091497362,
+      "minimum": 0.9999383869610159,
+      "maximum": 1.0000728470106222,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.0033366670832037926,
+      "root_gap": 0.44271448254585266
+    },
+    "leg_R": {
+      "p01": 0.9999951742740341,
+      "median": 1.0000000528511317,
+      "p99": 1.0000045924698304,
+      "minimum": 0.9999915045567986,
+      "maximum": 1.000007656764011,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.007762005086988211,
+      "root_gap": 0.39436423778533936
+    }
+  },
+  "deformation_metrics_pass": true,
+  "visual_review": "PASS",
+  "render_paths": {
+    "front": "validation/lean_right/front.png",
+    "three_q": "validation/lean_right/three_q.png"
+  },
+  "notes": "Static FK pose only; no Action or keyframe.",
+  "visual_review_notes": "Mirrored directional body lean is visible without severe deformation."
+}

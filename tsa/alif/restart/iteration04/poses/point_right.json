@@ -1,0 +1,103 @@
+{
+  "pose": "POINT_RIGHT",
+  "bone_rotations_degrees_local_xyz": {
+    "UPPER_ARM.R": [
+      0,
+      0,
+      -40
+    ],
+    "FOREARM.R": [
+      -20,
+      0,
+      0
+    ],
+    "WRIST.R": [
+      -5,
+      0,
+      0
+    ],
+    "UPPER_ARM.L": [
+      0,
+      0,
+      8
+    ],
+    "FOREARM.L": [
+      10,
+      0,
+      0
+    ]
+  },
+  "bone_locations_local": {},
+  "root_cog_offset": {
+    "ROOT": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "COG": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "safe_envelope_compliance": true,
+  "envelope_issues": [],
+  "deformation_metrics": {
+    "arm_L": {
+      "p01": 0.8661951904963554,
+      "median": 1.0000000692863316,
+      "p99": 1.2434695709096173,
+      "minimum": 0.6240500895584135,
+      "maximum": 1.3795781508055929,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.003336723893880844,
+      "root_gap": 0.4447806179523468
+    },
+    "leg_L": {
+      "p01": 0.9999966570930106,
+      "median": 1.0,
+      "p99": 1.000003648286407,
+      "minimum": 0.9999954314205589,
+      "maximum": 1.0000065432926777,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.007762114051729441,
+      "root_gap": 0.39436423778533936
+    },
+    "arm_R": {
+      "p01": 0.7215266867871668,
+      "median": 1.000000234052957,
+      "p99": 1.8698517478771195,
+      "minimum": 0.27583122651979386,
+      "maximum": 2.4985350666453128,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.003327685408294201,
+      "root_gap": 0.4518164396286011
+    },
+    "leg_R": {
+      "p01": 0.9999966570930106,
+      "median": 1.0,
+      "p99": 1.0000037866740457,
+      "minimum": 0.9999954314205589,
+      "maximum": 1.0000065432926777,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.007762114051729441,
+      "root_gap": 0.39436423778533936
+    }
+  },
+  "deformation_metrics_pass": true,
+  "visual_review": "PASS",
+  "render_paths": {
+    "front": "validation/point_right/front.png",
+    "three_q": "validation/point_right/three_q.png"
+  },
+  "notes": "Static FK pose only; no Action or keyframe.",
+  "visual_review_notes": "Mirrored arm reach is visible within the tested range."
+}

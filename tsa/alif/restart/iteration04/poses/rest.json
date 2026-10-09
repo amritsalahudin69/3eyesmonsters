@@ -1,0 +1,77 @@
+{
+  "pose": "REST",
+  "bone_rotations_degrees_local_xyz": {},
+  "bone_locations_local": {},
+  "root_cog_offset": {
+    "ROOT": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "COG": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "safe_envelope_compliance": true,
+  "envelope_issues": [],
+  "deformation_metrics": {
+    "arm_L": {
+      "p01": 0.9999859125492054,
+      "median": 1.0,
+      "p99": 1.0000133568065568,
+      "minimum": 0.9999561669970709,
+      "maximum": 1.0000517729125031,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.003336704568937421,
+      "root_gap": 0.44271427392959595
+    },
+    "leg_L": {
+      "p01": 0.9999966570930106,
+      "median": 1.0,
+      "p99": 1.000003648286407,
+      "minimum": 0.9999954314205589,
+      "maximum": 1.0000065432926777,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.007762114051729441,
+      "root_gap": 0.39436423778533936
+    },
+    "arm_R": {
+      "p01": 0.9999851335492107,
+      "median": 1.0,
+      "p99": 1.0000140924006742,
+      "minimum": 0.9999552089886462,
+      "maximum": 1.0000792627471706,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.0033366428688168526,
+      "root_gap": 0.4427143931388855
+    },
+    "leg_R": {
+      "p01": 0.9999966570930106,
+      "median": 1.0,
+      "p99": 1.0000037866740457,
+      "minimum": 0.9999954314205589,
+      "maximum": 1.0000065432926777,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.007762114051729441,
+      "root_gap": 0.39436423778533936
+    }
+  },
+  "deformation_metrics_pass": true,
+  "visual_review": "PASS",
+  "render_paths": {
+    "front": "validation/rest/front.png",
+    "three_q": "validation/rest/three_q.png"
+  },
+  "notes": "Static FK pose only; no Action or keyframe.",
+  "visual_review_notes": "Canonical neutral matches the Iteration 1 reference."
+}

@@ -1,0 +1,108 @@
+{
+  "pose": "STEP_RIGHT",
+  "bone_rotations_degrees_local_xyz": {
+    "UPPER_ARM.L": [
+      -20,
+      0,
+      0
+    ],
+    "UPPER_ARM.R": [
+      20,
+      0,
+      0
+    ],
+    "THIGH.L": [
+      20,
+      0,
+      0
+    ],
+    "THIGH.R": [
+      -20,
+      0,
+      0
+    ],
+    "SHIN.R": [
+      5,
+      0,
+      0
+    ],
+    "FOOT.R": [
+      -5,
+      0,
+      0
+    ]
+  },
+  "bone_locations_local": {},
+  "root_cog_offset": {
+    "ROOT": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "COG": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "safe_envelope_compliance": true,
+  "envelope_issues": [],
+  "deformation_metrics": {
+    "arm_L": {
+      "p01": 0.7772551351214334,
+      "median": 0.9999999595995237,
+      "p99": 1.2105472949928748,
+      "minimum": 0.6470724196286873,
+      "maximum": 1.4141365002672253,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.0033367793075740337,
+      "root_gap": 0.3139059245586395
+    },
+    "leg_L": {
+      "p01": 0.29852021326169675,
+      "median": 1.0,
+      "p99": 1.7532731495404876,
+      "minimum": 0.05035045909304907,
+      "maximum": 1.9489731889661865,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.007762098219245672,
+      "root_gap": 0.32495763897895813
+    },
+    "arm_R": {
+      "p01": 0.8059937879879802,
+      "median": 0.9999999288867787,
+      "p99": 1.2371361157411058,
+      "minimum": 0.6791024965524735,
+      "maximum": 1.443337881290973,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.0033366065472364426,
+      "root_gap": 0.3042643070220947
+    },
+    "leg_R": {
+      "p01": 0.29852021326169675,
+      "median": 1.0,
+      "p99": 1.7532732945759577,
+      "minimum": 0.05035045909304907,
+      "maximum": 1.9489731889661865,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.006441078148782253,
+      "root_gap": 0.33545446395874023
+    }
+  },
+  "deformation_metrics_pass": true,
+  "visual_review": "PASS",
+  "render_paths": {
+    "front": "validation/step_right/front.png",
+    "three_q": "validation/step_right/three_q.png"
+  },
+  "notes": "Static FK pose only; no Action or keyframe.",
+  "visual_review_notes": "Mirrored leg opposition is visible and remains within the safe envelope."
+}

@@ -1,0 +1,126 @@
+{
+  "pose": "LANDING",
+  "bone_rotations_degrees_local_xyz": {
+    "THIGH.L": [
+      -20,
+      0,
+      0
+    ],
+    "THIGH.R": [
+      -20,
+      0,
+      0
+    ],
+    "SHIN.L": [
+      10,
+      0,
+      0
+    ],
+    "SHIN.R": [
+      10,
+      0,
+      0
+    ],
+    "FOOT.L": [
+      -10,
+      0,
+      0
+    ],
+    "FOOT.R": [
+      -10,
+      0,
+      0
+    ],
+    "UPPER_ARM.L": [
+      0,
+      0,
+      20
+    ],
+    "UPPER_ARM.R": [
+      0,
+      0,
+      -20
+    ]
+  },
+  "bone_locations_local": {
+    "COG": [
+      0,
+      -0.035,
+      0
+    ]
+  },
+  "root_cog_offset": {
+    "ROOT": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "COG": [
+      0,
+      -0.035,
+      0
+    ]
+  },
+  "safe_envelope_compliance": true,
+  "envelope_issues": [],
+  "deformation_metrics": {
+    "arm_L": {
+      "p01": 0.9507382003337244,
+      "median": 1.000000150040341,
+      "p99": 1.4263859860668726,
+      "minimum": 0.856559934313559,
+      "maximum": 1.7364070408568753,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.0033366454299539328,
+      "root_gap": 0.44786161184310913
+    },
+    "leg_L": {
+      "p01": 0.2985210580391713,
+      "median": 1.0,
+      "p99": 1.7532734970820458,
+      "minimum": 0.05034669498424681,
+      "maximum": 1.9489731889652604,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.00239376537501812,
+      "root_gap": 0.3483971059322357
+    },
+    "arm_R": {
+      "p01": 0.9507390303679051,
+      "median": 1.0000001165616283,
+      "p99": 1.4263867249325515,
+      "minimum": 0.8565611423820748,
+      "maximum": 1.7364053699792534,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.003336565103381872,
+      "root_gap": 0.44786185026168823
+    },
+    "leg_R": {
+      "p01": 0.29852316031911713,
+      "median": 1.0,
+      "p99": 1.7532732945759577,
+      "minimum": 0.05034669498424681,
+      "maximum": 1.9489731889661865,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.0023937721271067858,
+      "root_gap": 0.3483971357345581
+    }
+  },
+  "deformation_metrics_pass": true,
+  "visual_review": "PASS",
+  "render_paths": {
+    "front": "validation/landing/front.png",
+    "three_q": "validation/landing/three_q.png",
+    "side": "validation/landing/side.png",
+    "game_camera": "validation/landing/game_camera.png"
+  },
+  "notes": "Static FK pose only; no Action or keyframe.",
+  "visual_review_notes": "Shallow impact absorption is readable and remains within the safe knee cap."
+}

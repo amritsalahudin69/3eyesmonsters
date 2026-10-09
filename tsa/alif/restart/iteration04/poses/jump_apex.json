@@ -1,0 +1,136 @@
+{
+  "pose": "JUMP_APEX",
+  "bone_rotations_degrees_local_xyz": {
+    "UPPER_ARM.L": [
+      0,
+      0,
+      40
+    ],
+    "UPPER_ARM.R": [
+      0,
+      0,
+      -40
+    ],
+    "FOREARM.L": [
+      15,
+      0,
+      0
+    ],
+    "FOREARM.R": [
+      -15,
+      0,
+      0
+    ],
+    "THIGH.L": [
+      -10,
+      0,
+      0
+    ],
+    "THIGH.R": [
+      10,
+      0,
+      0
+    ],
+    "SHIN.L": [
+      5,
+      0,
+      0
+    ],
+    "SHIN.R": [
+      5,
+      0,
+      0
+    ],
+    "FOOT.L": [
+      -10,
+      0,
+      0
+    ],
+    "FOOT.R": [
+      -10,
+      0,
+      0
+    ]
+  },
+  "bone_locations_local": {
+    "COG": [
+      0,
+      0.22,
+      0
+    ]
+  },
+  "root_cog_offset": {
+    "ROOT": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "COG": [
+      0,
+      0.22,
+      0
+    ]
+  },
+  "safe_envelope_compliance": true,
+  "envelope_issues": [],
+  "deformation_metrics": {
+    "arm_L": {
+      "p01": 0.74185824247897,
+      "median": 1.000000190189307,
+      "p99": 1.8698509892036572,
+      "minimum": 0.4419660855308715,
+      "maximum": 2.4985476886299414,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.0033367823343724012,
+      "root_gap": 0.4518164098262787
+    },
+    "leg_L": {
+      "p01": 0.6313662761489599,
+      "median": 1.0,
+      "p99": 1.3756285166712083,
+      "minimum": 0.5250014232190826,
+      "maximum": 1.4748164281770568,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.0023937677033245564,
+      "root_gap": 0.3698899745941162
+    },
+    "arm_R": {
+      "p01": 0.7418551649213717,
+      "median": 1.00000022741512,
+      "p99": 1.8698504494201251,
+      "minimum": 0.4419649638029026,
+      "maximum": 2.4985487863321953,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.003336695721372962,
+      "root_gap": 0.4518164396286011
+    },
+    "leg_R": {
+      "p01": 0.6313662761489599,
+      "median": 1.0,
+      "p99": 1.3756285166712083,
+      "minimum": 0.5250014232225219,
+      "maximum": 1.474816428178281,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.0023937737569212914,
+      "root_gap": 0.3544924259185791
+    }
+  },
+  "deformation_metrics_pass": true,
+  "visual_review": "PASS",
+  "render_paths": {
+    "front": "validation/jump_apex/front.png",
+    "three_q": "validation/jump_apex/three_q.png",
+    "side": "validation/jump_apex/side.png",
+    "game_camera": "validation/jump_apex/game_camera.png"
+  },
+  "notes": "Static FK pose only; no Action or keyframe.",
+  "visual_review_notes": "Airborne silhouette is readable with the recorded COG vertical offset."
+}

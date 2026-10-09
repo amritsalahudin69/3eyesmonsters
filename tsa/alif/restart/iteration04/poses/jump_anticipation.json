@@ -1,0 +1,136 @@
+{
+  "pose": "JUMP_ANTICIPATION",
+  "bone_rotations_degrees_local_xyz": {
+    "THIGH.L": [
+      -20,
+      0,
+      0
+    ],
+    "THIGH.R": [
+      -20,
+      0,
+      0
+    ],
+    "SHIN.L": [
+      10,
+      0,
+      0
+    ],
+    "SHIN.R": [
+      10,
+      0,
+      0
+    ],
+    "FOOT.L": [
+      -10,
+      0,
+      0
+    ],
+    "FOOT.R": [
+      -10,
+      0,
+      0
+    ],
+    "UPPER_ARM.L": [
+      10,
+      0,
+      25
+    ],
+    "UPPER_ARM.R": [
+      -10,
+      0,
+      -25
+    ],
+    "FOREARM.L": [
+      10,
+      0,
+      0
+    ],
+    "FOREARM.R": [
+      -10,
+      0,
+      0
+    ]
+  },
+  "bone_locations_local": {
+    "COG": [
+      0,
+      -0.04,
+      0
+    ]
+  },
+  "root_cog_offset": {
+    "ROOT": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "COG": [
+      0,
+      -0.04,
+      0
+    ]
+  },
+  "safe_envelope_compliance": true,
+  "envelope_issues": [],
+  "deformation_metrics": {
+    "arm_L": {
+      "p01": 0.812973618800959,
+      "median": 1.0000001112894508,
+      "p99": 1.6047384396656312,
+      "minimum": 0.6240519856658532,
+      "maximum": 1.9809949040131827,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.003336758352816105,
+      "root_gap": 0.4283282160758972
+    },
+    "leg_L": {
+      "p01": 0.29851909923165665,
+      "median": 1.0,
+      "p99": 1.7532709992919489,
+      "minimum": 0.050342932889450215,
+      "maximum": 1.9489693638846788,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.00239376537501812,
+      "root_gap": 0.3483971059322357
+    },
+    "arm_R": {
+      "p01": 0.8020244306687613,
+      "median": 1.0000001593904355,
+      "p99": 1.6095614508752323,
+      "minimum": 0.6240506086306226,
+      "maximum": 1.9598057145315047,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.0033365883864462376,
+      "root_gap": 0.44612032175064087
+    },
+    "leg_R": {
+      "p01": 0.29852120152524636,
+      "median": 1.0,
+      "p99": 1.7532707967870302,
+      "minimum": 0.050342932889450215,
+      "maximum": 1.9489693638856054,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.0023937721271067858,
+      "root_gap": 0.3483971655368805
+    }
+  },
+  "deformation_metrics_pass": true,
+  "visual_review": "BLOCKED",
+  "render_paths": {
+    "front": "validation/jump_anticipation/front.png",
+    "three_q": "validation/jump_anticipation/three_q.png",
+    "side": "validation/jump_anticipation/side.png",
+    "game_camera": "validation/jump_anticipation/game_camera.png"
+  },
+  "notes": "Static FK pose only; no Action or keyframe.",
+  "visual_review_notes": "Gameplay-camera view does not clearly read as a pre-jump loading pose; it remains too close to standing."
+}

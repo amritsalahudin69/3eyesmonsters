@@ -1,0 +1,121 @@
+{
+  "status": "BLOCKED_INCOMPLETE_VISUAL_VALIDATION",
+  "source_file": "tsa/alif/restart/iteration03B/alif_deform_v1.blend",
+  "working_file": "tsa/alif/restart/iteration04/alif_poseproof_v1.blend",
+  "source_sha256_before": "da2af5cda34b78d2ae1c07a0ede7926a459fc7c08a06e0b255a65617111f643c",
+  "copy_sha256_initial": "da2af5cda34b78d2ae1c07a0ede7926a459fc7c08a06e0b255a65617111f643c",
+  "measurement": {
+    "increment_degrees": 5,
+    "scan_log": "logs/envelope_scan.json",
+    "metric_gates_supporting_only": {
+      "p01_min": 0.25,
+      "p99_max": 2.0,
+      "non_finite_vertices": 0
+    },
+    "metric_search_is_not_the_approved_visual_limit": true
+  },
+  "safe_ranges": {
+    "HEAD": {
+      "yaw_min_degrees": -30,
+      "yaw_max_degrees": 30,
+      "tested_local_axis": 1,
+      "quality_note": "Rigid head/details remain on HEAD; matches the previously proven plus/minus 30 degree test."
+    },
+    "UPPER_ARM_L": {
+      "safe_forward_degrees": 25,
+      "safe_backward_degrees": 25,
+      "safe_outward_degrees": 45,
+      "safe_inward_degrees": 45,
+      "local_axes": {
+        "forward_backward": 0,
+        "outward_inward": 2
+      },
+      "quality_note": "Conservative cap; gameplay poses tested through 40 degrees. Higher metric-only candidates are not adopted."
+    },
+    "UPPER_ARM_R": {
+      "safe_forward_degrees": 25,
+      "safe_backward_degrees": 25,
+      "safe_outward_degrees": 45,
+      "safe_inward_degrees": 45,
+      "local_axes": {
+        "forward_backward": 0,
+        "outward_inward": 2
+      },
+      "quality_note": "Mirrored conservative cap; visual approval at the full cap remains incomplete."
+    },
+    "FOREARM_L": {
+      "safe_flexion_max_degrees": 45,
+      "local_axis": 0,
+      "quality_note": "Conservative cap anchored by the previously passing 45-degree test; 90 degrees is a known failure and larger unreviewed metric candidates are rejected."
+    },
+    "FOREARM_R": {
+      "safe_flexion_max_degrees": 45,
+      "local_axis": 0,
+      "quality_note": "Mirrored conservative cap; full visual confirmation is incomplete and 90 degrees is a known failure."
+    },
+    "WRIST_L": {
+      "safe_rotation_min_degrees": -20,
+      "safe_rotation_max_degrees": 20,
+      "local_axis": 0
+    },
+    "WRIST_R": {
+      "safe_rotation_min_degrees": -20,
+      "safe_rotation_max_degrees": 20,
+      "local_axis": 0
+    },
+    "THIGH_L": {
+      "safe_forward_degrees": 20,
+      "safe_backward_degrees": 20,
+      "local_axis": 0
+    },
+    "THIGH_R": {
+      "safe_forward_degrees": 20,
+      "safe_backward_degrees": 20,
+      "local_axis": 0
+    },
+    "SHIN_L": {
+      "safe_flexion_max_degrees": 10,
+      "local_axis": 0,
+      "metric_boundary_degrees": 15,
+      "quality_note": "10 degrees passes; 15 degrees falls below the p01 supporting gate, so deeper knee articulation is not used."
+    },
+    "SHIN_R": {
+      "safe_flexion_max_degrees": 10,
+      "local_axis": 0,
+      "metric_boundary_degrees": 15,
+      "quality_note": "Mirrored range; 45 degrees is a known failure."
+    },
+    "FOOT_L": {
+      "safe_pitch_min_degrees": -20,
+      "safe_pitch_max_degrees": 20,
+      "local_axis": 0
+    },
+    "FOOT_R": {
+      "safe_pitch_min_degrees": -20,
+      "safe_pitch_max_degrees": 20,
+      "local_axis": 0
+    },
+    "ROOT": {
+      "safe_turn_min_degrees": -35,
+      "safe_turn_max_degrees": 35,
+      "local_axis": 1,
+      "quality_note": "Whole-rig yaw only; does not require mesh deformation."
+    },
+    "COG": {
+      "safe_lean_min_degrees": -8,
+      "safe_lean_max_degrees": 8,
+      "local_axis": 2,
+      "safe_vertical_offset_min": -0.04,
+      "safe_vertical_offset_max": 0.22,
+      "vertical_offset_axis": "local Y, aligned to world up"
+    }
+  },
+  "visual_review": "PARTIAL_BLOCKED",
+  "unconfirmed_visual_limits": [
+    "WRIST_L and WRIST_R full plus/minus 20-degree limits",
+    "FOOT_L and FOOT_R full plus/minus 20-degree limits",
+    "ROOT yaw sweep through the recorded plus/minus 35-degree cap",
+    "COG lean and vertical-translation sweep"
+  ],
+  "blocker": "SAFE_ENVELOPE_VISUAL_COVERAGE_INCOMPLETE"
+}

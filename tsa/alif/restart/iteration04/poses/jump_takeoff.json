@@ -1,0 +1,115 @@
+{
+  "pose": "JUMP_TAKEOFF",
+  "bone_rotations_degrees_local_xyz": {
+    "UPPER_ARM.L": [
+      0,
+      0,
+      40
+    ],
+    "UPPER_ARM.R": [
+      0,
+      0,
+      -40
+    ],
+    "FOREARM.L": [
+      0,
+      0,
+      10
+    ],
+    "FOREARM.R": [
+      0,
+      0,
+      -10
+    ],
+    "THIGH.L": [
+      -3,
+      0,
+      0
+    ],
+    "THIGH.R": [
+      -3,
+      0,
+      0
+    ]
+  },
+  "bone_locations_local": {
+    "COG": [
+      0,
+      0.05,
+      0
+    ]
+  },
+  "root_cog_offset": {
+    "ROOT": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "COG": [
+      0,
+      0.05,
+      0
+    ]
+  },
+  "safe_envelope_compliance": true,
+  "envelope_issues": [],
+  "deformation_metrics": {
+    "arm_L": {
+      "p01": 0.8143403069005127,
+      "median": 1.0000001768975288,
+      "p99": 1.8698485370424123,
+      "minimum": 0.638265364491738,
+      "maximum": 2.4985315918876925,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.0033366200514137745,
+      "root_gap": 0.4518163800239563
+    },
+    "leg_L": {
+      "p01": 0.8882547265287639,
+      "median": 1.0,
+      "p99": 1.112292910043044,
+      "minimum": 0.8575045889791455,
+      "maximum": 1.1424832885826863,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.007762113586068153,
+      "root_gap": 0.3858802020549774
+    },
+    "arm_R": {
+      "p01": 0.8143416552744174,
+      "median": 1.0000001856123655,
+      "p99": 1.8698505164742987,
+      "minimum": 0.6382656193289601,
+      "maximum": 2.498538990737535,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.003336639842018485,
+      "root_gap": 0.4518164396286011
+    },
+    "leg_R": {
+      "p01": 0.8882546664975915,
+      "median": 1.0,
+      "p99": 1.1122930223553924,
+      "minimum": 0.8575045889791455,
+      "maximum": 1.1424832885826863,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.0077621107921004295,
+      "root_gap": 0.3858802020549774
+    }
+  },
+  "deformation_metrics_pass": true,
+  "visual_review": "PASS",
+  "render_paths": {
+    "front": "validation/jump_takeoff/front.png",
+    "three_q": "validation/jump_takeoff/three_q.png",
+    "side": "validation/jump_takeoff/side.png"
+  },
+  "notes": "Static FK pose only; no Action or keyframe.",
+  "visual_review_notes": "Static extension pose is readable and stays within the conservative envelope."
+}

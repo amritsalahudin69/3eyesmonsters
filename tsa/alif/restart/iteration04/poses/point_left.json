@@ -1,0 +1,104 @@
+{
+  "pose": "POINT_LEFT",
+  "bone_rotations_degrees_local_xyz": {
+    "UPPER_ARM.L": [
+      0,
+      0,
+      40
+    ],
+    "FOREARM.L": [
+      20,
+      0,
+      0
+    ],
+    "WRIST.L": [
+      5,
+      0,
+      0
+    ],
+    "UPPER_ARM.R": [
+      0,
+      0,
+      -8
+    ],
+    "FOREARM.R": [
+      -10,
+      0,
+      0
+    ]
+  },
+  "bone_locations_local": {},
+  "root_cog_offset": {
+    "ROOT": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "COG": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "safe_envelope_compliance": true,
+  "envelope_issues": [],
+  "deformation_metrics": {
+    "arm_L": {
+      "p01": 0.7215256283144169,
+      "median": 1.0000002849283094,
+      "p99": 1.869850202200432,
+      "minimum": 0.2758318349617183,
+      "maximum": 2.498532949958145,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.003345758654177189,
+      "root_gap": 0.4518163800239563
+    },
+    "leg_L": {
+      "p01": 0.9999966570930106,
+      "median": 1.0,
+      "p99": 1.000003648286407,
+      "minimum": 0.9999954314205589,
+      "maximum": 1.0000065432926777,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.007762114051729441,
+      "root_gap": 0.39436423778533936
+    },
+    "arm_R": {
+      "p01": 0.8661921637095396,
+      "median": 1.0000001274449826,
+      "p99": 1.2434650167181331,
+      "minimum": 0.6240518284335498,
+      "maximum": 1.3795721281016444,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.0033367343712598085,
+      "root_gap": 0.44478073716163635
+    },
+    "leg_R": {
+      "p01": 0.9999966570930106,
+      "median": 1.0,
+      "p99": 1.0000037866740457,
+      "minimum": 0.9999954314205589,
+      "maximum": 1.0000065432926777,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.007762114051729441,
+      "root_gap": 0.39436423778533936
+    }
+  },
+  "deformation_metrics_pass": true,
+  "visual_review": "PASS",
+  "render_paths": {
+    "front": "validation/point_left/front.png",
+    "three_q": "validation/point_left/three_q.png",
+    "game_camera": "validation/point_left/game_camera.png"
+  },
+  "notes": "Static FK pose only; no Action or keyframe.",
+  "visual_review_notes": "The arm reaches clearly toward the indicated side within the tested range."
+}

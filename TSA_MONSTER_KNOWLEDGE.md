@@ -56,3 +56,11 @@ Restart Iteration 3R-A resolved the knee topology blocker with five symmetric lo
 ## Proven Deformation Limitation
 
 Restart Iteration 3R-B proved that deterministic two-influence linear skinning on the accepted 3R-A structure is not sufficient for the required articulation quality. Neutral identity, head independence, manual FK response, topology preservation, and source immutability pass, but elbow 90° exceeds the stretch gate (`p99 ≈ 2.45`) and knee bends fail at 45° (`p01 ≈ 0.196`, `p99 ≈ 3.40`) and 90° (`p99 ≈ 5.83`). Render evidence confirms unacceptable elbow folding/ballooning and knee distortion. This blocked result must not be promoted to an accepted rig source.
+
+## Restart Iteration 4R Pose-Envelope Evidence
+
+Iteration 4R used a filesystem copy of the blocked 3R-B blend; the recorded source and initial-copy SHA-256 both equal `da2af5cda34b78d2ae1c07a0ede7926a459fc7c08a06e0b255a65617111f643c`. The working copy returns to canonical neutral after static FK pose tests. Snapshot checks show topology, weights, hierarchy, and object transforms unchanged; Actions, keyframes, constraints, and drivers remain zero.
+
+The 5-degree supporting-metric sweep measured SHIN flexion at 10 degrees as acceptable (`p01 ≈ 0.298`, `p99 ≈ 1.75` in the CROUCH pose); 15 degrees failed the lower-edge gate (`p01 ≈ 0.204`). The 10-degree knee cap is therefore retained. These metrics do not override visual review.
+
+Iteration 4R is **BLOCKED — BASIC_JUMP_POSE_LIMIT**. In the reviewed gameplay views, CROUCH and JUMP_ANTICIPATION remain visually too close to standing to demonstrate a clear compression/loading pose within the conservative knee envelope. This is a blocker for this pose contract, not proof that every possible FK pose is impossible. Do not promote the provisional envelope or advance to Iteration 5R until the readability limitation is resolved without exceeding safe deformation.

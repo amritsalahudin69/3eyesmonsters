@@ -1,0 +1,6219 @@
+{
+  "step_degrees": 5,
+  "deformation_metric_gates": {
+    "p01_min": 0.25,
+    "p99_max": 2.0
+  },
+  "scan": {
+    "UPPER_ARM_L_forward_back": [
+      {
+        "bone": "UPPER_ARM.L",
+        "axis": 0,
+        "sign": -1,
+        "direction_label": "upper_arm",
+        "metric_safe_candidate_degrees": 60,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": -5,
+            "distal_center_delta": [
+              0.0,
+              -0.12219148874282837,
+              0.0018389225006103516
+            ],
+            "deformation": {
+              "p01": 0.9418765028863887,
+              "median": 0.9999999855909321,
+              "p99": 1.0516348577887047,
+              "minimum": 0.901077536527982,
+              "maximum": 1.0982517662831468,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.43990737199783325,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -10,
+            "distal_center_delta": [
+              0.0,
+              -0.24375754594802856,
+              0.014324545860290527
+            ],
+            "deformation": {
+              "p01": 0.8843100048882873,
+              "median": 0.9999999529567705,
+              "p99": 1.1038517774619914,
+              "minimum": 0.8100661806406255,
+              "maximum": 1.200641271533534,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3742673397064209,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -15,
+            "distal_center_delta": [
+              0.0,
+              -0.36377233266830444,
+              0.03735697269439697
+            ],
+            "deformation": {
+              "p01": 0.828824206359039,
+              "median": 0.9999999479597628,
+              "p99": 1.1569120635562338,
+              "minimum": 0.7239377518904971,
+              "maximum": 1.306173798905368,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.32890427112579346,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -20,
+            "distal_center_delta": [
+              0.0,
+              -0.4813239872455597,
+              0.07076174020767212
+            ],
+            "deformation": {
+              "p01": 0.7772551351214334,
+              "median": 0.9999999595995237,
+              "p99": 1.2105472949928748,
+              "minimum": 0.6470724196286873,
+              "maximum": 1.4141365002672253,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3139059245586395,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -25,
+            "distal_center_delta": [
+              0.0,
+              -0.5955169200897217,
+              0.11428433656692505
+            ],
+            "deformation": {
+              "p01": 0.7247521425506409,
+              "median": 1.0,
+              "p99": 1.2648193869738822,
+              "minimum": 0.5825926582721541,
+              "maximum": 1.5240261060091806,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.33136996626853943,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -30,
+            "distal_center_delta": [
+              0.0,
+              -0.7054808735847473,
+              0.1675938367843628
+            ],
+            "deformation": {
+              "p01": 0.6732553421613525,
+              "median": 0.9999999600274851,
+              "p99": 1.319675746572032,
+              "minimum": 0.5354211847554642,
+              "maximum": 1.635430430287931,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3702114522457123,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -35,
+            "distal_center_delta": [
+              0.0,
+              -0.8103816509246826,
+              0.23028552532196045
+            ],
+            "deformation": {
+              "p01": 0.6390665023082003,
+              "median": 0.9999999253079428,
+              "p99": 1.3749927908256747,
+              "minimum": 0.5060763846504925,
+              "maximum": 1.748102588027162,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3450244963169098,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -40,
+            "distal_center_delta": [
+              0.0,
+              -0.909417986869812,
+              0.30188119411468506
+            ],
+            "deformation": {
+              "p01": 0.637126635416829,
+              "median": 0.9999999495047363,
+              "p99": 1.4307085600878033,
+              "minimum": 0.48991934205675675,
+              "maximum": 1.8618296438704538,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3192363679409027,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -45,
+            "distal_center_delta": [
+              0.0,
+              -1.0018377304077148,
+              0.38183319568634033
+            ],
+            "deformation": {
+              "p01": 0.6299616478856601,
+              "median": 0.9999999263806507,
+              "p99": 1.487251120700189,
+              "minimum": 0.4784531599905089,
+              "maximum": 1.9764232830884594,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.2897723317146301,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -50,
+            "distal_center_delta": [
+              0.0,
+              -1.0869379043579102,
+              0.4695403575897217
+            ],
+            "deformation": {
+              "p01": 0.6265071837386885,
+              "median": 1.0,
+              "p99": 1.5441124064160197,
+              "minimum": 0.45557989142979455,
+              "maximum": 2.091809258210929,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.2583291232585907,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -55,
+            "distal_center_delta": [
+              0.0,
+              -1.1640700101852417,
+              0.5643279552459717
+            ],
+            "deformation": {
+              "p01": 0.6473710980005696,
+              "median": 0.9999999754756925,
+              "p99": 1.6012450704676935,
+              "minimum": 0.41852714362799825,
+              "maximum": 2.2078773719103086,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.22420251369476318,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -60,
+            "distal_center_delta": [
+              0.0,
+              -1.2326476573944092,
+              0.6654772758483887
+            ],
+            "deformation": {
+              "p01": 0.6640913722841877,
+              "median": 0.9999998907761405,
+              "p99": 1.6586049888665804,
+              "minimum": 0.388267765192559,
+              "maximum": 2.324570411575674,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.18778470158576965,
+            "contact_gate": true,
+            "safe_gate": true
+          }
+        ]
+      },
+      {
+        "bone": "UPPER_ARM.L",
+        "axis": 0,
+        "sign": 1,
+        "direction_label": "upper_arm",
+        "metric_safe_candidate_degrees": 60,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": 5,
+            "distal_center_delta": [
+              0.0,
+              0.12188716232776642,
+              0.008810818195343018
+            ],
+            "deformation": {
+              "p01": 0.9493670795472275,
+              "median": 1.0000000128456488,
+              "p99": 1.058612096254007,
+              "minimum": 0.9072855759913233,
+              "maximum": 1.105102377143304,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.39948907494544983,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 10,
+            "distal_center_delta": [
+              0.0,
+              0.2425423413515091,
+              0.028216183185577393
+            ],
+            "deformation": {
+              "p01": 0.8994666351681706,
+              "median": 1.000000024725066,
+              "p99": 1.11773749793687,
+              "minimum": 0.8220797797716898,
+              "maximum": 1.2147434311353886,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3408185839653015,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 15,
+            "distal_center_delta": [
+              0.0,
+              0.36104702949523926,
+              0.058061420917510986
+            ],
+            "deformation": {
+              "p01": 0.8517190038420381,
+              "median": 0.9999999831272492,
+              "p99": 1.1772860653740247,
+              "minimum": 0.7470318131470874,
+              "maximum": 1.327766216579941,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3060755729675293,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 20,
+            "distal_center_delta": [
+              0.0,
+              0.47649961709976196,
+              0.09812253713607788
+            ],
+            "deformation": {
+              "p01": 0.8059930575296188,
+              "median": 0.9999999311318784,
+              "p99": 1.2371367779943152,
+              "minimum": 0.6790998270204406,
+              "maximum": 1.4433380766086095,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3042641878128052,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 25,
+            "distal_center_delta": [
+              0.0,
+              0.5880206227302551,
+              0.14809322357177734
+            ],
+            "deformation": {
+              "p01": 0.7606467351229055,
+              "median": 1.0,
+              "p99": 1.2974437768015028,
+              "minimum": 0.6154264839377522,
+              "maximum": 1.5609066625994714,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.33572956919670105,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 30,
+            "distal_center_delta": [
+              0.0,
+              0.6947633028030396,
+              0.207594633102417
+            ],
+            "deformation": {
+              "p01": 0.7170667059981005,
+              "median": 1.0000000079454765,
+              "p99": 1.358965052065364,
+              "minimum": 0.5635849709721952,
+              "maximum": 1.6800254189307728,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3551241159439087,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 35,
+            "distal_center_delta": [
+              0.0,
+              0.7959133982658386,
+              0.27617061138153076
+            ],
+            "deformation": {
+              "p01": 0.6742980911409056,
+              "median": 1.0,
+              "p99": 1.4211979277063702,
+              "minimum": 0.526931387205983,
+              "maximum": 1.8003753514830554,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.33091503381729126,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 40,
+            "distal_center_delta": [
+              0.0,
+              0.8907016515731812,
+              0.3533034324645996
+            ],
+            "deformation": {
+              "p01": 0.6492316533680573,
+              "median": 1.0000000052834692,
+              "p99": 1.4831977853156375,
+              "minimum": 0.5062256569101344,
+              "maximum": 1.9217556051158433,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3081258535385132,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 45,
+            "distal_center_delta": [
+              0.0,
+              0.9784062504768372,
+              0.43840157985687256
+            ],
+            "deformation": {
+              "p01": 0.6548215830819477,
+              "median": 0.999999937200619,
+              "p99": 1.5463429037256016,
+              "minimum": 0.4948049956630877,
+              "maximum": 2.043964160299266,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.27801865339279175,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 50,
+            "distal_center_delta": [
+              0.0,
+              1.0583621263504028,
+              0.5308240652084351
+            ],
+            "deformation": {
+              "p01": 0.6526963770305081,
+              "median": 1.0000001030422911,
+              "p99": 1.6097613887696007,
+              "minimum": 0.4873711490606048,
+              "maximum": 2.166887979448076,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.2504611313343048,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 55,
+            "distal_center_delta": [
+              0.0,
+              1.129955768585205,
+              0.629859209060669
+            ],
+            "deformation": {
+              "p01": 0.6551048696352886,
+              "median": 0.9999999738709056,
+              "p99": 1.6726524593407186,
+              "minimum": 0.48013522243843926,
+              "maximum": 2.2904142688073112,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.21475763618946075,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 60,
+            "distal_center_delta": [
+              0.0,
+              1.1926469802856445,
+              0.734758734703064
+            ],
+            "deformation": {
+              "p01": 0.6504399634891571,
+              "median": 1.0000000150030133,
+              "p99": 1.7346065496474374,
+              "minimum": 0.4437555514836128,
+              "maximum": 2.414472050530638,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.18272091448307037,
+            "contact_gate": true,
+            "safe_gate": true
+          }
+        ]
+      }
+    ],
+    "UPPER_ARM_L_outward_inward": [
+      {
+        "bone": "UPPER_ARM.L",
+        "axis": 2,
+        "sign": -1,
+        "direction_label": "upper_arm",
+        "metric_safe_candidate_degrees": 60,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": -5,
+            "distal_center_delta": [
+              0.12199848890304565,
+              7.450580596923828e-09,
+              0.006196141242980957
+            ],
+            "deformation": {
+              "p01": 0.8996220685682546,
+              "median": 0.9999998527404862,
+              "p99": 1.0129764137116608,
+              "minimum": 0.8270733646326417,
+              "maximum": 1.036576135305915,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.44142183661460876,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -10,
+            "distal_center_delta": [
+              0.24299365282058716,
+              0.0,
+              0.023006975650787354
+            ],
+            "deformation": {
+              "p01": 0.8044691976717705,
+              "median": 0.9999998900513687,
+              "p99": 1.0259365506929943,
+              "minimum": 0.6659092132872066,
+              "maximum": 1.0733627487681672,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.4397689998149872,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -15,
+            "distal_center_delta": [
+              0.3620656132698059,
+              1.862645149230957e-08,
+              0.05029654502868652
+            ],
+            "deformation": {
+              "p01": 0.7154049616492523,
+              "median": 0.999999834523992,
+              "p99": 1.0388896206352949,
+              "minimum": 0.5274999006305107,
+              "maximum": 1.1103314925008105,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.4380578398704529,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -20,
+            "distal_center_delta": [
+              0.4783053994178772,
+              2.2351741790771484e-08,
+              0.08786284923553467
+            ],
+            "deformation": {
+              "p01": 0.635303397823583,
+              "median": 0.9999998441191316,
+              "p99": 1.0518016261665963,
+              "minimum": 0.4348340452810222,
+              "maximum": 1.147470504764384,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.43523934483528137,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -25,
+            "distal_center_delta": [
+              0.5908286571502686,
+              1.862645149230957e-08,
+              0.13541573286056519
+            ],
+            "deformation": {
+              "p01": 0.5681880549019152,
+              "median": 0.9999998365328153,
+              "p99": 1.0646691760918843,
+              "minimum": 0.4163459284752528,
+              "maximum": 1.184755185055129,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.43131861090660095,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -30,
+            "distal_center_delta": [
+              0.6987791061401367,
+              2.60770320892334e-08,
+              0.19259428977966309
+            ],
+            "deformation": {
+              "p01": 0.5183204963836342,
+              "median": 0.999999818432022,
+              "p99": 1.0775047934417303,
+              "minimum": 0.3750436782008603,
+              "maximum": 1.2221808767486435,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.4273098111152649,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -35,
+            "distal_center_delta": [
+              0.8013355731964111,
+              4.0978193283081055e-08,
+              0.258963942527771
+            ],
+            "deformation": {
+              "p01": 0.520721865434597,
+              "median": 0.9999998114202142,
+              "p99": 1.0902932252326467,
+              "minimum": 0.39038983548975786,
+              "maximum": 1.2597387339244601,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.42230626940727234,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -40,
+            "distal_center_delta": [
+              0.8977168202400208,
+              4.470348358154297e-08,
+              0.3340195417404175
+            ],
+            "deformation": {
+              "p01": 0.516913105065577,
+              "median": 0.9999999066437877,
+              "p99": 1.1030044741042977,
+              "minimum": 0.45305366206909525,
+              "maximum": 1.299676768446359,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.4172421991825104,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -45,
+            "distal_center_delta": [
+              0.9871900081634521,
+              1.862645149230957e-08,
+              0.4171900749206543
+            ],
+            "deformation": {
+              "p01": 0.5399221461523699,
+              "median": 0.999999892120532,
+              "p99": 1.1163333201326686,
+              "minimum": 0.48710965964253056,
+              "maximum": 1.3409056268601478,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.41155508160591125,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -50,
+            "distal_center_delta": [
+              1.069074034690857,
+              2.60770320892334e-08,
+              0.5078412294387817
+            ],
+            "deformation": {
+              "p01": 0.5787803751083397,
+              "median": 0.9999999133389865,
+              "p99": 1.140695127182407,
+              "minimum": 0.5023398954031858,
+              "maximum": 1.3825869096518832,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.4055629074573517,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -55,
+            "distal_center_delta": [
+              1.1427454948425293,
+              5.587935447692871e-08,
+              0.6052862405776978
+            ],
+            "deformation": {
+              "p01": 0.6089746473472437,
+              "median": 0.999999915644951,
+              "p99": 1.2071080773552605,
+              "minimum": 0.5017603202704417,
+              "maximum": 1.4246232140029431,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.39952552318573,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -60,
+            "distal_center_delta": [
+              1.2076443433761597,
+              6.705522537231445e-08,
+              0.7087807655334473
+            ],
+            "deformation": {
+              "p01": 0.6480201461373286,
+              "median": 0.9999999024612106,
+              "p99": 1.2535518411947884,
+              "minimum": 0.49120260432393775,
+              "maximum": 1.5266028762701707,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3928666114807129,
+            "contact_gate": true,
+            "safe_gate": true
+          }
+        ]
+      },
+      {
+        "bone": "UPPER_ARM.L",
+        "axis": 2,
+        "sign": 1,
+        "direction_label": "upper_arm",
+        "metric_safe_candidate_degrees": 45,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": 5,
+            "distal_center_delta": [
+              -0.1220807433128357,
+              1.4901161193847656e-08,
+              0.004454135894775391
+            ],
+            "deformation": {
+              "p01": 0.9873680854926241,
+              "median": 1.0000001487755479,
+              "p99": 1.1037483083643826,
+              "minimum": 0.9636533585052288,
+              "maximum": 1.17945293157493,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.44400620460510254,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 10,
+            "distal_center_delta": [
+              -0.24330681562423706,
+              7.450580596923828e-09,
+              0.019533932209014893
+            ],
+            "deformation": {
+              "p01": 0.9748897754221117,
+              "median": 1.0000001052754057,
+              "p99": 1.2097232933504567,
+              "minimum": 0.9276075891222678,
+              "maximum": 1.3628155641879056,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.4452958405017853,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 15,
+            "distal_center_delta": [
+              -0.36275261640548706,
+              -5.960464477539063e-08,
+              0.045122504234313965
+            ],
+            "deformation": {
+              "p01": 0.9625821360526821,
+              "median": 1.0000000853582383,
+              "p99": 1.3173666445764582,
+              "minimum": 0.8918828953204846,
+              "maximum": 1.5487279491073866,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.4465818405151367,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 20,
+            "distal_center_delta": [
+              -0.47951728105545044,
+              -3.3527612686157227e-08,
+              0.08102262020111084
+            ],
+            "deformation": {
+              "p01": 0.9507463338841519,
+              "median": 1.0000000736283532,
+              "p99": 1.4263856011346778,
+              "minimum": 0.8565581066547435,
+              "maximum": 1.7363917253929606,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.44786161184310913,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 25,
+            "distal_center_delta": [
+              -0.5927085280418396,
+              -2.2351741790771484e-08,
+              0.12696176767349243
+            ],
+            "deformation": {
+              "p01": 0.9408726581299162,
+              "median": 1.000000190424705,
+              "p99": 1.5362976061967446,
+              "minimum": 0.8217013651742007,
+              "maximum": 1.92544482008688,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.44905558228492737,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 30,
+            "distal_center_delta": [
+              -0.7014651894569397,
+              -7.450580596923828e-09,
+              0.18259572982788086
+            ],
+            "deformation": {
+              "p01": 0.9316355138093264,
+              "median": 1.000000124817202,
+              "p99": 1.647157046426535,
+              "minimum": 0.7874236359855514,
+              "maximum": 2.115550703456097,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.4499805271625519,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 35,
+            "distal_center_delta": [
+              -0.8049587607383728,
+              -7.450580596923828e-08,
+              0.24749255180358887
+            ],
+            "deformation": {
+              "p01": 0.922996383585158,
+              "median": 1.0000000638688913,
+              "p99": 1.759148451070061,
+              "minimum": 0.7538396424424014,
+              "maximum": 2.306612360105679,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.4509012997150421,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 40,
+            "distal_center_delta": [
+              -0.9024038910865784,
+              -2.2351741790771484e-08,
+              0.3211629390716553
+            ],
+            "deformation": {
+              "p01": 0.9152181307984101,
+              "median": 1.0000001008512034,
+              "p99": 1.869850202200432,
+              "minimum": 0.7210965081546675,
+              "maximum": 2.498532949958145,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.4518163800239563,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 45,
+            "distal_center_delta": [
+              -0.9930569529533386,
+              -7.450580596923828e-08,
+              0.40304648876190186
+            ],
+            "deformation": {
+              "p01": 0.9068894472982707,
+              "median": 1.0000001492066963,
+              "p99": 1.9801426017241197,
+              "minimum": 0.6893522436827487,
+              "maximum": 2.6913052711665184,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.45009636878967285,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 50,
+            "distal_center_delta": [
+              -1.0762217044830322,
+              -7.82310962677002e-08,
+              0.49252068996429443
+            ],
+            "deformation": {
+              "p01": 0.8964101864386271,
+              "median": 1.000000249403443,
+              "p99": 2.0900140323116285,
+              "minimum": 0.6588462110601707,
+              "maximum": 2.8848966812003694,
+              "non_finite": 0
+            },
+            "metric_gate": false,
+            "root_gap": 0.4469092786312103,
+            "contact_gate": true,
+            "safe_gate": false
+          }
+        ]
+      }
+    ],
+    "FOREARM_L_flexion": [
+      {
+        "bone": "FOREARM.L",
+        "axis": 0,
+        "sign": -1,
+        "direction_label": "forearm",
+        "metric_safe_candidate_degrees": 75,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": -5,
+            "distal_center_delta": [
+              0.0,
+              -0.0663905069231987,
+              -0.0005980134010314941
+            ],
+            "deformation": {
+              "p01": 0.9329527928373041,
+              "median": 0.999999987097725,
+              "p99": 1.067203165766796,
+              "minimum": 0.8110802848905144,
+              "maximum": 1.1896717512433308,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336801193654537,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -10,
+            "distal_center_delta": [
+              0.0,
+              -0.13258031010627747,
+              0.004597485065460205
+            ],
+            "deformation": {
+              "p01": 0.8661955689787196,
+              "median": 0.9999999885739733,
+              "p99": 1.134454961845183,
+              "minimum": 0.6240551815619748,
+              "maximum": 1.3795818323349425,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033368016593158245,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -15,
+            "distal_center_delta": [
+              0.0,
+              -0.19806556403636932,
+              0.015540778636932373
+            ],
+            "deformation": {
+              "p01": 0.7998816959833785,
+              "median": 0.9999999912728509,
+              "p99": 1.2018153517206345,
+              "minimum": 0.4419631547442364,
+              "maximum": 1.569453813870966,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336720634251833,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -20,
+            "distal_center_delta": [
+              0.0,
+              -0.26234766840934753,
+              0.03214997053146362
+            ],
+            "deformation": {
+              "p01": 0.7337798407510956,
+              "median": 1.0,
+              "p99": 1.2692032697968902,
+              "minimum": 0.2758342751469962,
+              "maximum": 1.7591244525039171,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033367909491062164,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -25,
+            "distal_center_delta": [
+              0.0,
+              -0.3249374330043793,
+              0.0542982816696167
+            ],
+            "deformation": {
+              "p01": 0.6677159809883566,
+              "median": 0.9999999956747904,
+              "p99": 1.3364673459350478,
+              "minimum": 0.1752173934871697,
+              "maximum": 1.9485109711939845,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336719935759902,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -30,
+            "distal_center_delta": [
+              0.0,
+              -0.38535863161087036,
+              0.0818178653717041
+            ],
+            "deformation": {
+              "p01": 0.6022373126325995,
+              "median": 1.0,
+              "p99": 1.4035223223265407,
+              "minimum": 0.16198476063992706,
+              "maximum": 2.1375311726758324,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033366745337843895,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -35,
+            "distal_center_delta": [
+              0.0,
+              -0.44315242767333984,
+              0.11449801921844482
+            ],
+            "deformation": {
+              "p01": 0.5376812224929146,
+              "median": 0.9999999643963586,
+              "p99": 1.4702721322472694,
+              "minimum": 0.16067486773557185,
+              "maximum": 2.3261388218843924,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336802124977112,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -40,
+            "distal_center_delta": [
+              0.0,
+              -0.4978771209716797,
+              0.15209150314331055
+            ],
+            "deformation": {
+              "p01": 0.5449563391823375,
+              "median": 1.0,
+              "p99": 1.5366379943647501,
+              "minimum": 0.16225911091675255,
+              "maximum": 2.514297993164549,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033367308788001537,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -45,
+            "distal_center_delta": [
+              0.0,
+              -0.5491170287132263,
+              0.194311261177063
+            ],
+            "deformation": {
+              "p01": 0.562817766659334,
+              "median": 0.9999999785361231,
+              "p99": 1.6025425727826157,
+              "minimum": 0.16436360088508614,
+              "maximum": 2.7019664941633517,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336915047839284,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -50,
+            "distal_center_delta": [
+              0.0,
+              -0.5964820981025696,
+              0.24083638191223145
+            ],
+            "deformation": {
+              "p01": 0.5687271327171134,
+              "median": 1.0,
+              "p99": 1.6679048559461211,
+              "minimum": 0.17595210934336938,
+              "maximum": 2.8891050709144848,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033369441516697407,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -55,
+            "distal_center_delta": [
+              0.0,
+              -0.63961261510849,
+              0.2913140058517456
+            ],
+            "deformation": {
+              "p01": 0.5870021746520248,
+              "median": 1.0,
+              "p99": 1.7326609711042218,
+              "minimum": 0.1734750400239956,
+              "maximum": 3.0756848997050708,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336449386551976,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -60,
+            "distal_center_delta": [
+              0.0,
+              -0.6781798601150513,
+              0.3453545570373535
+            ],
+            "deformation": {
+              "p01": 0.5805302752896311,
+              "median": 0.9999999997595903,
+              "p99": 1.7967735023677893,
+              "minimum": 0.19642305275963734,
+              "maximum": 3.261672891041617,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033367278520017862,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -65,
+            "distal_center_delta": [
+              0.0,
+              -0.7118892669677734,
+              0.4025536775588989
+            ],
+            "deformation": {
+              "p01": 0.5761722107165973,
+              "median": 1.0,
+              "p99": 1.8601365585012695,
+              "minimum": 0.18061565338466756,
+              "maximum": 3.4470277901492206,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033367318101227283,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -70,
+            "distal_center_delta": [
+              0.0,
+              -0.740485668182373,
+              0.4624762535095215
+            ],
+            "deformation": {
+              "p01": 0.5887244826392717,
+              "median": 1.0,
+              "p99": 1.922681504130571,
+              "minimum": 0.18861053884624798,
+              "maximum": 3.631712952756549,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033368351869285107,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -75,
+            "distal_center_delta": [
+              0.0,
+              -0.7637509107589722,
+              0.5246586799621582
+            ],
+            "deformation": {
+              "p01": 0.5791360786024098,
+              "median": 1.0,
+              "p99": 1.9861965676777182,
+              "minimum": 0.20884712090384863,
+              "maximum": 3.815684082602583,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033368770964443684,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -80,
+            "distal_center_delta": [
+              0.0,
+              -0.7815072536468506,
+              0.5886334180831909
+            ],
+            "deformation": {
+              "p01": 0.5790618218151581,
+              "median": 1.0,
+              "p99": 2.1402217791556883,
+              "minimum": 0.2129359350659637,
+              "maximum": 3.9988942655595126,
+              "non_finite": 0
+            },
+            "metric_gate": false,
+            "distal_gap": 0.003336701774969697,
+            "contact_gate": true,
+            "safe_gate": false
+          }
+        ]
+      },
+      {
+        "bone": "FOREARM.L",
+        "axis": 0,
+        "sign": 1,
+        "direction_label": "forearm",
+        "metric_safe_candidate_degrees": 75,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": 5,
+            "distal_center_delta": [
+              0.0,
+              0.06608614325523376,
+              0.006375253200531006
+            ],
+            "deformation": {
+              "p01": 0.9329536346169289,
+              "median": 0.9999999971654514,
+              "p99": 1.0672036160659848,
+              "minimum": 0.8110836020786232,
+              "maximum": 1.1896723217777025,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033367301803082228,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 10,
+            "distal_center_delta": [
+              0.0,
+              0.13136489689350128,
+              0.01848888397216797
+            ],
+            "deformation": {
+              "p01": 0.8661934053108784,
+              "median": 1.0,
+              "p99": 1.1344526461533466,
+              "minimum": 0.6240543842036039,
+              "maximum": 1.3795770629500526,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336796537041664,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 15,
+            "distal_center_delta": [
+              0.0,
+              0.19533957540988922,
+              0.03624647855758667
+            ],
+            "deformation": {
+              "p01": 0.7998805762228978,
+              "median": 0.9999999950153791,
+              "p99": 1.201816561774891,
+              "minimum": 0.4419673052267667,
+              "maximum": 1.5694469709008834,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033367653377354145,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 20,
+            "distal_center_delta": [
+              0.0,
+              0.25752297043800354,
+              0.05951136350631714
+            ],
+            "deformation": {
+              "p01": 0.7337858457047843,
+              "median": 0.9999999841785469,
+              "p99": 1.2692020245778823,
+              "minimum": 0.2758304475906906,
+              "maximum": 1.75912864318523,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336707130074501,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 25,
+            "distal_center_delta": [
+              0.0,
+              0.31744250655174255,
+              0.08810818195343018
+            ],
+            "deformation": {
+              "p01": 0.6677195937425403,
+              "median": 0.9999999968128948,
+              "p99": 1.3364669584900337,
+              "minimum": 0.17521866825041166,
+              "maximum": 1.9485123011187013,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336680121719837,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 30,
+            "distal_center_delta": [
+              0.0,
+              0.3746413290500641,
+              0.12181705236434937
+            ],
+            "deformation": {
+              "p01": 0.6022377652494315,
+              "median": 1.0,
+              "p99": 1.403518381559915,
+              "minimum": 0.16198383381797277,
+              "maximum": 2.137535820609684,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336474299430847,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 35,
+            "distal_center_delta": [
+              0.0,
+              0.4286847710609436,
+              0.16038501262664795
+            ],
+            "deformation": {
+              "p01": 0.5376813174237689,
+              "median": 0.9999999714246158,
+              "p99": 1.4702719698070186,
+              "minimum": 0.1606760186585171,
+              "maximum": 2.3261454328884255,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336552996188402,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 40,
+            "distal_center_delta": [
+              0.0,
+              0.4791604280471802,
+              0.20351433753967285
+            ],
+            "deformation": {
+              "p01": 0.5449561450718304,
+              "median": 1.0,
+              "p99": 1.5366373926389554,
+              "minimum": 0.16225979803939877,
+              "maximum": 2.5142978865080052,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336692228913307,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 45,
+            "distal_center_delta": [
+              0.0,
+              0.5256853699684143,
+              0.2508803606033325
+            ],
+            "deformation": {
+              "p01": 0.5628134212062683,
+              "median": 0.999999997778452,
+              "p99": 1.602539233832057,
+              "minimum": 0.16436656233370403,
+              "maximum": 2.701958842521843,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336898982524872,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 50,
+            "distal_center_delta": [
+              0.0,
+              0.5679041743278503,
+              0.3021199703216553
+            ],
+            "deformation": {
+              "p01": 0.5687275324585301,
+              "median": 1.0,
+              "p99": 1.6679000644661606,
+              "minimum": 0.1759548386558818,
+              "maximum": 2.889102211953183,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336423309519887,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 55,
+            "distal_center_delta": [
+              0.0,
+              0.6054986715316772,
+              0.35684406757354736
+            ],
+            "deformation": {
+              "p01": 0.5870009158728411,
+              "median": 1.0,
+              "p99": 1.73265990994811,
+              "minimum": 0.173480073954054,
+              "maximum": 3.0756839982238064,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033367848955094814,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 60,
+            "distal_center_delta": [
+              0.0,
+              0.6381800174713135,
+              0.4146389961242676
+            ],
+            "deformation": {
+              "p01": 0.5805266524899695,
+              "median": 1.0,
+              "p99": 1.7967720747811655,
+              "minimum": 0.19642566786907445,
+              "maximum": 3.2616798269546963,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033369441516697407,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 65,
+            "distal_center_delta": [
+              0.0,
+              0.6656992435455322,
+              0.47505903244018555
+            ],
+            "deformation": {
+              "p01": 0.5761745543590642,
+              "median": 1.0,
+              "p99": 1.8601335602687592,
+              "minimum": 0.1806142827121626,
+              "maximum": 3.4470335181269216,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336559748277068,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 70,
+            "distal_center_delta": [
+              0.0,
+              0.6878475546836853,
+              0.5376476049423218
+            ],
+            "deformation": {
+              "p01": 0.5887248378118527,
+              "median": 1.0,
+              "p99": 1.922678139295054,
+              "minimum": 0.18861453672861606,
+              "maximum": 3.6317168076959137,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336436813697219,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 75,
+            "distal_center_delta": [
+              0.0,
+              0.7044562697410583,
+              0.601932168006897
+            ],
+            "deformation": {
+              "p01": 0.5791366632655206,
+              "median": 1.0,
+              "p99": 1.986195547900241,
+              "minimum": 0.2088462177054176,
+              "maximum": 3.8156853404388515,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336413996294141,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 80,
+            "distal_center_delta": [
+              0.0,
+              0.715399444103241,
+              0.6674175262451172
+            ],
+            "deformation": {
+              "p01": 0.5790597523483716,
+              "median": 1.0,
+              "p99": 2.140221015709521,
+              "minimum": 0.21293372603343894,
+              "maximum": 3.9988958266357093,
+              "non_finite": 0
+            },
+            "metric_gate": false,
+            "distal_gap": 0.0033370868768543005,
+            "contact_gate": true,
+            "safe_gate": false
+          }
+        ]
+      }
+    ],
+    "WRIST_L_rotation": [
+      {
+        "bone": "WRIST.L",
+        "axis": 0,
+        "sign": -1,
+        "direction_label": "wrist",
+        "metric_safe_candidate_degrees": 45,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": -5,
+            "distal_center_delta": [
+              -0.0006044507026672363,
+              -0.007974889129400253,
+              -0.00321042537689209
+            ],
+            "deformation": {
+              "p01": 0.9484303099842097,
+              "median": 1.0,
+              "p99": 1.0489910039070445,
+              "minimum": 0.9137729150889571,
+              "maximum": 1.0893252323513787,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033276421017944813,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -10,
+            "distal_center_delta": [
+              -0.0012784600257873535,
+              -0.016193576157093048,
+              -0.005711019039154053
+            ],
+            "deformation": {
+              "p01": 0.9008526575851759,
+              "median": 1.0,
+              "p99": 1.0997605962228931,
+              "minimum": 0.8374308572224702,
+              "maximum": 1.1839611179126628,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003318844363093376,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -15,
+            "distal_center_delta": [
+              -0.0020189881324768066,
+              -0.024593450129032135,
+              -0.0074838995933532715
+            ],
+            "deformation": {
+              "p01": 0.8579693842053295,
+              "median": 1.0,
+              "p99": 1.1522925906722403,
+              "minimum": 0.7740107676398716,
+              "maximum": 1.2827695361951137,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003309925552457571,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -20,
+            "distal_center_delta": [
+              -0.0028184056282043457,
+              -0.03311051428318024,
+              -0.008516848087310791
+            ],
+            "deformation": {
+              "p01": 0.8172978173937901,
+              "median": 1.0,
+              "p99": 1.2066209628832751,
+              "minimum": 0.7270399597744885,
+              "maximum": 1.3848589427650038,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033012547064572573,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -25,
+            "distal_center_delta": [
+              -0.003672778606414795,
+              -0.04168003797531128,
+              -0.008802533149719238
+            ],
+            "deformation": {
+              "p01": 0.7799179092900053,
+              "median": 1.0,
+              "p99": 1.26225865072971,
+              "minimum": 0.6884954843551959,
+              "maximum": 1.4895654223664831,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0028075536247342825,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -30,
+            "distal_center_delta": [
+              -0.00457531213760376,
+              -0.0502367727458477,
+              -0.008338510990142822
+            ],
+            "deformation": {
+              "p01": 0.7540976876197234,
+              "median": 1.0,
+              "p99": 1.3189747897028339,
+              "minimum": 0.6487813633612658,
+              "maximum": 1.596398512836102,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0013449906837195158,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -35,
+            "distal_center_delta": [
+              -0.005521714687347412,
+              -0.058715563267469406,
+              -0.007127046585083008
+            ],
+            "deformation": {
+              "p01": 0.7361593580920867,
+              "median": 1.0,
+              "p99": 1.3765699950653227,
+              "minimum": 0.6200353351682328,
+              "maximum": 1.7049947572961783,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003276542294770479,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -40,
+            "distal_center_delta": [
+              -0.006500303745269775,
+              -0.06705185025930405,
+              -0.005179107189178467
+            ],
+            "deformation": {
+              "p01": 0.730865965554919,
+              "median": 1.0,
+              "p99": 1.4348625739420673,
+              "minimum": 0.6013884237937407,
+              "maximum": 1.815075958567516,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003268617670983076,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -45,
+            "distal_center_delta": [
+              -0.007504880428314209,
+              -0.07518260180950165,
+              -0.002507448196411133
+            ],
+            "deformation": {
+              "p01": 0.7319147710641867,
+              "median": 1.0,
+              "p99": 1.4936948361174704,
+              "minimum": 0.5895657937942382,
+              "maximum": 1.9264441402599264,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.002532016485929489,
+            "contact_gate": true,
+            "safe_gate": true
+          }
+        ]
+      },
+      {
+        "bone": "WRIST.L",
+        "axis": 0,
+        "sign": 1,
+        "direction_label": "wrist",
+        "metric_safe_candidate_degrees": 45,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": 5,
+            "distal_center_delta": [
+              0.0005228519439697266,
+              0.007670532912015915,
+              0.0038886070251464844
+            ],
+            "deformation": {
+              "p01": 0.9526068189848975,
+              "median": 1.0,
+              "p99": 1.0544792339142106,
+              "minimum": 0.9175654460929394,
+              "maximum": 1.0937252676612332,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033459661062806845,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 10,
+            "distal_center_delta": [
+              0.0009687542915344238,
+              0.014978181570768356,
+              0.008430957794189453
+            ],
+            "deformation": {
+              "p01": 0.9070308094402297,
+              "median": 1.0,
+              "p99": 1.1108201367442034,
+              "minimum": 0.8441058346425399,
+              "maximum": 1.1931470143899714,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033551331143826246,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 15,
+            "distal_center_delta": [
+              0.001330256462097168,
+              0.02186758443713188,
+              0.013594090938568115
+            ],
+            "deformation": {
+              "p01": 0.8636529141928078,
+              "median": 1.0,
+              "p99": 1.1689471428535123,
+              "minimum": 0.7822558302702017,
+              "maximum": 1.2969489035987722,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003364433068782091,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 20,
+            "distal_center_delta": [
+              0.0016055107116699219,
+              0.028286021202802658,
+              0.019336163997650146
+            ],
+            "deformation": {
+              "p01": 0.8263969234512301,
+              "median": 1.0,
+              "p99": 1.227854191390751,
+              "minimum": 0.7350777417037978,
+              "maximum": 1.4041587273402494,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033737525809556246,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 25,
+            "distal_center_delta": [
+              0.0017946958541870117,
+              0.03418472036719322,
+              0.02561652660369873
+            ],
+            "deformation": {
+              "p01": 0.7887974690877312,
+              "median": 1.0,
+              "p99": 1.2870985911762463,
+              "minimum": 0.7049121515948533,
+              "maximum": 1.5140773147191016,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.00300412904471159,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 30,
+            "distal_center_delta": [
+              0.0018901824951171875,
+              0.039518799632787704,
+              0.03238189220428467
+            ],
+            "deformation": {
+              "p01": 0.7632420621126788,
+              "median": 1.0,
+              "p99": 1.3470195446207045,
+              "minimum": 0.6646645134368773,
+              "maximum": 1.6261766530234059,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0029475423507392406,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 35,
+            "distal_center_delta": [
+              0.0018990635871887207,
+              0.044247861951589584,
+              0.03958570957183838
+            ],
+            "deformation": {
+              "p01": 0.7453056696101039,
+              "median": 1.0,
+              "p99": 1.407643354080713,
+              "minimum": 0.6334020287969682,
+              "maximum": 1.7400798428885123,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0008543767035007477,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 40,
+            "distal_center_delta": [
+              0.0018142461776733398,
+              0.048335593193769455,
+              0.04717069864273071
+            ],
+            "deformation": {
+              "p01": 0.7406096519652662,
+              "median": 1.0,
+              "p99": 1.4688174500413258,
+              "minimum": 0.6125274260520958,
+              "maximum": 1.8554935331854803,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003411431098356843,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 45,
+            "distal_center_delta": [
+              0.0016417503356933594,
+              0.051751088351011276,
+              0.055080533027648926
+            ],
+            "deformation": {
+              "p01": 0.7429790768326808,
+              "median": 1.0,
+              "p99": 1.530393237025974,
+              "minimum": 0.6000350458415336,
+              "maximum": 1.9722129941923783,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0034205543342977762,
+            "contact_gate": true,
+            "safe_gate": true
+          }
+        ]
+      }
+    ],
+    "THIGH_L_forward_back": [
+      {
+        "bone": "THIGH.L",
+        "axis": 0,
+        "sign": -1,
+        "direction_label": "thigh",
+        "metric_safe_candidate_degrees": 20,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": -5,
+            "distal_center_delta": [
+              0.0,
+              -0.04444935917854309,
+              0.0019408464431762695
+            ],
+            "deformation": {
+              "p01": 0.8141720269743333,
+              "median": 1.0,
+              "p99": 1.1873799815991004,
+              "minimum": 0.7624947094972471,
+              "maximum": 1.2374592797303758,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3803599774837494,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -10,
+            "distal_center_delta": [
+              0.0,
+              -0.088560551404953,
+              0.007748275995254517
+            ],
+            "deformation": {
+              "p01": 0.6313698011199917,
+              "median": 1.0,
+              "p99": 1.3756310399133183,
+              "minimum": 0.5250014232190826,
+              "maximum": 1.4748164281770568,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3681780695915222,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -15,
+            "distal_center_delta": [
+              0.0,
+              -0.13199780881404877,
+              0.01737797260284424
+            ],
+            "deformation": {
+              "p01": 0.45530783050242774,
+              "median": 1.0,
+              "p99": 1.564346755765884,
+              "minimum": 0.28760205314238,
+              "maximum": 1.7120106972054885,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3448227345943451,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -20,
+            "distal_center_delta": [
+              0.0,
+              -0.1744302660226822,
+              0.03075680136680603
+            ],
+            "deformation": {
+              "p01": 0.29851811096087977,
+              "median": 1.0,
+              "p99": 1.7532734970820458,
+              "minimum": 0.05035045909304907,
+              "maximum": 1.9489731889652604,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3249576985836029,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -25,
+            "distal_center_delta": [
+              0.0,
+              -0.2155352085828781,
+              0.047783151268959045
+            ],
+            "deformation": {
+              "p01": 0.21129402316268042,
+              "median": 1.0,
+              "p99": 1.9422258936070649,
+              "minimum": 0.11740277823898825,
+              "maximum": 2.185623843983671,
+              "non_finite": 0
+            },
+            "metric_gate": false,
+            "root_gap": 0.3083091080188751,
+            "contact_gate": true,
+            "safe_gate": false
+          }
+        ]
+      },
+      {
+        "bone": "THIGH.L",
+        "axis": 0,
+        "sign": 1,
+        "direction_label": "thigh",
+        "metric_safe_candidate_degrees": 20,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": 5,
+            "distal_center_delta": [
+              0.0,
+              0.04444942995905876,
+              0.0019408762454986572
+            ],
+            "deformation": {
+              "p01": 0.814172978676587,
+              "median": 1.0,
+              "p99": 1.1873791940246132,
+              "minimum": 0.7624947094982384,
+              "maximum": 1.2374592797303758,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3803599774837494,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 10,
+            "distal_center_delta": [
+              0.0,
+              0.08856052905321121,
+              0.007748126983642578
+            ],
+            "deformation": {
+              "p01": 0.6313693860910645,
+              "median": 1.0,
+              "p99": 1.375630819873878,
+              "minimum": 0.5250014232181346,
+              "maximum": 1.474816428178281,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3681780993938446,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 15,
+            "distal_center_delta": [
+              0.0,
+              0.13199765980243683,
+              0.01737801730632782
+            ],
+            "deformation": {
+              "p01": 0.4553083542240991,
+              "median": 1.0,
+              "p99": 1.5643463471697565,
+              "minimum": 0.28760205314238,
+              "maximum": 1.7120106972054885,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.34482282400131226,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 20,
+            "distal_center_delta": [
+              0.0,
+              0.17443011701107025,
+              0.030756786465644836
+            ],
+            "deformation": {
+              "p01": 0.29852021326169675,
+              "median": 1.0,
+              "p99": 1.7532731495404876,
+              "minimum": 0.05035045909304907,
+              "maximum": 1.9489731889661865,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.32495763897895813,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 25,
+            "distal_center_delta": [
+              0.0,
+              0.2155352681875229,
+              0.0477832555770874
+            ],
+            "deformation": {
+              "p01": 0.21129253498502076,
+              "median": 1.0,
+              "p99": 1.9422254487775736,
+              "minimum": 0.11740277823898825,
+              "maximum": 2.185623843983671,
+              "non_finite": 0
+            },
+            "metric_gate": false,
+            "root_gap": 0.3083001375198364,
+            "contact_gate": true,
+            "safe_gate": false
+          }
+        ]
+      }
+    ],
+    "SHIN_L_flexion": [
+      {
+        "bone": "SHIN.L",
+        "axis": 0,
+        "sign": -1,
+        "direction_label": "shin",
+        "metric_safe_candidate_degrees": 10,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": -5,
+            "distal_center_delta": [
+              0.0,
+              -0.02963290922343731,
+              0.0012938976287841797
+            ],
+            "deformation": {
+              "p01": 0.7335299579224206,
+              "median": 1.0,
+              "p99": 1.2664885182542953,
+              "minimum": 0.7200506692242188,
+              "maximum": 1.279969539349892,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.007762099150568247,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -10,
+            "distal_center_delta": [
+              0.0,
+              -0.0590403750538826,
+              0.005165457725524902
+            ],
+            "deformation": {
+              "p01": 0.4674180808836915,
+              "median": 1.0,
+              "p99": 1.5329405611019569,
+              "minimum": 0.4405089110466053,
+              "maximum": 1.5599036855528388,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.007762065157294273,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -15,
+            "distal_center_delta": [
+              0.0,
+              -0.08799850195646286,
+              0.011585339903831482
+            ],
+            "deformation": {
+              "p01": 0.2041832911837002,
+              "median": 1.0,
+              "p99": 1.799379803478221,
+              "minimum": 0.16495926157740615,
+              "maximum": 1.8398281484825736,
+              "non_finite": 0
+            },
+            "metric_gate": false,
+            "distal_gap": 0.007762120105326176,
+            "contact_gate": true,
+            "safe_gate": false
+          }
+        ]
+      },
+      {
+        "bone": "SHIN.L",
+        "axis": 0,
+        "sign": 1,
+        "direction_label": "shin",
+        "metric_safe_candidate_degrees": 10,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": 5,
+            "distal_center_delta": [
+              0.0,
+              0.02963293343782425,
+              0.0012939125299453735
+            ],
+            "deformation": {
+              "p01": 0.7335299579224206,
+              "median": 1.0,
+              "p99": 1.2664885182542953,
+              "minimum": 0.7200506692242188,
+              "maximum": 1.279969539349892,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.007762114051729441,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 10,
+            "distal_center_delta": [
+              0.0,
+              0.05904034152626991,
+              0.005165457725524902
+            ],
+            "deformation": {
+              "p01": 0.4674180808836915,
+              "median": 1.0,
+              "p99": 1.5329405611019569,
+              "minimum": 0.4405089110466053,
+              "maximum": 1.5599036855528388,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.007762061897665262,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 15,
+            "distal_center_delta": [
+              0.0,
+              0.0879984200000763,
+              0.01158536970615387
+            ],
+            "deformation": {
+              "p01": 0.2041832911837002,
+              "median": 1.0,
+              "p99": 1.799379803478221,
+              "minimum": 0.16495926157740615,
+              "maximum": 1.8398281484825736,
+              "non_finite": 0
+            },
+            "metric_gate": false,
+            "distal_gap": 0.007762120570987463,
+            "contact_gate": true,
+            "safe_gate": false
+          }
+        ]
+      }
+    ],
+    "FOOT_L_pitch": [
+      {
+        "bone": "FOOT.L",
+        "axis": 0,
+        "sign": -1,
+        "direction_label": "foot",
+        "metric_safe_candidate_degrees": 45,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": -5,
+            "distal_center_delta": [
+              0.0,
+              -0.00522933853790164,
+              0.00022843480110168457
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.000003648286407,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.006441070698201656,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -10,
+            "distal_center_delta": [
+              0.0,
+              -0.010418863967061043,
+              0.0009117573499679565
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.000003648286407,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.00239374116063118,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -15,
+            "distal_center_delta": [
+              0.0,
+              -0.015529152937233448,
+              0.002044588327407837
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.000003648286407,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.002048495225608349,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -20,
+            "distal_center_delta": [
+              0.0,
+              -0.020521163940429688,
+              0.0036185383796691895
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.000003648286407,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.011289747431874275,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -25,
+            "distal_center_delta": [
+              0.0,
+              -0.025357063859701157,
+              0.005621775984764099
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.000003648286407,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.02479596808552742,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -30,
+            "distal_center_delta": [
+              0.0,
+              -0.029999935999512672,
+              0.008038625121116638
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.000003648286407,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.03820406273007393,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -35,
+            "distal_center_delta": [
+              0.0,
+              -0.034414537250995636,
+              0.010850906372070312
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.000003648286407,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.02107025310397148,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -40,
+            "distal_center_delta": [
+              0.0,
+              -0.038567204028367996,
+              0.01403743028640747
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.000003648286407,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0025078135076910257,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -45,
+            "distal_center_delta": [
+              0.0,
+              -0.04242631420493126,
+              0.017573773860931396
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.000003648286407,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0032855742610991,
+            "contact_gate": true,
+            "safe_gate": true
+          }
+        ]
+      },
+      {
+        "bone": "FOOT.L",
+        "axis": 0,
+        "sign": 1,
+        "direction_label": "foot",
+        "metric_safe_candidate_degrees": 45,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": 5,
+            "distal_center_delta": [
+              0.0,
+              0.005229360423982143,
+              0.00022839009761810303
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.000003648286407,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.006441008765250444,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 10,
+            "distal_center_delta": [
+              0.0,
+              0.010418863035738468,
+              0.0009116232395172119
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.000003648286407,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0023937555961310863,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 15,
+            "distal_center_delta": [
+              0.0,
+              0.015529104508459568,
+              0.0020446479320526123
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.000003648286407,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0020486500579863787,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 20,
+            "distal_center_delta": [
+              0.0,
+              0.020521141588687897,
+              0.003618672490119934
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.000003648286407,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.011289717629551888,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 25,
+            "distal_center_delta": [
+              0.0,
+              0.025357021018862724,
+              0.005621671676635742
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.000003648286407,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.02479599602520466,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 30,
+            "distal_center_delta": [
+              0.0,
+              0.02999991551041603,
+              0.008038654923439026
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.000003648286407,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.038204047828912735,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 35,
+            "distal_center_delta": [
+              0.0,
+              0.034414514899253845,
+              0.010850951075553894
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.000003648286407,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.021070223301649094,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 40,
+            "distal_center_delta": [
+              0.0,
+              0.03856717050075531,
+              0.014037445187568665
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.000003648286407,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.002507865661755204,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 45,
+            "distal_center_delta": [
+              0.0,
+              0.042426299303770065,
+              0.01757374405860901
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.000003648286407,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0032855328172445297,
+            "contact_gate": true,
+            "safe_gate": true
+          }
+        ]
+      }
+    ],
+    "HEAD_L_yaw": [
+      {
+        "bone": "HEAD",
+        "axis": 1,
+        "sign": -1,
+        "direction_label": "head",
+        "metric_safe_candidate_degrees": 30,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": -5,
+            "distal_center_delta": [
+              5.960464477539063e-08,
+              -3.175657070642046e-09,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -10,
+            "distal_center_delta": [
+              6.326886392571396e-08,
+              -5.019980875431429e-08,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -15,
+            "distal_center_delta": [
+              3.0046603427535956e-08,
+              -2.619917083279688e-08,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -20,
+            "distal_center_delta": [
+              4.812342169202566e-08,
+              -1.17987873693437e-07,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -25,
+            "distal_center_delta": [
+              3.224513633881543e-08,
+              4.763485605963069e-09,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -30,
+            "distal_center_delta": [
+              1.4412599114166369e-08,
+              3.566507089658444e-08,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          }
+        ]
+      },
+      {
+        "bone": "HEAD",
+        "axis": 1,
+        "sign": 1,
+        "direction_label": "head",
+        "metric_safe_candidate_degrees": 30,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": 5,
+            "distal_center_delta": [
+              1.1163656665758026e-07,
+              -1.0504097147645552e-08,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 10,
+            "distal_center_delta": [
+              7.841430260668858e-08,
+              -2.0397489919332656e-08,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 15,
+            "distal_center_delta": [
+              2.591824852515856e-07,
+              -9.64911173184646e-09,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 20,
+            "distal_center_delta": [
+              1.8027961345978838e-07,
+              4.824556043558914e-08,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 25,
+            "distal_center_delta": [
+              5.496329791299104e-08,
+              7.169656868200036e-08,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 30,
+            "distal_center_delta": [
+              -3.7619322768023267e-08,
+              -3.920715130334429e-08,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          }
+        ]
+      }
+    ],
+    "UPPER_ARM_R_forward_back": [
+      {
+        "bone": "UPPER_ARM.R",
+        "axis": 0,
+        "sign": -1,
+        "direction_label": "upper_arm",
+        "metric_safe_candidate_degrees": 60,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": -5,
+            "distal_center_delta": [
+              0.0,
+              -0.12219150364398956,
+              0.0018388628959655762
+            ],
+            "deformation": {
+              "p01": 0.9418769909877235,
+              "median": 0.9999999538974391,
+              "p99": 1.0516314927962884,
+              "minimum": 0.9010777496071793,
+              "maximum": 1.0982508443763503,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.4399075210094452,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -10,
+            "distal_center_delta": [
+              0.0,
+              -0.24375754594802856,
+              0.014324545860290527
+            ],
+            "deformation": {
+              "p01": 0.8843111157499812,
+              "median": 0.99999995060655,
+              "p99": 1.1038485530204394,
+              "minimum": 0.8100663268872977,
+              "maximum": 1.2006397867690364,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3742673397064209,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -15,
+            "distal_center_delta": [
+              0.0,
+              -0.36377233266830444,
+              0.03735697269439697
+            ],
+            "deformation": {
+              "p01": 0.8288243839268702,
+              "median": 0.9999999156098511,
+              "p99": 1.156912273476968,
+              "minimum": 0.7239380926274945,
+              "maximum": 1.3061723862556778,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3289043605327606,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -20,
+            "distal_center_delta": [
+              0.0,
+              -0.4813239872455597,
+              0.07076174020767212
+            ],
+            "deformation": {
+              "p01": 0.7772543615087562,
+              "median": 0.9999999033333686,
+              "p99": 1.2105478008596935,
+              "minimum": 0.6470709850062806,
+              "maximum": 1.4141340951295118,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3139060139656067,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -25,
+            "distal_center_delta": [
+              0.0,
+              -0.5955171585083008,
+              0.11428433656692505
+            ],
+            "deformation": {
+              "p01": 0.7247520801514711,
+              "median": 1.0,
+              "p99": 1.2648183384395804,
+              "minimum": 0.5825923008982086,
+              "maximum": 1.5240232915505123,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3313699960708618,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -30,
+            "distal_center_delta": [
+              0.0,
+              -0.7054808139801025,
+              0.1675938367843628
+            ],
+            "deformation": {
+              "p01": 0.673255301880838,
+              "median": 0.9999999698806545,
+              "p99": 1.3196740409430143,
+              "minimum": 0.535421772780816,
+              "maximum": 1.6354270011935408,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3702114522457123,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -35,
+            "distal_center_delta": [
+              0.0,
+              -0.8103816509246826,
+              0.23028528690338135
+            ],
+            "deformation": {
+              "p01": 0.6390657256122032,
+              "median": 0.9999998484383266,
+              "p99": 1.3749926367159309,
+              "minimum": 0.5060786068731161,
+              "maximum": 1.7481033690317813,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3450244963169098,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -40,
+            "distal_center_delta": [
+              0.0,
+              -0.9094178080558777,
+              0.30188095569610596
+            ],
+            "deformation": {
+              "p01": 0.6371267054467231,
+              "median": 0.9999999142599706,
+              "p99": 1.4307094709417145,
+              "minimum": 0.48992060268076915,
+              "maximum": 1.8618256400823705,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3192363679409027,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -45,
+            "distal_center_delta": [
+              0.0,
+              -1.0018377304077148,
+              0.3818330764770508
+            ],
+            "deformation": {
+              "p01": 0.6299624287480432,
+              "median": 0.9999999164202209,
+              "p99": 1.4872504193284661,
+              "minimum": 0.4784556065100271,
+              "maximum": 1.9764188985953632,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.2897723317146301,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -50,
+            "distal_center_delta": [
+              0.0,
+              -1.0869379043579102,
+              0.4695403575897217
+            ],
+            "deformation": {
+              "p01": 0.6265073634025524,
+              "median": 1.0000000181913777,
+              "p99": 1.544110135786132,
+              "minimum": 0.4555790559026793,
+              "maximum": 2.0918085323870246,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.2583291232585907,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -55,
+            "distal_center_delta": [
+              0.0,
+              -1.1640701293945312,
+              0.5643279552459717
+            ],
+            "deformation": {
+              "p01": 0.6473698833051275,
+              "median": 0.9999999874431016,
+              "p99": 1.6012426813129073,
+              "minimum": 0.4185277970758779,
+              "maximum": 2.207872132698708,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.22420251369476318,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -60,
+            "distal_center_delta": [
+              0.0,
+              -1.2326476573944092,
+              0.6654773950576782
+            ],
+            "deformation": {
+              "p01": 0.6640908414056803,
+              "median": 0.999999936136452,
+              "p99": 1.6586010664784463,
+              "minimum": 0.38826868488103683,
+              "maximum": 2.3245647751238274,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.18778467178344727,
+            "contact_gate": true,
+            "safe_gate": true
+          }
+        ]
+      },
+      {
+        "bone": "UPPER_ARM.R",
+        "axis": 0,
+        "sign": 1,
+        "direction_label": "upper_arm",
+        "metric_safe_candidate_degrees": 60,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": 5,
+            "distal_center_delta": [
+              0.0,
+              0.12188716232776642,
+              0.008810818195343018
+            ],
+            "deformation": {
+              "p01": 0.9493654431776255,
+              "median": 0.9999999876776623,
+              "p99": 1.0586084009326315,
+              "minimum": 0.9072856314958562,
+              "maximum": 1.1051024442452555,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.39948928356170654,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 10,
+            "distal_center_delta": [
+              0.0,
+              0.2425423115491867,
+              0.028216063976287842
+            ],
+            "deformation": {
+              "p01": 0.8994636543095191,
+              "median": 1.0,
+              "p99": 1.1177374601329702,
+              "minimum": 0.8220802915681236,
+              "maximum": 1.2147434209994397,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3408186137676239,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 15,
+            "distal_center_delta": [
+              0.0,
+              0.3610471487045288,
+              0.05806148052215576
+            ],
+            "deformation": {
+              "p01": 0.8517185408716434,
+              "median": 0.9999999822921347,
+              "p99": 1.1772854629114358,
+              "minimum": 0.7470327280284701,
+              "maximum": 1.3277660369018995,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3060757517814636,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 20,
+            "distal_center_delta": [
+              0.0,
+              0.47649961709976196,
+              0.09812259674072266
+            ],
+            "deformation": {
+              "p01": 0.8059937879879802,
+              "median": 0.9999999288867787,
+              "p99": 1.2371361157411058,
+              "minimum": 0.6791024965524735,
+              "maximum": 1.443337881290973,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3042643070220947,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 25,
+            "distal_center_delta": [
+              0.0,
+              0.5880205035209656,
+              0.14809346199035645
+            ],
+            "deformation": {
+              "p01": 0.7606457175141615,
+              "median": 0.9999999989366957,
+              "p99": 1.2974438687590304,
+              "minimum": 0.6154291376817012,
+              "maximum": 1.5609110225463618,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.33572959899902344,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 30,
+            "distal_center_delta": [
+              0.0,
+              0.6947632431983948,
+              0.20759475231170654
+            ],
+            "deformation": {
+              "p01": 0.7170664304795378,
+              "median": 1.0000000297182883,
+              "p99": 1.3589643857256497,
+              "minimum": 0.5635871024549514,
+              "maximum": 1.6800251915837645,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3551240563392639,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 35,
+            "distal_center_delta": [
+              0.0,
+              0.7959133982658386,
+              0.2761707305908203
+            ],
+            "deformation": {
+              "p01": 0.6742985834703071,
+              "median": 1.0000000092150756,
+              "p99": 1.4211978007599728,
+              "minimum": 0.5269341455896883,
+              "maximum": 1.8003751078498664,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.33091506361961365,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 40,
+            "distal_center_delta": [
+              0.0,
+              0.8907016515731812,
+              0.35330355167388916
+            ],
+            "deformation": {
+              "p01": 0.6492319728109558,
+              "median": 1.0,
+              "p99": 1.4832019111307957,
+              "minimum": 0.5062287313307724,
+              "maximum": 1.9217553450570473,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3081258535385132,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 45,
+            "distal_center_delta": [
+              0.0,
+              0.9784061312675476,
+              0.4384019374847412
+            ],
+            "deformation": {
+              "p01": 0.654821098863215,
+              "median": 1.0000000229662038,
+              "p99": 1.5463416904473979,
+              "minimum": 0.4948063063105451,
+              "maximum": 2.0439638837027743,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.27801835536956787,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 50,
+            "distal_center_delta": [
+              0.0,
+              1.0583621263504028,
+              0.5308240652084351
+            ],
+            "deformation": {
+              "p01": 0.6526946577303783,
+              "median": 1.0000000782695668,
+              "p99": 1.6097603693366578,
+              "minimum": 0.48737540523811185,
+              "maximum": 2.166887686217096,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.25046107172966003,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 55,
+            "distal_center_delta": [
+              0.0,
+              1.129955768585205,
+              0.629859447479248
+            ],
+            "deformation": {
+              "p01": 0.6551025550438276,
+              "median": 1.0000000301164633,
+              "p99": 1.6726527232428452,
+              "minimum": 0.48013552771259804,
+              "maximum": 2.290413958860315,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.21475736796855927,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 60,
+            "distal_center_delta": [
+              0.0,
+              1.1926473379135132,
+              0.7347589731216431
+            ],
+            "deformation": {
+              "p01": 0.6504367593031926,
+              "median": 0.9999999602868386,
+              "p99": 1.7346067430866587,
+              "minimum": 0.4437564345815485,
+              "maximum": 2.414471723795702,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.18272067606449127,
+            "contact_gate": true,
+            "safe_gate": true
+          }
+        ]
+      }
+    ],
+    "UPPER_ARM_R_outward_inward": [
+      {
+        "bone": "UPPER_ARM.R",
+        "axis": 2,
+        "sign": -1,
+        "direction_label": "upper_arm",
+        "metric_safe_candidate_degrees": 45,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": -5,
+            "distal_center_delta": [
+              0.12207555770874023,
+              7.450580596923828e-09,
+              0.0044536590576171875
+            ],
+            "deformation": {
+              "p01": 0.9873663517235107,
+              "median": 1.0000001151938958,
+              "p99": 1.1037445649571995,
+              "minimum": 0.9636547192910272,
+              "maximum": 1.1794531753424746,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.4440067708492279,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -10,
+            "distal_center_delta": [
+              0.24329805374145508,
+              0.0,
+              0.01953345537185669
+            ],
+            "deformation": {
+              "p01": 0.9748884184087334,
+              "median": 1.0000000294949647,
+              "p99": 1.2097271873239799,
+              "minimum": 0.9276088976320602,
+              "maximum": 1.3628146861485544,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.44529610872268677,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -15,
+            "distal_center_delta": [
+              0.3627464771270752,
+              -1.4901161193847656e-08,
+              0.045120835304260254
+            ],
+            "deformation": {
+              "p01": 0.9625808791788275,
+              "median": 1.0000000348040814,
+              "p99": 1.3173672391774423,
+              "minimum": 0.8918841529718365,
+              "maximum": 1.5487214811875567,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.44658204913139343,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -20,
+            "distal_center_delta": [
+              0.47951197624206543,
+              1.862645149230957e-08,
+              0.08102250099182129
+            ],
+            "deformation": {
+              "p01": 0.9507443127760058,
+              "median": 1.0000001225181565,
+              "p99": 1.426386304625926,
+              "minimum": 0.8565593147206753,
+              "maximum": 1.736390041804884,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.44786185026168823,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -25,
+            "distal_center_delta": [
+              0.59270179271698,
+              -3.725290298461914e-09,
+              0.12696349620819092
+            ],
+            "deformation": {
+              "p01": 0.9408712582043675,
+              "median": 1.0000001253378197,
+              "p99": 1.536298515517688,
+              "minimum": 0.8217005919294421,
+              "maximum": 1.925442793794885,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.44905567169189453,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -30,
+            "distal_center_delta": [
+              0.7014583349227905,
+              -4.0978193283081055e-08,
+              0.18259382247924805
+            ],
+            "deformation": {
+              "p01": 0.9316357635128079,
+              "median": 1.0000001714509978,
+              "p99": 1.6471569146028089,
+              "minimum": 0.7874247479153669,
+              "maximum": 2.1155535237304277,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.44998058676719666,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -35,
+            "distal_center_delta": [
+              0.8049519062042236,
+              -8.195638656616211e-08,
+              0.24749255180358887
+            ],
+            "deformation": {
+              "p01": 0.9229969991558025,
+              "median": 1.0000000466194778,
+              "p99": 1.7591471126064948,
+              "minimum": 0.7538407052590463,
+              "maximum": 2.3066096262353364,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.45090141892433167,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -40,
+            "distal_center_delta": [
+              0.9023970365524292,
+              0.0,
+              0.32116425037384033
+            ],
+            "deformation": {
+              "p01": 0.9152179286229964,
+              "median": 1.0000000787958738,
+              "p99": 1.8698517478771195,
+              "minimum": 0.7210975246576767,
+              "maximum": 2.4985350666453128,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.4518164396286011,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -45,
+            "distal_center_delta": [
+              0.9930465221405029,
+              -5.21540641784668e-08,
+              0.40304791927337646
+            ],
+            "deformation": {
+              "p01": 0.9068882481999169,
+              "median": 1.0000000950931742,
+              "p99": 1.9801457639614846,
+              "minimum": 0.6893532152780221,
+              "maximum": 2.691302693383914,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.4500961899757385,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -50,
+            "distal_center_delta": [
+              1.0762161016464233,
+              -5.587935447692871e-08,
+              0.49252116680145264
+            ],
+            "deformation": {
+              "p01": 0.8964084965015402,
+              "median": 1.0000002532556573,
+              "p99": 2.090014204226304,
+              "minimum": 0.6588471419064131,
+              "maximum": 2.884898140576558,
+              "non_finite": 0
+            },
+            "metric_gate": false,
+            "root_gap": 0.4469089210033417,
+            "contact_gate": true,
+            "safe_gate": false
+          }
+        ]
+      },
+      {
+        "bone": "UPPER_ARM.R",
+        "axis": 2,
+        "sign": 1,
+        "direction_label": "upper_arm",
+        "metric_safe_candidate_degrees": 60,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": 5,
+            "distal_center_delta": [
+              -0.12200510501861572,
+              1.4901161193847656e-08,
+              0.006196141242980957
+            ],
+            "deformation": {
+              "p01": 0.899623573455475,
+              "median": 0.9999997880195636,
+              "p99": 1.0129764018085157,
+              "minimum": 0.8270725427073546,
+              "maximum": 1.0365775978360066,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.44142216444015503,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 10,
+            "distal_center_delta": [
+              -0.24300050735473633,
+              1.862645149230957e-08,
+              0.023006737232208252
+            ],
+            "deformation": {
+              "p01": 0.8044697853203737,
+              "median": 0.9999998601161219,
+              "p99": 1.025936507584861,
+              "minimum": 0.6659102513925693,
+              "maximum": 1.0733630821092959,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.4397689998149872,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 15,
+            "distal_center_delta": [
+              -0.36207258701324463,
+              3.725290298461914e-09,
+              0.05029726028442383
+            ],
+            "deformation": {
+              "p01": 0.715404232968677,
+              "median": 0.9999997979717354,
+              "p99": 1.038889600933869,
+              "minimum": 0.5274989472614073,
+              "maximum": 1.110333059265856,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.43805792927742004,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 20,
+            "distal_center_delta": [
+              -0.47831225395202637,
+              1.4901161193847656e-08,
+              0.08786332607269287
+            ],
+            "deformation": {
+              "p01": 0.6353013118554315,
+              "median": 0.9999997433388692,
+              "p99": 1.0518015738669408,
+              "minimum": 0.4348412494299301,
+              "maximum": 1.1474721240109595,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.43523934483528137,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 25,
+            "distal_center_delta": [
+              -0.5908353328704834,
+              2.60770320892334e-08,
+              0.13541507720947266
+            ],
+            "deformation": {
+              "p01": 0.5681869968816536,
+              "median": 0.9999998322649393,
+              "p99": 1.0646693272180814,
+              "minimum": 0.4163444202674217,
+              "maximum": 1.1847568569844673,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.43131861090660095,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 30,
+            "distal_center_delta": [
+              -0.6987853050231934,
+              2.60770320892334e-08,
+              0.1925950050354004
+            ],
+            "deformation": {
+              "p01": 0.5183205845839158,
+              "median": 0.9999998057849178,
+              "p99": 1.0775048554473043,
+              "minimum": 0.3750478222983954,
+              "maximum": 1.2221826015624015,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.4273098111152649,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 35,
+            "distal_center_delta": [
+              -0.801342248916626,
+              2.9802322387695312e-08,
+              0.25896453857421875
+            ],
+            "deformation": {
+              "p01": 0.5207207317904173,
+              "median": 0.9999997726688235,
+              "p99": 1.0902932360293676,
+              "minimum": 0.39039217242077595,
+              "maximum": 1.2597405128157633,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.42230623960494995,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 40,
+            "distal_center_delta": [
+              -0.8977235555648804,
+              2.9802322387695312e-08,
+              0.33402013778686523
+            ],
+            "deformation": {
+              "p01": 0.5169120786678618,
+              "median": 0.9999997796339587,
+              "p99": 1.1030045298460853,
+              "minimum": 0.4530498345807478,
+              "maximum": 1.299673743634336,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.4172421395778656,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 45,
+            "distal_center_delta": [
+              -0.9871965646743774,
+              2.9802322387695312e-08,
+              0.4171891212463379
+            ],
+            "deformation": {
+              "p01": 0.5399221596032809,
+              "median": 0.9999998947302836,
+              "p99": 1.116332277262187,
+              "minimum": 0.4871091576171953,
+              "maximum": 1.3409025049957175,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.41155508160591125,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 50,
+            "distal_center_delta": [
+              -1.0690805912017822,
+              5.21540641784668e-08,
+              0.5078415870666504
+            ],
+            "deformation": {
+              "p01": 0.5787808284029566,
+              "median": 0.9999999673855403,
+              "p99": 1.1406938515528358,
+              "minimum": 0.5023394591941164,
+              "maximum": 1.382581882256588,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.4055629074573517,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 55,
+            "distal_center_delta": [
+              -1.1427520513534546,
+              4.842877388000488e-08,
+              0.6052873134613037
+            ],
+            "deformation": {
+              "p01": 0.6089773908545004,
+              "median": 0.9999999233381083,
+              "p99": 1.2071073158247245,
+              "minimum": 0.5017604492607881,
+              "maximum": 1.4246214025517008,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.39952555298805237,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 60,
+            "distal_center_delta": [
+              -1.2076506614685059,
+              4.842877388000488e-08,
+              0.7087794542312622
+            ],
+            "deformation": {
+              "p01": 0.6480214171714748,
+              "median": 0.9999998595241091,
+              "p99": 1.2535477734651719,
+              "minimum": 0.4912001783519767,
+              "maximum": 1.5266014007038695,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3928666412830353,
+            "contact_gate": true,
+            "safe_gate": true
+          }
+        ]
+      }
+    ],
+    "FOREARM_R_flexion": [
+      {
+        "bone": "FOREARM.R",
+        "axis": 0,
+        "sign": -1,
+        "direction_label": "forearm",
+        "metric_safe_candidate_degrees": 75,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": -5,
+            "distal_center_delta": [
+              0.0,
+              -0.0663905069231987,
+              -0.0005980134010314941
+            ],
+            "deformation": {
+              "p01": 0.9329529463893955,
+              "median": 0.9999999670208102,
+              "p99": 1.0672029271601664,
+              "minimum": 0.8110797484547243,
+              "maximum": 1.1896717552792748,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336732042953372,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -10,
+            "distal_center_delta": [
+              0.0,
+              -0.13258032500743866,
+              0.004597485065460205
+            ],
+            "deformation": {
+              "p01": 0.8661956387840772,
+              "median": 0.9999999508325192,
+              "p99": 1.13445446812175,
+              "minimum": 0.6240548639894683,
+              "maximum": 1.3795801982743967,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336646594107151,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -15,
+            "distal_center_delta": [
+              0.0,
+              -0.19806553423404694,
+              0.015540778636932373
+            ],
+            "deformation": {
+              "p01": 0.79988210409203,
+              "median": 0.9999999716724608,
+              "p99": 1.201812353289525,
+              "minimum": 0.44196262133338066,
+              "maximum": 1.5694538191953151,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033366100396960974,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -20,
+            "distal_center_delta": [
+              0.0,
+              -0.26234766840934753,
+              0.03214997053146362
+            ],
+            "deformation": {
+              "p01": 0.7337812568999926,
+              "median": 0.9999999833505477,
+              "p99": 1.2692052746314801,
+              "minimum": 0.2758333304044538,
+              "maximum": 1.759124356619976,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336641937494278,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -25,
+            "distal_center_delta": [
+              0.0,
+              -0.3249374330043793,
+              0.0542982816696167
+            ],
+            "deformation": {
+              "p01": 0.6677173874962083,
+              "median": 0.9999999938358066,
+              "p99": 1.3364681717421174,
+              "minimum": 0.1752167209892384,
+              "maximum": 1.9485093941822362,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336646594107151,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -30,
+            "distal_center_delta": [
+              0.0,
+              -0.3853587210178375,
+              0.0818178653717041
+            ],
+            "deformation": {
+              "p01": 0.6022369977247156,
+              "median": 0.9999999957891326,
+              "p99": 1.403522250794149,
+              "minimum": 0.161986275689683,
+              "maximum": 2.1375324558681017,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033366535790264606,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -35,
+            "distal_center_delta": [
+              0.0,
+              -0.44315242767333984,
+              0.11449813842773438
+            ],
+            "deformation": {
+              "p01": 0.537680993889645,
+              "median": 0.9999999448308935,
+              "p99": 1.4702692482704878,
+              "minimum": 0.16067486609243573,
+              "maximum": 2.326140552130577,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336576046422124,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -40,
+            "distal_center_delta": [
+              0.0,
+              -0.4978771209716797,
+              0.152091383934021
+            ],
+            "deformation": {
+              "p01": 0.5449548196740317,
+              "median": 0.9999999981693941,
+              "p99": 1.536639027642055,
+              "minimum": 0.16226057192431623,
+              "maximum": 2.514295436318418,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336712485179305,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -45,
+            "distal_center_delta": [
+              0.0,
+              -0.5491170287132263,
+              0.19431114196777344
+            ],
+            "deformation": {
+              "p01": 0.5628162340439165,
+              "median": 0.9999999824133003,
+              "p99": 1.6025399988509166,
+              "minimum": 0.16436364060158332,
+              "maximum": 2.701966591744296,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003337041474878788,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -50,
+            "distal_center_delta": [
+              0.0,
+              -0.5964820981025696,
+              0.240836501121521
+            ],
+            "deformation": {
+              "p01": 0.5687271333779315,
+              "median": 0.999999992257889,
+              "p99": 1.6679008708995808,
+              "minimum": 0.1759528980885525,
+              "maximum": 2.8891058714158744,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033366819843649864,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -55,
+            "distal_center_delta": [
+              0.0,
+              -0.6396123170852661,
+              0.29131364822387695
+            ],
+            "deformation": {
+              "p01": 0.5870016440696317,
+              "median": 0.9999999966764167,
+              "p99": 1.7326614903074984,
+              "minimum": 0.1734753413572829,
+              "maximum": 3.0756869134171434,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336834255605936,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -60,
+            "distal_center_delta": [
+              0.0,
+              -0.6781795024871826,
+              0.34535467624664307
+            ],
+            "deformation": {
+              "p01": 0.580527787514427,
+              "median": 0.9999999734842993,
+              "p99": 1.796770895519546,
+              "minimum": 0.19641937188871428,
+              "maximum": 3.26167376423234,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033366335555911064,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -65,
+            "distal_center_delta": [
+              0.0,
+              -0.7118892073631287,
+              0.4025534391403198
+            ],
+            "deformation": {
+              "p01": 0.5761716351937333,
+              "median": 1.0,
+              "p99": 1.8601354426572667,
+              "minimum": 0.1806148386274061,
+              "maximum": 3.447027878366497,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033365769777446985,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -70,
+            "distal_center_delta": [
+              0.0,
+              -0.740485668182373,
+              0.4624762535095215
+            ],
+            "deformation": {
+              "p01": 0.5887212094624077,
+              "median": 1.0,
+              "p99": 1.9226803360386524,
+              "minimum": 0.18861172195077236,
+              "maximum": 3.6317141354083646,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033365371637046337,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -75,
+            "distal_center_delta": [
+              0.0,
+              -0.7637509107589722,
+              0.5246585607528687
+            ],
+            "deformation": {
+              "p01": 0.5791357512430184,
+              "median": 1.0,
+              "p99": 1.9861943747399158,
+              "minimum": 0.2088489793323984,
+              "maximum": 3.815682759904981,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336860565468669,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -80,
+            "distal_center_delta": [
+              0.0,
+              -0.781507670879364,
+              0.5886337757110596
+            ],
+            "deformation": {
+              "p01": 0.5790603221984703,
+              "median": 1.0,
+              "p99": 2.140222649573158,
+              "minimum": 0.21293610202170116,
+              "maximum": 3.9988961248365196,
+              "non_finite": 0
+            },
+            "metric_gate": false,
+            "distal_gap": 0.0033363928087055683,
+            "contact_gate": true,
+            "safe_gate": false
+          }
+        ]
+      },
+      {
+        "bone": "FOREARM.R",
+        "axis": 0,
+        "sign": 1,
+        "direction_label": "forearm",
+        "metric_safe_candidate_degrees": 75,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": 5,
+            "distal_center_delta": [
+              0.0,
+              0.06608612835407257,
+              0.006375253200531006
+            ],
+            "deformation": {
+              "p01": 0.9329542558807986,
+              "median": 0.9999999835516957,
+              "p99": 1.0672037711168985,
+              "minimum": 0.8110827569845854,
+              "maximum": 1.1896728023368264,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336681518703699,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 10,
+            "distal_center_delta": [
+              0.0,
+              0.1313648670911789,
+              0.018488705158233643
+            ],
+            "deformation": {
+              "p01": 0.8661945187089195,
+              "median": 1.0,
+              "p99": 1.1344527882031215,
+              "minimum": 0.6240547561692176,
+              "maximum": 1.3795772259596237,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336582100018859,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 15,
+            "distal_center_delta": [
+              0.0,
+              0.19533954560756683,
+              0.03624647855758667
+            ],
+            "deformation": {
+              "p01": 0.7998802090642968,
+              "median": 0.9999999866855556,
+              "p99": 1.2018160867549796,
+              "minimum": 0.44196730672613427,
+              "maximum": 1.5694469557423318,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033367304131388664,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 20,
+            "distal_center_delta": [
+              0.0,
+              0.25752297043800354,
+              0.05951136350631714
+            ],
+            "deformation": {
+              "p01": 0.733786443903562,
+              "median": 0.999999982956929,
+              "p99": 1.2692010059830081,
+              "minimum": 0.27583123792759995,
+              "maximum": 1.7591287192790137,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033367013093084097,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 25,
+            "distal_center_delta": [
+              0.0,
+              0.317442387342453,
+              0.08810824155807495
+            ],
+            "deformation": {
+              "p01": 0.6677212921619328,
+              "median": 0.9999999886478933,
+              "p99": 1.3364671812325164,
+              "minimum": 0.17521672182102216,
+              "maximum": 1.9485094596018455,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336576512083411,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 30,
+            "distal_center_delta": [
+              0.0,
+              0.37464138865470886,
+              0.12181717157363892
+            ],
+            "deformation": {
+              "p01": 0.6022381321056659,
+              "median": 0.9999999915684548,
+              "p99": 1.4035185700572335,
+              "minimum": 0.16198375153101793,
+              "maximum": 2.1375372920496356,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336559282615781,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 35,
+            "distal_center_delta": [
+              0.0,
+              0.4286847710609436,
+              0.1603851318359375
+            ],
+            "deformation": {
+              "p01": 0.5376805975622923,
+              "median": 0.9999999408811258,
+              "p99": 1.4702717017767366,
+              "minimum": 0.160677103741416,
+              "maximum": 2.3261440554392387,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033367518335580826,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 40,
+            "distal_center_delta": [
+              0.0,
+              0.4791605472564697,
+              0.2035144567489624
+            ],
+            "deformation": {
+              "p01": 0.5449557011867939,
+              "median": 0.9999999915684548,
+              "p99": 1.536637066238308,
+              "minimum": 0.1622594014117899,
+              "maximum": 2.5142993616295946,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033366973511874676,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 45,
+            "distal_center_delta": [
+              0.0,
+              0.5256853103637695,
+              0.2508803606033325
+            ],
+            "deformation": {
+              "p01": 0.5628137171567493,
+              "median": 1.0,
+              "p99": 1.6025391916316125,
+              "minimum": 0.16436465915422677,
+              "maximum": 2.7019574803602238,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336608409881592,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 50,
+            "distal_center_delta": [
+              0.0,
+              0.5679042935371399,
+              0.3021199703216553
+            ],
+            "deformation": {
+              "p01": 0.5687278465272922,
+              "median": 1.0,
+              "p99": 1.667899625113932,
+              "minimum": 0.17595396449992753,
+              "maximum": 2.889100606439136,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033365979325026274,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 55,
+            "distal_center_delta": [
+              0.0,
+              0.6054986715316772,
+              0.3568441867828369
+            ],
+            "deformation": {
+              "p01": 0.5869999965000154,
+              "median": 1.0,
+              "p99": 1.7326604537734582,
+              "minimum": 0.17347679675604083,
+              "maximum": 3.0756840228802362,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033369141165167093,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 60,
+            "distal_center_delta": [
+              0.0,
+              0.6381800174713135,
+              0.4146389961242676
+            ],
+            "deformation": {
+              "p01": 0.5805280777918894,
+              "median": 1.0,
+              "p99": 1.7967716811012906,
+              "minimum": 0.1964239402378805,
+              "maximum": 3.2616786057443634,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033365816343575716,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 65,
+            "distal_center_delta": [
+              0.0,
+              0.6656992435455322,
+              0.47505903244018555
+            ],
+            "deformation": {
+              "p01": 0.5761738533878168,
+              "median": 1.0,
+              "p99": 1.8601348849992707,
+              "minimum": 0.18061373924237856,
+              "maximum": 3.447035039601997,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033366393763571978,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 70,
+            "distal_center_delta": [
+              0.0,
+              0.6878476738929749,
+              0.5376476049423218
+            ],
+            "deformation": {
+              "p01": 0.5887242381223983,
+              "median": 1.0,
+              "p99": 1.922677968688348,
+              "minimum": 0.1886124086603801,
+              "maximum": 3.6317183857613458,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003336676163598895,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 75,
+            "distal_center_delta": [
+              0.0,
+              0.7044563293457031,
+              0.6019322872161865
+            ],
+            "deformation": {
+              "p01": 0.5791369333353479,
+              "median": 1.0,
+              "p99": 1.9861954094974168,
+              "minimum": 0.20884615076634913,
+              "maximum": 3.8156853650924427,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033365546260029078,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 80,
+            "distal_center_delta": [
+              0.0,
+              0.715399444103241,
+              0.6674174070358276
+            ],
+            "deformation": {
+              "p01": 0.5790601407070419,
+              "median": 1.0,
+              "p99": 2.1402214089167284,
+              "minimum": 0.21293608395192107,
+              "maximum": 3.9988930554119433,
+              "non_finite": 0
+            },
+            "metric_gate": false,
+            "distal_gap": 0.0033369979355484247,
+            "contact_gate": true,
+            "safe_gate": false
+          }
+        ]
+      }
+    ],
+    "WRIST_R_rotation": [
+      {
+        "bone": "WRIST.R",
+        "axis": 0,
+        "sign": -1,
+        "direction_label": "wrist",
+        "metric_safe_candidate_degrees": 45,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": -5,
+            "distal_center_delta": [
+              0.0005980730056762695,
+              -0.00797492265701294,
+              -0.003210723400115967
+            ],
+            "deformation": {
+              "p01": 0.9484313026529787,
+              "median": 1.0,
+              "p99": 1.0489907016731284,
+              "minimum": 0.9137732204954555,
+              "maximum": 1.0893228057545574,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033275538589805365,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -10,
+            "distal_center_delta": [
+              0.0012723207473754883,
+              -0.016193535178899765,
+              -0.005710482597351074
+            ],
+            "deformation": {
+              "p01": 0.900852107293511,
+              "median": 1.0,
+              "p99": 1.0997601699384134,
+              "minimum": 0.8374312149360084,
+              "maximum": 1.1839594912904574,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033188187517225742,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -15,
+            "distal_center_delta": [
+              0.0020099878311157227,
+              -0.024593453854322433,
+              -0.007483720779418945
+            ],
+            "deformation": {
+              "p01": 0.8579693987845509,
+              "median": 1.0,
+              "p99": 1.1522925397745354,
+              "minimum": 0.7740094317233264,
+              "maximum": 1.2827674191144218,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033099555876106024,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -20,
+            "distal_center_delta": [
+              0.0028113126754760742,
+              -0.03311043232679367,
+              -0.008517563343048096
+            ],
+            "deformation": {
+              "p01": 0.8172959581539649,
+              "median": 1.0,
+              "p99": 1.2066236983849896,
+              "minimum": 0.7270407775515293,
+              "maximum": 1.3848567756558543,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033012195490300655,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -25,
+            "distal_center_delta": [
+              0.0036672353744506836,
+              -0.041680023074150085,
+              -0.00880289077758789
+            ],
+            "deformation": {
+              "p01": 0.779917677657272,
+              "median": 1.0,
+              "p99": 1.262259231804866,
+              "minimum": 0.688495863574155,
+              "maximum": 1.4895631945151229,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0028074837755411863,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -30,
+            "distal_center_delta": [
+              0.004571437835693359,
+              -0.05023675411939621,
+              -0.008338332176208496
+            ],
+            "deformation": {
+              "p01": 0.7540975007782068,
+              "median": 1.0,
+              "p99": 1.3189769223377328,
+              "minimum": 0.6487831656724524,
+              "maximum": 1.596395656005691,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0013450341066345572,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -35,
+            "distal_center_delta": [
+              0.005515456199645996,
+              -0.05871554836630821,
+              -0.007127702236175537
+            ],
+            "deformation": {
+              "p01": 0.7361603115130664,
+              "median": 1.0,
+              "p99": 1.3765719527744051,
+              "minimum": 0.6200376268502196,
+              "maximum": 1.7049944820928293,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0032764170318841934,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -40,
+            "distal_center_delta": [
+              0.0064934492111206055,
+              -0.06705190241336823,
+              -0.005178928375244141
+            ],
+            "deformation": {
+              "p01": 0.7308673472322685,
+              "median": 1.0,
+              "p99": 1.4348645837356298,
+              "minimum": 0.6013874966163112,
+              "maximum": 1.8150754180745519,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0032685520127415657,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -45,
+            "distal_center_delta": [
+              0.00749969482421875,
+              -0.0751824751496315,
+              -0.002508401870727539
+            ],
+            "deformation": {
+              "p01": 0.7319174192033023,
+              "median": 1.0,
+              "p99": 1.4936962599021635,
+              "minimum": 0.5895673425894524,
+              "maximum": 1.926440911998356,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0025317829567939043,
+            "contact_gate": true,
+            "safe_gate": true
+          }
+        ]
+      },
+      {
+        "bone": "WRIST.R",
+        "axis": 0,
+        "sign": 1,
+        "direction_label": "wrist",
+        "metric_safe_candidate_degrees": 45,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": 5,
+            "distal_center_delta": [
+              -0.0005294680595397949,
+              0.007670518010854721,
+              0.0038881301879882812
+            ],
+            "deformation": {
+              "p01": 0.9526074279350476,
+              "median": 1.0,
+              "p99": 1.0544797984380312,
+              "minimum": 0.9175648958105128,
+              "maximum": 1.0937277350211263,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003345910692587495,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 10,
+            "distal_center_delta": [
+              -0.0009736418724060059,
+              0.014978248625993729,
+              0.008432507514953613
+            ],
+            "deformation": {
+              "p01": 0.9070313862087334,
+              "median": 1.0,
+              "p99": 1.1108169767107308,
+              "minimum": 0.8441067118286468,
+              "maximum": 1.1931473572799827,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033551042433828115,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 15,
+            "distal_center_delta": [
+              -0.0013362765312194824,
+              0.02186756208539009,
+              0.013594567775726318
+            ],
+            "deformation": {
+              "p01": 0.8636526528660544,
+              "median": 1.0,
+              "p99": 1.168946732181705,
+              "minimum": 0.7822574485990605,
+              "maximum": 1.296949017619713,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0033644121140241623,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 20,
+            "distal_center_delta": [
+              -0.0016115903854370117,
+              0.02828584983944893,
+              0.019337773323059082
+            ],
+            "deformation": {
+              "p01": 0.82639937530291,
+              "median": 1.0,
+              "p99": 1.2278530155359824,
+              "minimum": 0.7350799055399915,
+              "maximum": 1.4041593271349453,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003373746294528246,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 25,
+            "distal_center_delta": [
+              -0.0018004775047302246,
+              0.034184571355581284,
+              0.025615274906158447
+            ],
+            "deformation": {
+              "p01": 0.7887982866824531,
+              "median": 1.0,
+              "p99": 1.287100680095599,
+              "minimum": 0.7049139236546628,
+              "maximum": 1.5140773743866607,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0030037732794880867,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 30,
+            "distal_center_delta": [
+              -0.0018976330757141113,
+              0.039518725126981735,
+              0.03238195180892944
+            ],
+            "deformation": {
+              "p01": 0.763240208587171,
+              "median": 1.0,
+              "p99": 1.3470178821175711,
+              "minimum": 0.6646646399867041,
+              "maximum": 1.6261805343562503,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0029474813491106033,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 35,
+            "distal_center_delta": [
+              -0.0019047260284423828,
+              0.04424777999520302,
+              0.03958594799041748
+            ],
+            "deformation": {
+              "p01": 0.7453025553511823,
+              "median": 1.0,
+              "p99": 1.4076431749525682,
+              "minimum": 0.6334013357000287,
+              "maximum": 1.740081554091762,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0008542478899471462,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 40,
+            "distal_center_delta": [
+              -0.0018213987350463867,
+              0.048335593193769455,
+              0.04716992378234863
+            ],
+            "deformation": {
+              "p01": 0.7406123643303723,
+              "median": 1.0,
+              "p99": 1.4688177392472859,
+              "minimum": 0.6125227787082276,
+              "maximum": 1.8554944797127462,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003411212470382452,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 45,
+            "distal_center_delta": [
+              -0.001647651195526123,
+              0.051751021295785904,
+              0.05507946014404297
+            ],
+            "deformation": {
+              "p01": 0.7429785605746106,
+              "median": 1.0,
+              "p99": 1.5303932466274184,
+              "minimum": 0.6000330966430784,
+              "maximum": 1.9722151849304999,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.003420541761443019,
+            "contact_gate": true,
+            "safe_gate": true
+          }
+        ]
+      }
+    ],
+    "THIGH_R_forward_back": [
+      {
+        "bone": "THIGH.R",
+        "axis": 0,
+        "sign": -1,
+        "direction_label": "thigh",
+        "metric_safe_candidate_degrees": 20,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": -5,
+            "distal_center_delta": [
+              0.0,
+              -0.04444935917854309,
+              0.0019408464431762695
+            ],
+            "deformation": {
+              "p01": 0.814172978676587,
+              "median": 1.0,
+              "p99": 1.1873792362369844,
+              "minimum": 0.7624947094972471,
+              "maximum": 1.2374592797245392,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3803599774837494,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -10,
+            "distal_center_delta": [
+              0.0,
+              -0.088560551404953,
+              0.007748275995254517
+            ],
+            "deformation": {
+              "p01": 0.6313693860910645,
+              "median": 1.0,
+              "p99": 1.3756308992298556,
+              "minimum": 0.5250014232190826,
+              "maximum": 1.474816428178281,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3681780993938446,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -15,
+            "distal_center_delta": [
+              0.0,
+              -0.13199780881404877,
+              0.01737797260284424
+            ],
+            "deformation": {
+              "p01": 0.4553083542240991,
+              "median": 1.0,
+              "p99": 1.5643464605041233,
+              "minimum": 0.28760205314238,
+              "maximum": 1.7120106972054885,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.34482282400131226,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -20,
+            "distal_center_delta": [
+              0.0,
+              -0.1744302660226822,
+              0.03075680136680603
+            ],
+            "deformation": {
+              "p01": 0.29852021326169675,
+              "median": 1.0,
+              "p99": 1.7532732945759577,
+              "minimum": 0.05035045909304907,
+              "maximum": 1.9489731889661865,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3249576985836029,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -25,
+            "distal_center_delta": [
+              0.0,
+              -0.2155352085828781,
+              0.047783151268959045
+            ],
+            "deformation": {
+              "p01": 0.21129253498502076,
+              "median": 1.0,
+              "p99": 1.9422256239358342,
+              "minimum": 0.11740277823898825,
+              "maximum": 2.1856238439803666,
+              "non_finite": 0
+            },
+            "metric_gate": false,
+            "root_gap": 0.3083001375198364,
+            "contact_gate": true,
+            "safe_gate": false
+          }
+        ]
+      },
+      {
+        "bone": "THIGH.R",
+        "axis": 0,
+        "sign": 1,
+        "direction_label": "thigh",
+        "metric_safe_candidate_degrees": 20,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": 5,
+            "distal_center_delta": [
+              0.0,
+              0.04444942995905876,
+              0.0019408762454986572
+            ],
+            "deformation": {
+              "p01": 0.8141720269743333,
+              "median": 1.0,
+              "p99": 1.1873799815991004,
+              "minimum": 0.76249470949174,
+              "maximum": 1.2374592797303758,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3803599774837494,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 10,
+            "distal_center_delta": [
+              0.0,
+              0.08856052905321121,
+              0.007748126983642578
+            ],
+            "deformation": {
+              "p01": 0.6313698011199917,
+              "median": 1.0,
+              "p99": 1.3756310399133183,
+              "minimum": 0.5250014232225219,
+              "maximum": 1.474816428178281,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3681780695915222,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 15,
+            "distal_center_delta": [
+              0.0,
+              0.13199765980243683,
+              0.01737801730632782
+            ],
+            "deformation": {
+              "p01": 0.45530783050242774,
+              "median": 1.0,
+              "p99": 1.564346755765884,
+              "minimum": 0.28760205314238,
+              "maximum": 1.7120106972054885,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.3448227047920227,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 20,
+            "distal_center_delta": [
+              0.0,
+              0.17443011701107025,
+              0.030756786465644836
+            ],
+            "deformation": {
+              "p01": 0.29851811096087977,
+              "median": 1.0,
+              "p99": 1.7532734970820458,
+              "minimum": 0.05035045912891004,
+              "maximum": 1.9489731889661865,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "root_gap": 0.32495763897895813,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 25,
+            "distal_center_delta": [
+              0.0,
+              0.2155352681875229,
+              0.0477832555770874
+            ],
+            "deformation": {
+              "p01": 0.21129402316268042,
+              "median": 1.0,
+              "p99": 1.9422258936070649,
+              "minimum": 0.11740277823898825,
+              "maximum": 2.185623843983671,
+              "non_finite": 0
+            },
+            "metric_gate": false,
+            "root_gap": 0.3083091080188751,
+            "contact_gate": true,
+            "safe_gate": false
+          }
+        ]
+      }
+    ],
+    "SHIN_R_flexion": [
+      {
+        "bone": "SHIN.R",
+        "axis": 0,
+        "sign": -1,
+        "direction_label": "shin",
+        "metric_safe_candidate_degrees": 10,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": -5,
+            "distal_center_delta": [
+              0.0,
+              -0.02963290922343731,
+              0.0012938976287841797
+            ],
+            "deformation": {
+              "p01": 0.7335299579224206,
+              "median": 1.0,
+              "p99": 1.2664885182542953,
+              "minimum": 0.7200506692242188,
+              "maximum": 1.279969539349892,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.007762099150568247,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -10,
+            "distal_center_delta": [
+              0.0,
+              -0.0590403750538826,
+              0.005165457725524902
+            ],
+            "deformation": {
+              "p01": 0.4674180808836915,
+              "median": 1.0,
+              "p99": 1.5329405611019569,
+              "minimum": 0.4405089110466053,
+              "maximum": 1.5599036855528388,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.007762061897665262,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -15,
+            "distal_center_delta": [
+              0.0,
+              -0.08799850195646286,
+              0.011585339903831482
+            ],
+            "deformation": {
+              "p01": 0.2041832911837002,
+              "median": 1.0,
+              "p99": 1.799379803478221,
+              "minimum": 0.16495926157740615,
+              "maximum": 1.8398281484825736,
+              "non_finite": 0
+            },
+            "metric_gate": false,
+            "distal_gap": 0.007762120105326176,
+            "contact_gate": true,
+            "safe_gate": false
+          }
+        ]
+      },
+      {
+        "bone": "SHIN.R",
+        "axis": 0,
+        "sign": 1,
+        "direction_label": "shin",
+        "metric_safe_candidate_degrees": 10,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": 5,
+            "distal_center_delta": [
+              0.0,
+              0.02963293343782425,
+              0.0012939125299453735
+            ],
+            "deformation": {
+              "p01": 0.7335299579224206,
+              "median": 1.0,
+              "p99": 1.2664885182542953,
+              "minimum": 0.7200506692242188,
+              "maximum": 1.279969539349892,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.007762114051729441,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 10,
+            "distal_center_delta": [
+              0.0,
+              0.05904034152626991,
+              0.005165457725524902
+            ],
+            "deformation": {
+              "p01": 0.4674180808836915,
+              "median": 1.0,
+              "p99": 1.5329405611019569,
+              "minimum": 0.4405089110466053,
+              "maximum": 1.5599036855528388,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.007762065157294273,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 15,
+            "distal_center_delta": [
+              0.0,
+              0.0879984200000763,
+              0.01158536970615387
+            ],
+            "deformation": {
+              "p01": 0.2041832911837002,
+              "median": 1.0,
+              "p99": 1.799379803478221,
+              "minimum": 0.16495926157740615,
+              "maximum": 1.8398281484825736,
+              "non_finite": 0
+            },
+            "metric_gate": false,
+            "distal_gap": 0.007762120570987463,
+            "contact_gate": true,
+            "safe_gate": false
+          }
+        ]
+      }
+    ],
+    "FOOT_R_pitch": [
+      {
+        "bone": "FOOT.R",
+        "axis": 0,
+        "sign": -1,
+        "direction_label": "foot",
+        "metric_safe_candidate_degrees": 45,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": -5,
+            "distal_center_delta": [
+              0.0,
+              -0.00522933853790164,
+              0.00022843480110168457
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.0000037866740457,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.006441021803766489,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -10,
+            "distal_center_delta": [
+              0.0,
+              -0.010418863967061043,
+              0.0009117573499679565
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.0000037866740457,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0023937555961310863,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -15,
+            "distal_center_delta": [
+              0.0,
+              -0.015529152937233448,
+              0.002044588327407837
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.0000037866740457,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.002048630965873599,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -20,
+            "distal_center_delta": [
+              0.0,
+              -0.020521163940429688,
+              0.0036185383796691895
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.0000037866740457,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.011289738118648529,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -25,
+            "distal_center_delta": [
+              0.0,
+              -0.025357063859701157,
+              0.005621775984764099
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.0000037866740457,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.02479596436023712,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -30,
+            "distal_center_delta": [
+              0.0,
+              -0.029999935999512672,
+              0.008038625121116638
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.0000037866740457,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.03820405900478363,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -35,
+            "distal_center_delta": [
+              0.0,
+              -0.034414537250995636,
+              0.010850906372070312
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.0000037866740457,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.021070249378681183,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -40,
+            "distal_center_delta": [
+              0.0,
+              -0.038567204028367996,
+              0.01403743028640747
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.0000037866740457,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0025078391190618277,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -45,
+            "distal_center_delta": [
+              0.0,
+              -0.04242631420493126,
+              0.017573773860931396
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.0000037866740457,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0032855328172445297,
+            "contact_gate": true,
+            "safe_gate": true
+          }
+        ]
+      },
+      {
+        "bone": "FOOT.R",
+        "axis": 0,
+        "sign": 1,
+        "direction_label": "foot",
+        "metric_safe_candidate_degrees": 45,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": 5,
+            "distal_center_delta": [
+              0.0,
+              0.005229360423982143,
+              0.00022839009761810303
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.0000037866740457,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.006441057659685612,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 10,
+            "distal_center_delta": [
+              0.0,
+              0.010418863035738468,
+              0.0009116232395172119
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.0000037866740457,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.00239374116063118,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 15,
+            "distal_center_delta": [
+              0.0,
+              0.015529104508459568,
+              0.0020446479320526123
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.0000037866740457,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0020485143177211285,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 20,
+            "distal_center_delta": [
+              0.0,
+              0.020521141588687897,
+              0.003618672490119934
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.0000037866740457,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.011289726942777634,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 25,
+            "distal_center_delta": [
+              0.0,
+              0.025357021018862724,
+              0.005621671676635742
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.0000037866740457,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.024795999750494957,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 30,
+            "distal_center_delta": [
+              0.0,
+              0.02999991551041603,
+              0.008038654923439026
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.0000037866740457,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.038204047828912735,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 35,
+            "distal_center_delta": [
+              0.0,
+              0.034414514899253845,
+              0.010850951075553894
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.0000037866740457,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.021070227026939392,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 40,
+            "distal_center_delta": [
+              0.0,
+              0.03856717050075531,
+              0.014037445187568665
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.0000037866740457,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.002507840283215046,
+            "contact_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 45,
+            "distal_center_delta": [
+              0.0,
+              0.042426299303770065,
+              0.01757374405860901
+            ],
+            "deformation": {
+              "p01": 0.9999966570930106,
+              "median": 1.0,
+              "p99": 1.0000037866740457,
+              "minimum": 0.9999954314205589,
+              "maximum": 1.0000065432926777,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "distal_gap": 0.0032855742610991,
+            "contact_gate": true,
+            "safe_gate": true
+          }
+        ]
+      }
+    ],
+    "HEAD_R_yaw": [
+      {
+        "bone": "HEAD",
+        "axis": 1,
+        "sign": -1,
+        "direction_label": "head",
+        "metric_safe_candidate_degrees": 30,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": -5,
+            "distal_center_delta": [
+              5.960464477539063e-08,
+              -3.175657070642046e-09,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -10,
+            "distal_center_delta": [
+              6.326886392571396e-08,
+              -5.019980875431429e-08,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -15,
+            "distal_center_delta": [
+              3.0046603427535956e-08,
+              -2.619917083279688e-08,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -20,
+            "distal_center_delta": [
+              4.812342169202566e-08,
+              -1.17987873693437e-07,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -25,
+            "distal_center_delta": [
+              3.224513633881543e-08,
+              4.763485605963069e-09,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": -30,
+            "distal_center_delta": [
+              1.4412599114166369e-08,
+              3.566507089658444e-08,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          }
+        ]
+      },
+      {
+        "bone": "HEAD",
+        "axis": 1,
+        "sign": 1,
+        "direction_label": "head",
+        "metric_safe_candidate_degrees": 30,
+        "records_5_degree_steps": [
+          {
+            "angle_degrees": 5,
+            "distal_center_delta": [
+              1.1163656665758026e-07,
+              -1.0504097147645552e-08,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 10,
+            "distal_center_delta": [
+              7.841430260668858e-08,
+              -2.0397489919332656e-08,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 15,
+            "distal_center_delta": [
+              2.591824852515856e-07,
+              -9.64911173184646e-09,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 20,
+            "distal_center_delta": [
+              1.8027961345978838e-07,
+              4.824556043558914e-08,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 25,
+            "distal_center_delta": [
+              5.496329791299104e-08,
+              7.169656868200036e-08,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          },
+          {
+            "angle_degrees": 30,
+            "distal_center_delta": [
+              -3.7619322768023267e-08,
+              -3.920715130334429e-08,
+              0.0
+            ],
+            "deformation": {
+              "p01": 0.9999859125492054,
+              "median": 1.0,
+              "p99": 1.0000133568065568,
+              "minimum": 0.9999561669970709,
+              "maximum": 1.0000517729125031,
+              "non_finite": 0
+            },
+            "metric_gate": true,
+            "safe_gate": true
+          }
+        ]
+      }
+    ]
+  },
+  "candidate_renders": {
+    "UPPER_ARM_L_forward_back_0_60deg": {
+      "bone": "UPPER_ARM.L",
+      "axis": 0,
+      "angle_degrees": -60,
+      "front": "validation/envelope/UPPER_ARM_L_forward_back_0_60deg_front.png",
+      "three_q_l": "validation/envelope/UPPER_ARM_L_forward_back_0_60deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "UPPER_ARM_L_forward_back_1_60deg": {
+      "bone": "UPPER_ARM.L",
+      "axis": 0,
+      "angle_degrees": 60,
+      "front": "validation/envelope/UPPER_ARM_L_forward_back_1_60deg_front.png",
+      "three_q_l": "validation/envelope/UPPER_ARM_L_forward_back_1_60deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "UPPER_ARM_L_outward_inward_0_60deg": {
+      "bone": "UPPER_ARM.L",
+      "axis": 2,
+      "angle_degrees": -60,
+      "front": "validation/envelope/UPPER_ARM_L_outward_inward_0_60deg_front.png",
+      "three_q_l": "validation/envelope/UPPER_ARM_L_outward_inward_0_60deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "UPPER_ARM_L_outward_inward_1_45deg": {
+      "bone": "UPPER_ARM.L",
+      "axis": 2,
+      "angle_degrees": 45,
+      "front": "validation/envelope/UPPER_ARM_L_outward_inward_1_45deg_front.png",
+      "three_q_l": "validation/envelope/UPPER_ARM_L_outward_inward_1_45deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "FOREARM_L_flexion_0_75deg": {
+      "bone": "FOREARM.L",
+      "axis": 0,
+      "angle_degrees": -75,
+      "front": "validation/envelope/FOREARM_L_flexion_0_75deg_front.png",
+      "three_q_l": "validation/envelope/FOREARM_L_flexion_0_75deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "FOREARM_L_flexion_1_75deg": {
+      "bone": "FOREARM.L",
+      "axis": 0,
+      "angle_degrees": 75,
+      "front": "validation/envelope/FOREARM_L_flexion_1_75deg_front.png",
+      "three_q_l": "validation/envelope/FOREARM_L_flexion_1_75deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "WRIST_L_rotation_0_45deg": {
+      "bone": "WRIST.L",
+      "axis": 0,
+      "angle_degrees": -45,
+      "front": "validation/envelope/WRIST_L_rotation_0_45deg_front.png",
+      "three_q_l": "validation/envelope/WRIST_L_rotation_0_45deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "WRIST_L_rotation_1_45deg": {
+      "bone": "WRIST.L",
+      "axis": 0,
+      "angle_degrees": 45,
+      "front": "validation/envelope/WRIST_L_rotation_1_45deg_front.png",
+      "three_q_l": "validation/envelope/WRIST_L_rotation_1_45deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "THIGH_L_forward_back_0_20deg": {
+      "bone": "THIGH.L",
+      "axis": 0,
+      "angle_degrees": -20,
+      "front": "validation/envelope/THIGH_L_forward_back_0_20deg_front.png",
+      "three_q_l": "validation/envelope/THIGH_L_forward_back_0_20deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "THIGH_L_forward_back_1_20deg": {
+      "bone": "THIGH.L",
+      "axis": 0,
+      "angle_degrees": 20,
+      "front": "validation/envelope/THIGH_L_forward_back_1_20deg_front.png",
+      "three_q_l": "validation/envelope/THIGH_L_forward_back_1_20deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "SHIN_L_flexion_0_10deg": {
+      "bone": "SHIN.L",
+      "axis": 0,
+      "angle_degrees": -10,
+      "front": "validation/envelope/SHIN_L_flexion_0_10deg_front.png",
+      "three_q_l": "validation/envelope/SHIN_L_flexion_0_10deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "SHIN_L_flexion_1_10deg": {
+      "bone": "SHIN.L",
+      "axis": 0,
+      "angle_degrees": 10,
+      "front": "validation/envelope/SHIN_L_flexion_1_10deg_front.png",
+      "three_q_l": "validation/envelope/SHIN_L_flexion_1_10deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "FOOT_L_pitch_0_45deg": {
+      "bone": "FOOT.L",
+      "axis": 0,
+      "angle_degrees": -45,
+      "front": "validation/envelope/FOOT_L_pitch_0_45deg_front.png",
+      "three_q_l": "validation/envelope/FOOT_L_pitch_0_45deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "FOOT_L_pitch_1_45deg": {
+      "bone": "FOOT.L",
+      "axis": 0,
+      "angle_degrees": 45,
+      "front": "validation/envelope/FOOT_L_pitch_1_45deg_front.png",
+      "three_q_l": "validation/envelope/FOOT_L_pitch_1_45deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "HEAD_L_yaw_0_30deg": {
+      "bone": "HEAD",
+      "axis": 1,
+      "angle_degrees": -30,
+      "front": "validation/envelope/HEAD_L_yaw_0_30deg_front.png",
+      "three_q_l": "validation/envelope/HEAD_L_yaw_0_30deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "HEAD_L_yaw_1_30deg": {
+      "bone": "HEAD",
+      "axis": 1,
+      "angle_degrees": 30,
+      "front": "validation/envelope/HEAD_L_yaw_1_30deg_front.png",
+      "three_q_l": "validation/envelope/HEAD_L_yaw_1_30deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "UPPER_ARM_R_forward_back_0_60deg": {
+      "bone": "UPPER_ARM.R",
+      "axis": 0,
+      "angle_degrees": -60,
+      "front": "validation/envelope/UPPER_ARM_R_forward_back_0_60deg_front.png",
+      "three_q_l": "validation/envelope/UPPER_ARM_R_forward_back_0_60deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "UPPER_ARM_R_forward_back_1_60deg": {
+      "bone": "UPPER_ARM.R",
+      "axis": 0,
+      "angle_degrees": 60,
+      "front": "validation/envelope/UPPER_ARM_R_forward_back_1_60deg_front.png",
+      "three_q_l": "validation/envelope/UPPER_ARM_R_forward_back_1_60deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "UPPER_ARM_R_outward_inward_0_45deg": {
+      "bone": "UPPER_ARM.R",
+      "axis": 2,
+      "angle_degrees": -45,
+      "front": "validation/envelope/UPPER_ARM_R_outward_inward_0_45deg_front.png",
+      "three_q_l": "validation/envelope/UPPER_ARM_R_outward_inward_0_45deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "UPPER_ARM_R_outward_inward_1_60deg": {
+      "bone": "UPPER_ARM.R",
+      "axis": 2,
+      "angle_degrees": 60,
+      "front": "validation/envelope/UPPER_ARM_R_outward_inward_1_60deg_front.png",
+      "three_q_l": "validation/envelope/UPPER_ARM_R_outward_inward_1_60deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "FOREARM_R_flexion_0_75deg": {
+      "bone": "FOREARM.R",
+      "axis": 0,
+      "angle_degrees": -75,
+      "front": "validation/envelope/FOREARM_R_flexion_0_75deg_front.png",
+      "three_q_l": "validation/envelope/FOREARM_R_flexion_0_75deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "FOREARM_R_flexion_1_75deg": {
+      "bone": "FOREARM.R",
+      "axis": 0,
+      "angle_degrees": 75,
+      "front": "validation/envelope/FOREARM_R_flexion_1_75deg_front.png",
+      "three_q_l": "validation/envelope/FOREARM_R_flexion_1_75deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "WRIST_R_rotation_0_45deg": {
+      "bone": "WRIST.R",
+      "axis": 0,
+      "angle_degrees": -45,
+      "front": "validation/envelope/WRIST_R_rotation_0_45deg_front.png",
+      "three_q_l": "validation/envelope/WRIST_R_rotation_0_45deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "WRIST_R_rotation_1_45deg": {
+      "bone": "WRIST.R",
+      "axis": 0,
+      "angle_degrees": 45,
+      "front": "validation/envelope/WRIST_R_rotation_1_45deg_front.png",
+      "three_q_l": "validation/envelope/WRIST_R_rotation_1_45deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "THIGH_R_forward_back_0_20deg": {
+      "bone": "THIGH.R",
+      "axis": 0,
+      "angle_degrees": -20,
+      "front": "validation/envelope/THIGH_R_forward_back_0_20deg_front.png",
+      "three_q_l": "validation/envelope/THIGH_R_forward_back_0_20deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "THIGH_R_forward_back_1_20deg": {
+      "bone": "THIGH.R",
+      "axis": 0,
+      "angle_degrees": 20,
+      "front": "validation/envelope/THIGH_R_forward_back_1_20deg_front.png",
+      "three_q_l": "validation/envelope/THIGH_R_forward_back_1_20deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "SHIN_R_flexion_0_10deg": {
+      "bone": "SHIN.R",
+      "axis": 0,
+      "angle_degrees": -10,
+      "front": "validation/envelope/SHIN_R_flexion_0_10deg_front.png",
+      "three_q_l": "validation/envelope/SHIN_R_flexion_0_10deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "SHIN_R_flexion_1_10deg": {
+      "bone": "SHIN.R",
+      "axis": 0,
+      "angle_degrees": 10,
+      "front": "validation/envelope/SHIN_R_flexion_1_10deg_front.png",
+      "three_q_l": "validation/envelope/SHIN_R_flexion_1_10deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "FOOT_R_pitch_0_45deg": {
+      "bone": "FOOT.R",
+      "axis": 0,
+      "angle_degrees": -45,
+      "front": "validation/envelope/FOOT_R_pitch_0_45deg_front.png",
+      "three_q_l": "validation/envelope/FOOT_R_pitch_0_45deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "FOOT_R_pitch_1_45deg": {
+      "bone": "FOOT.R",
+      "axis": 0,
+      "angle_degrees": 45,
+      "front": "validation/envelope/FOOT_R_pitch_1_45deg_front.png",
+      "three_q_l": "validation/envelope/FOOT_R_pitch_1_45deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "HEAD_R_yaw_0_30deg": {
+      "bone": "HEAD",
+      "axis": 1,
+      "angle_degrees": -30,
+      "front": "validation/envelope/HEAD_R_yaw_0_30deg_front.png",
+      "three_q_l": "validation/envelope/HEAD_R_yaw_0_30deg_three_q_l.png",
+      "visual_review": "PENDING"
+    },
+    "HEAD_R_yaw_1_30deg": {
+      "bone": "HEAD",
+      "axis": 1,
+      "angle_degrees": 30,
+      "front": "validation/envelope/HEAD_R_yaw_1_30deg_front.png",
+      "three_q_l": "validation/envelope/HEAD_R_yaw_1_30deg_three_q_l.png",
+      "visual_review": "PENDING"
+    }
+  }
+}

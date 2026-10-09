@@ -1,0 +1,88 @@
+{
+  "pose": "TURN_LEFT",
+  "bone_rotations_degrees_local_xyz": {
+    "ROOT": [
+      0,
+      -35,
+      0
+    ],
+    "HEAD": [
+      0,
+      -10,
+      0
+    ]
+  },
+  "bone_locations_local": {},
+  "root_cog_offset": {
+    "ROOT": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "COG": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "safe_envelope_compliance": true,
+  "envelope_issues": [],
+  "deformation_metrics": {
+    "arm_L": {
+      "p01": 0.9999802498203287,
+      "median": 0.99999996279147,
+      "p99": 1.0000197248703788,
+      "minimum": 0.9999475602645991,
+      "maximum": 1.0000679421021288,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.0033366114366799593,
+      "root_gap": 0.44271430373191833
+    },
+    "leg_L": {
+      "p01": 0.9999962267718079,
+      "median": 1.0,
+      "p99": 1.0000032798887966,
+      "minimum": 0.9999919915524922,
+      "maximum": 1.0000061932220645,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.0077620819211006165,
+      "root_gap": 0.39436423778533936
+    },
+    "arm_R": {
+      "p01": 0.9999824816267757,
+      "median": 0.9999999142475646,
+      "p99": 1.0000170402740332,
+      "minimum": 0.9999505409827522,
+      "maximum": 1.000060848447472,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.0033367073629051447,
+      "root_gap": 0.44271430373191833
+    },
+    "leg_R": {
+      "p01": 0.9999963018570683,
+      "median": 1.0,
+      "p99": 1.000003330887929,
+      "minimum": 0.9999924198207794,
+      "maximum": 1.0000061932220645,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.007762021850794554,
+      "root_gap": 0.39436423778533936
+    }
+  },
+  "deformation_metrics_pass": true,
+  "visual_review": "PASS",
+  "render_paths": {
+    "front": "validation/turn_left/front.png",
+    "three_q": "validation/turn_left/three_q.png"
+  },
+  "notes": "Static FK pose only; no Action or keyframe.",
+  "visual_review_notes": "Whole-rig turn is readable without destructive mesh twist."
+}

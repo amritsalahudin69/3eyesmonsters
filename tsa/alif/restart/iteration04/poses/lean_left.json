@@ -1,0 +1,83 @@
+{
+  "pose": "LEAN_LEFT",
+  "bone_rotations_degrees_local_xyz": {
+    "COG": [
+      0,
+      0,
+      8
+    ]
+  },
+  "bone_locations_local": {},
+  "root_cog_offset": {
+    "ROOT": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "COG": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "safe_envelope_compliance": true,
+  "envelope_issues": [],
+  "deformation_metrics": {
+    "arm_L": {
+      "p01": 0.9999802690775719,
+      "median": 0.9999999606080441,
+      "p99": 1.0000206882667013,
+      "minimum": 0.9999159714031483,
+      "maximum": 1.0000927646555569,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.0033367141149938107,
+      "root_gap": 0.44271430373191833
+    },
+    "leg_L": {
+      "p01": 0.9999950986779037,
+      "median": 1.0000000515396832,
+      "p99": 1.0000043919692592,
+      "minimum": 0.9999916433628954,
+      "maximum": 1.000007881676985,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.007762005086988211,
+      "root_gap": 0.39436423778533936
+    },
+    "arm_R": {
+      "p01": 0.9999805647478707,
+      "median": 0.9999999658483826,
+      "p99": 1.0000190599950982,
+      "minimum": 0.9999121888049572,
+      "maximum": 1.0000731868581227,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.0033366000279784203,
+      "root_gap": 0.4427146315574646
+    },
+    "leg_R": {
+      "p01": 0.9999931554300886,
+      "median": 1.0000000174622974,
+      "p99": 1.0000084687211102,
+      "minimum": 0.999983542020943,
+      "maximum": 1.0000132037841836,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.007762052584439516,
+      "root_gap": 0.39436426758766174
+    }
+  },
+  "deformation_metrics_pass": true,
+  "visual_review": "PASS",
+  "render_paths": {
+    "front": "validation/lean_left/front.png",
+    "three_q": "validation/lean_left/three_q.png"
+  },
+  "notes": "Static FK pose only; no Action or keyframe.",
+  "visual_review_notes": "Directional body lean is visible without severe deformation."
+}

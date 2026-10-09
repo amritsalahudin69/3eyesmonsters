@@ -1,0 +1,1872 @@
+{
+  "status": "BLOCKED",
+  "source_sha256_before": "da2af5cda34b78d2ae1c07a0ede7926a459fc7c08a06e0b255a65617111f643c",
+  "working_copy_initial_sha256": "da2af5cda34b78d2ae1c07a0ede7926a459fc7c08a06e0b255a65617111f643c",
+  "poses": {
+    "REST": {
+      "definition": "poses/rest.json",
+      "metric_and_envelope_pass": true,
+      "visual_review": "PASS",
+      "visual_notes": "Canonical neutral matches the Iteration 1 reference."
+    },
+    "READY": {
+      "definition": "poses/ready.json",
+      "metric_and_envelope_pass": true,
+      "visual_review": "PASS",
+      "visual_notes": "Readable as a restrained game-ready stance."
+    },
+    "STEP_LEFT": {
+      "definition": "poses/step_left.json",
+      "metric_and_envelope_pass": true,
+      "visual_review": "PASS",
+      "visual_notes": "Leg opposition is visible and the static step stays within the safe envelope."
+    },
+    "STEP_RIGHT": {
+      "definition": "poses/step_right.json",
+      "metric_and_envelope_pass": true,
+      "visual_review": "PASS",
+      "visual_notes": "Mirrored leg opposition is visible and remains within the safe envelope."
+    },
+    "LEAN_LEFT": {
+      "definition": "poses/lean_left.json",
+      "metric_and_envelope_pass": true,
+      "visual_review": "PASS",
+      "visual_notes": "Directional body lean is visible without severe deformation."
+    },
+    "LEAN_RIGHT": {
+      "definition": "poses/lean_right.json",
+      "metric_and_envelope_pass": true,
+      "visual_review": "PASS",
+      "visual_notes": "Mirrored directional body lean is visible without severe deformation."
+    },
+    "POINT_LEFT": {
+      "definition": "poses/point_left.json",
+      "metric_and_envelope_pass": true,
+      "visual_review": "PASS",
+      "visual_notes": "The arm reaches clearly toward the indicated side within the tested range."
+    },
+    "POINT_RIGHT": {
+      "definition": "poses/point_right.json",
+      "metric_and_envelope_pass": true,
+      "visual_review": "PASS",
+      "visual_notes": "Mirrored arm reach is visible within the tested range."
+    },
+    "TURN_LEFT": {
+      "definition": "poses/turn_left.json",
+      "metric_and_envelope_pass": true,
+      "visual_review": "PASS",
+      "visual_notes": "Whole-rig turn is readable without destructive mesh twist."
+    },
+    "TURN_RIGHT": {
+      "definition": "poses/turn_right.json",
+      "metric_and_envelope_pass": true,
+      "visual_review": "PASS",
+      "visual_notes": "Mirrored whole-rig turn is readable without destructive mesh twist."
+    },
+    "CROUCH": {
+      "definition": "poses/crouch.json",
+      "metric_and_envelope_pass": true,
+      "visual_review": "BLOCKED",
+      "visual_notes": "Gameplay-camera view remains too close to standing to read as a clear compressed crouch."
+    },
+    "JUMP_ANTICIPATION": {
+      "definition": "poses/jump_anticipation.json",
+      "metric_and_envelope_pass": true,
+      "visual_review": "BLOCKED",
+      "visual_notes": "Gameplay-camera view does not clearly read as a pre-jump loading pose; it remains too close to standing."
+    },
+    "JUMP_TAKEOFF": {
+      "definition": "poses/jump_takeoff.json",
+      "metric_and_envelope_pass": true,
+      "visual_review": "PASS",
+      "visual_notes": "Static extension pose is readable and stays within the conservative envelope."
+    },
+    "JUMP_APEX": {
+      "definition": "poses/jump_apex.json",
+      "metric_and_envelope_pass": true,
+      "visual_review": "PASS",
+      "visual_notes": "Airborne silhouette is readable with the recorded COG vertical offset."
+    },
+    "FALL": {
+      "definition": "poses/fall.json",
+      "metric_and_envelope_pass": true,
+      "visual_review": "PASS",
+      "visual_notes": "Descending/balancing silhouette remains coherent."
+    },
+    "LANDING": {
+      "definition": "poses/landing.json",
+      "metric_and_envelope_pass": true,
+      "visual_review": "PASS",
+      "visual_notes": "Shallow impact absorption is readable and remains within the safe knee cap."
+    }
+  },
+  "game_camera_readability": {
+    "READY": {
+      "render": "validation/ready/game_camera.png",
+      "readable": true,
+      "visual_review": "PASS",
+      "notes": "Restrained ready stance reads at gameplay distance."
+    },
+    "STEP_LEFT": {
+      "render": "validation/step_left/game_camera.png",
+      "readable": true,
+      "visual_review": "PASS",
+      "notes": "Step silhouette is discernible at gameplay distance."
+    },
+    "POINT_LEFT": {
+      "render": "validation/point_left/game_camera.png",
+      "readable": true,
+      "visual_review": "PASS",
+      "notes": "Extended arm direction reads at gameplay distance."
+    },
+    "CROUCH": {
+      "render": "validation/crouch/game_camera.png",
+      "readable": false,
+      "visual_review": "BLOCKED",
+      "notes": "Does not read clearly as a crouch."
+    },
+    "JUMP_ANTICIPATION": {
+      "render": "validation/jump_anticipation/game_camera.png",
+      "readable": false,
+      "visual_review": "BLOCKED",
+      "notes": "Does not read clearly as jump loading."
+    },
+    "JUMP_APEX": {
+      "render": "validation/jump_apex/game_camera.png",
+      "readable": true,
+      "visual_review": "PASS",
+      "notes": "Airborne silhouette reads with the recorded vertical offset."
+    },
+    "LANDING": {
+      "render": "validation/landing/game_camera.png",
+      "readable": true,
+      "visual_review": "PASS",
+      "notes": "Shallow landing stance reads at gameplay distance."
+    }
+  },
+  "step_sequence": {
+    "checks": [
+      {
+        "from": "REST",
+        "to": "STEP_LEFT",
+        "factor": 0.25,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.9493670795472275,
+            "median": 1.0000000128456488,
+            "p99": 1.058612096254007,
+            "minimum": 0.9072855759913233,
+            "maximum": 1.105102377143304,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033367301803082228,
+            "root_gap": 0.39948907494544983
+          },
+          "leg_L": {
+            "p01": 0.8141720269743333,
+            "median": 1.0,
+            "p99": 1.1873799815991004,
+            "minimum": 0.7624947094972471,
+            "maximum": 1.2374592797303758,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.005243212450295687,
+            "root_gap": 0.3810625970363617
+          },
+          "arm_R": {
+            "p01": 0.9418769909877235,
+            "median": 0.9999999538974391,
+            "p99": 1.0516314927962884,
+            "minimum": 0.9010777496071793,
+            "maximum": 1.0982508443763503,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336637746542692,
+            "root_gap": 0.4399075210094452
+          },
+          "leg_R": {
+            "p01": 0.8141720269743333,
+            "median": 1.0,
+            "p99": 1.1873799815991004,
+            "minimum": 0.76249470949174,
+            "maximum": 1.2374592797303758,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.007762110326439142,
+            "root_gap": 0.3803599774837494
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "REST",
+        "to": "STEP_LEFT",
+        "factor": 0.5,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.8994666351681706,
+            "median": 1.000000024725066,
+            "p99": 1.11773749793687,
+            "minimum": 0.8220797797716898,
+            "maximum": 1.2147434311353886,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336886875331402,
+            "root_gap": 0.3408185839653015
+          },
+          "leg_L": {
+            "p01": 0.6313698011199917,
+            "median": 1.0,
+            "p99": 1.3756310399133183,
+            "minimum": 0.5250014232190826,
+            "maximum": 1.4748164281770568,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.003667275421321392,
+            "root_gap": 0.369101881980896
+          },
+          "arm_R": {
+            "p01": 0.8843111157499812,
+            "median": 0.99999995060655,
+            "p99": 1.1038485530204394,
+            "minimum": 0.8100663268872977,
+            "maximum": 1.2006397867690364,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366524148732424,
+            "root_gap": 0.3742673397064209
+          },
+          "leg_R": {
+            "p01": 0.6313698011199917,
+            "median": 1.0,
+            "p99": 1.3756310399133183,
+            "minimum": 0.5250014232225219,
+            "maximum": 1.474816428178281,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.0077620577067136765,
+            "root_gap": 0.3681780695915222
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "REST",
+        "to": "STEP_LEFT",
+        "factor": 0.75,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.8517190038420381,
+            "median": 0.9999999831272492,
+            "p99": 1.1772860653740247,
+            "minimum": 0.7470318131470874,
+            "maximum": 1.327766216579941,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336534136906266,
+            "root_gap": 0.3060755729675293
+          },
+          "leg_L": {
+            "p01": 0.45530783050242774,
+            "median": 1.0,
+            "p99": 1.564346755765884,
+            "minimum": 0.28760205314238,
+            "maximum": 1.7120106972054885,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.00618851650506258,
+            "root_gap": 0.3545898497104645
+          },
+          "arm_R": {
+            "p01": 0.8288243839268702,
+            "median": 0.9999999156098511,
+            "p99": 1.156912273476968,
+            "minimum": 0.7239380926274945,
+            "maximum": 1.3061723862556778,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366552088409662,
+            "root_gap": 0.3289043605327606
+          },
+          "leg_R": {
+            "p01": 0.45530783050242774,
+            "median": 1.0,
+            "p99": 1.564346755765884,
+            "minimum": 0.28760205314238,
+            "maximum": 1.7120106972054885,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.007762069348245859,
+            "root_gap": 0.3448227047920227
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "STEP_LEFT",
+        "to": "REST",
+        "factor": 0.25,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.8517190038420381,
+            "median": 0.9999999831272492,
+            "p99": 1.1772860653740247,
+            "minimum": 0.7470318131470874,
+            "maximum": 1.327766216579941,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336534136906266,
+            "root_gap": 0.3060755729675293
+          },
+          "leg_L": {
+            "p01": 0.45530783050242774,
+            "median": 1.0,
+            "p99": 1.564346755765884,
+            "minimum": 0.28760205314238,
+            "maximum": 1.7120106972054885,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.00618851650506258,
+            "root_gap": 0.3545898497104645
+          },
+          "arm_R": {
+            "p01": 0.8288243839268702,
+            "median": 0.9999999156098511,
+            "p99": 1.156912273476968,
+            "minimum": 0.7239380926274945,
+            "maximum": 1.3061723862556778,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366552088409662,
+            "root_gap": 0.3289043605327606
+          },
+          "leg_R": {
+            "p01": 0.45530783050242774,
+            "median": 1.0,
+            "p99": 1.564346755765884,
+            "minimum": 0.28760205314238,
+            "maximum": 1.7120106972054885,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.007762069348245859,
+            "root_gap": 0.3448227047920227
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "STEP_LEFT",
+        "to": "REST",
+        "factor": 0.5,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.8994666351681706,
+            "median": 1.000000024725066,
+            "p99": 1.11773749793687,
+            "minimum": 0.8220797797716898,
+            "maximum": 1.2147434311353886,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336886875331402,
+            "root_gap": 0.3408185839653015
+          },
+          "leg_L": {
+            "p01": 0.6313698011199917,
+            "median": 1.0,
+            "p99": 1.3756310399133183,
+            "minimum": 0.5250014232190826,
+            "maximum": 1.4748164281770568,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.003667275421321392,
+            "root_gap": 0.369101881980896
+          },
+          "arm_R": {
+            "p01": 0.8843111157499812,
+            "median": 0.99999995060655,
+            "p99": 1.1038485530204394,
+            "minimum": 0.8100663268872977,
+            "maximum": 1.2006397867690364,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366524148732424,
+            "root_gap": 0.3742673397064209
+          },
+          "leg_R": {
+            "p01": 0.6313698011199917,
+            "median": 1.0,
+            "p99": 1.3756310399133183,
+            "minimum": 0.5250014232225219,
+            "maximum": 1.474816428178281,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.0077620577067136765,
+            "root_gap": 0.3681780695915222
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "STEP_LEFT",
+        "to": "REST",
+        "factor": 0.75,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.9493670795472275,
+            "median": 1.0000000128456488,
+            "p99": 1.058612096254007,
+            "minimum": 0.9072855759913233,
+            "maximum": 1.105102377143304,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033367301803082228,
+            "root_gap": 0.39948907494544983
+          },
+          "leg_L": {
+            "p01": 0.8141720269743333,
+            "median": 1.0,
+            "p99": 1.1873799815991004,
+            "minimum": 0.7624947094972471,
+            "maximum": 1.2374592797303758,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.005243212450295687,
+            "root_gap": 0.3810625970363617
+          },
+          "arm_R": {
+            "p01": 0.9418769909877235,
+            "median": 0.9999999538974391,
+            "p99": 1.0516314927962884,
+            "minimum": 0.9010777496071793,
+            "maximum": 1.0982508443763503,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336637746542692,
+            "root_gap": 0.4399075210094452
+          },
+          "leg_R": {
+            "p01": 0.8141720269743333,
+            "median": 1.0,
+            "p99": 1.1873799815991004,
+            "minimum": 0.76249470949174,
+            "maximum": 1.2374592797303758,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.007762110326439142,
+            "root_gap": 0.3803599774837494
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "REST",
+        "to": "STEP_RIGHT",
+        "factor": 0.25,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.9418765028863887,
+            "median": 0.9999999855909321,
+            "p99": 1.0516348577887047,
+            "minimum": 0.901077536527982,
+            "maximum": 1.0982517662831468,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336764872074127,
+            "root_gap": 0.43990737199783325
+          },
+          "leg_L": {
+            "p01": 0.814172978676587,
+            "median": 1.0,
+            "p99": 1.1873791940246132,
+            "minimum": 0.7624947094982384,
+            "maximum": 1.2374592797303758,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.007762110326439142,
+            "root_gap": 0.3803599774837494
+          },
+          "arm_R": {
+            "p01": 0.9493654431776255,
+            "median": 0.9999999876776623,
+            "p99": 1.0586084009326315,
+            "minimum": 0.9072856314958562,
+            "maximum": 1.1051024442452555,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366468269377947,
+            "root_gap": 0.39948928356170654
+          },
+          "leg_R": {
+            "p01": 0.814172978676587,
+            "median": 1.0,
+            "p99": 1.1873792362369844,
+            "minimum": 0.7624947094972471,
+            "maximum": 1.2374592797245392,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.005243214312940836,
+            "root_gap": 0.3810625970363617
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "REST",
+        "to": "STEP_RIGHT",
+        "factor": 0.5,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.8843100048882873,
+            "median": 0.9999999529567705,
+            "p99": 1.1038517774619914,
+            "minimum": 0.8100661806406255,
+            "maximum": 1.200641271533534,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033367187716066837,
+            "root_gap": 0.3742673397064209
+          },
+          "leg_L": {
+            "p01": 0.6313693860910645,
+            "median": 1.0,
+            "p99": 1.375630819873878,
+            "minimum": 0.5250014232181346,
+            "maximum": 1.474816428178281,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.007762056775391102,
+            "root_gap": 0.3681780993938446
+          },
+          "arm_R": {
+            "p01": 0.8994636543095191,
+            "median": 1.0,
+            "p99": 1.1177374601329702,
+            "minimum": 0.8220802915681236,
+            "maximum": 1.2147434209994397,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336596069857478,
+            "root_gap": 0.3408186137676239
+          },
+          "leg_R": {
+            "p01": 0.6313693860910645,
+            "median": 1.0,
+            "p99": 1.3756308992298556,
+            "minimum": 0.5250014232190826,
+            "maximum": 1.474816428178281,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.003667278215289116,
+            "root_gap": 0.369101881980896
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "REST",
+        "to": "STEP_RIGHT",
+        "factor": 0.75,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.828824206359039,
+            "median": 0.9999999479597628,
+            "p99": 1.1569120635562338,
+            "minimum": 0.7239377518904971,
+            "maximum": 1.306173798905368,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033367068972438574,
+            "root_gap": 0.32890427112579346
+          },
+          "leg_L": {
+            "p01": 0.4553083542240991,
+            "median": 1.0,
+            "p99": 1.5643463471697565,
+            "minimum": 0.28760205314238,
+            "maximum": 1.7120106972054885,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.007762069348245859,
+            "root_gap": 0.34482282400131226
+          },
+          "arm_R": {
+            "p01": 0.8517185408716434,
+            "median": 0.9999999822921347,
+            "p99": 1.1772854629114358,
+            "minimum": 0.7470327280284701,
+            "maximum": 1.3277660369018995,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033367767464369535,
+            "root_gap": 0.3060757517814636
+          },
+          "leg_R": {
+            "p01": 0.4553083542240991,
+            "median": 1.0,
+            "p99": 1.5643464605041233,
+            "minimum": 0.28760205314238,
+            "maximum": 1.7120106972054885,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.00618851650506258,
+            "root_gap": 0.35458993911743164
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "STEP_RIGHT",
+        "to": "REST",
+        "factor": 0.25,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.828824206359039,
+            "median": 0.9999999479597628,
+            "p99": 1.1569120635562338,
+            "minimum": 0.7239377518904971,
+            "maximum": 1.306173798905368,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033367068972438574,
+            "root_gap": 0.32890427112579346
+          },
+          "leg_L": {
+            "p01": 0.4553083542240991,
+            "median": 1.0,
+            "p99": 1.5643463471697565,
+            "minimum": 0.28760205314238,
+            "maximum": 1.7120106972054885,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.007762069348245859,
+            "root_gap": 0.34482282400131226
+          },
+          "arm_R": {
+            "p01": 0.8517185408716434,
+            "median": 0.9999999822921347,
+            "p99": 1.1772854629114358,
+            "minimum": 0.7470327280284701,
+            "maximum": 1.3277660369018995,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033367767464369535,
+            "root_gap": 0.3060757517814636
+          },
+          "leg_R": {
+            "p01": 0.4553083542240991,
+            "median": 1.0,
+            "p99": 1.5643464605041233,
+            "minimum": 0.28760205314238,
+            "maximum": 1.7120106972054885,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.00618851650506258,
+            "root_gap": 0.35458993911743164
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "STEP_RIGHT",
+        "to": "REST",
+        "factor": 0.5,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.8843100048882873,
+            "median": 0.9999999529567705,
+            "p99": 1.1038517774619914,
+            "minimum": 0.8100661806406255,
+            "maximum": 1.200641271533534,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033367187716066837,
+            "root_gap": 0.3742673397064209
+          },
+          "leg_L": {
+            "p01": 0.6313693860910645,
+            "median": 1.0,
+            "p99": 1.375630819873878,
+            "minimum": 0.5250014232181346,
+            "maximum": 1.474816428178281,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.007762056775391102,
+            "root_gap": 0.3681780993938446
+          },
+          "arm_R": {
+            "p01": 0.8994636543095191,
+            "median": 1.0,
+            "p99": 1.1177374601329702,
+            "minimum": 0.8220802915681236,
+            "maximum": 1.2147434209994397,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336596069857478,
+            "root_gap": 0.3408186137676239
+          },
+          "leg_R": {
+            "p01": 0.6313693860910645,
+            "median": 1.0,
+            "p99": 1.3756308992298556,
+            "minimum": 0.5250014232190826,
+            "maximum": 1.474816428178281,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.003667278215289116,
+            "root_gap": 0.369101881980896
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "STEP_RIGHT",
+        "to": "REST",
+        "factor": 0.75,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.9418765028863887,
+            "median": 0.9999999855909321,
+            "p99": 1.0516348577887047,
+            "minimum": 0.901077536527982,
+            "maximum": 1.0982517662831468,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336764872074127,
+            "root_gap": 0.43990737199783325
+          },
+          "leg_L": {
+            "p01": 0.814172978676587,
+            "median": 1.0,
+            "p99": 1.1873791940246132,
+            "minimum": 0.7624947094982384,
+            "maximum": 1.2374592797303758,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.007762110326439142,
+            "root_gap": 0.3803599774837494
+          },
+          "arm_R": {
+            "p01": 0.9493654431776255,
+            "median": 0.9999999876776623,
+            "p99": 1.0586084009326315,
+            "minimum": 0.9072856314958562,
+            "maximum": 1.1051024442452555,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366468269377947,
+            "root_gap": 0.39948928356170654
+          },
+          "leg_R": {
+            "p01": 0.814172978676587,
+            "median": 1.0,
+            "p99": 1.1873792362369844,
+            "minimum": 0.7624947094972471,
+            "maximum": 1.2374592797245392,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.005243214312940836,
+            "root_gap": 0.3810625970363617
+          }
+        },
+        "pass": true
+      }
+    ],
+    "pass": true
+  },
+  "jump_sequence": {
+    "checks": [
+      {
+        "from": "REST",
+        "to": "JUMP_ANTICIPATION",
+        "factor": 0.25,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.9538187921552406,
+            "median": 1.0000002991014467,
+            "p99": 1.1460105140415506,
+            "minimum": 0.9053956384820069,
+            "maximum": 1.2377759625260552,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033367115538567305,
+            "root_gap": 0.4428669512271881
+          },
+          "leg_L": {
+            "p01": 0.8141756223971803,
+            "median": 1.0,
+            "p99": 1.1873835801026844,
+            "minimum": 0.7624947094972471,
+            "maximum": 1.237463056939185,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.003667291020974517,
+            "root_gap": 0.381939172744751
+          },
+          "arm_R": {
+            "p01": 0.951083455406875,
+            "median": 1.0000002041739053,
+            "p99": 1.147252929510044,
+            "minimum": 0.9053977592871943,
+            "maximum": 1.2320222546885367,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033365890849381685,
+            "root_gap": 0.44585350155830383
+          },
+          "leg_R": {
+            "p01": 0.8141765740963076,
+            "median": 1.0,
+            "p99": 1.1873828347412925,
+            "minimum": 0.7624947094972471,
+            "maximum": 1.2374630569333482,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.003667292185127735,
+            "root_gap": 0.381939172744751
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "REST",
+        "to": "JUMP_ANTICIPATION",
+        "factor": 0.5,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.9073662848975124,
+            "median": 1.0000002367671617,
+            "p99": 1.296041714349078,
+            "minimum": 0.8110795505708435,
+            "maximum": 1.482277036719126,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366794232279062,
+            "root_gap": 0.440320760011673
+          },
+          "leg_L": {
+            "p01": 0.6313722356689045,
+            "median": 1.0,
+            "p99": 1.3756310399133183,
+            "minimum": 0.5250014232190826,
+            "maximum": 1.4748164281770568,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006441091652959585,
+            "root_gap": 0.36988991498947144
+          },
+          "arm_R": {
+            "p01": 0.9019983491620364,
+            "median": 1.0000002263476988,
+            "p99": 1.2986614966673553,
+            "minimum": 0.8110796207931145,
+            "maximum": 1.4710954790249773,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366919960826635,
+            "root_gap": 0.44890621304512024
+          },
+          "leg_R": {
+            "p01": 0.6313718206445229,
+            "median": 1.0,
+            "p99": 1.3756308992298556,
+            "minimum": 0.5250014232190826,
+            "maximum": 1.474816428178281,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006441042292863131,
+            "root_gap": 0.36988991498947144
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "REST",
+        "to": "JUMP_ANTICIPATION",
+        "factor": 0.75,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.8601564985531878,
+            "median": 1.0000001534313,
+            "p99": 1.4492166259976884,
+            "minimum": 0.7172094608119222,
+            "maximum": 1.730497785105688,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366107381880283,
+            "root_gap": 0.43655940890312195
+          },
+          "leg_L": {
+            "p01": 0.45530675122849074,
+            "median": 1.0,
+            "p99": 1.564346755765884,
+            "minimum": 0.28760205314238,
+            "maximum": 1.7120106972054885,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.0060456241481006145,
+            "root_gap": 0.3592371344566345
+          },
+          "arm_R": {
+            "p01": 0.8523704037500699,
+            "median": 1.000000140105316,
+            "p99": 1.4531422148508366,
+            "minimum": 0.7172118495420406,
+            "maximum": 1.714191808993514,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366191200912,
+            "root_gap": 0.4516346752643585
+          },
+          "leg_R": {
+            "p01": 0.4553072749538526,
+            "median": 1.0,
+            "p99": 1.5643464605041233,
+            "minimum": 0.28760205314238,
+            "maximum": 1.7120106972054885,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006045520305633545,
+            "root_gap": 0.3592371344566345
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "JUMP_ANTICIPATION",
+        "to": "JUMP_TAKEOFF",
+        "factor": 0.25,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.8358993969463135,
+            "median": 1.0000002061021527,
+            "p99": 1.6616057766299308,
+            "minimum": 0.6883825265960004,
+            "maximum": 2.09851295713951,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033367599826306105,
+            "root_gap": 0.4351626932621002
+          },
+          "leg_L": {
+            "p01": 0.4300033094134843,
+            "median": 1.0,
+            "p99": 1.592678640767387,
+            "minimum": 0.25199320021288807,
+            "maximum": 1.7475620654500341,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006045689806342125,
+            "root_gap": 0.357759028673172
+          },
+          "arm_R": {
+            "p01": 0.8292793116123377,
+            "median": 1.000000091233639,
+            "p99": 1.6694332080977914,
+            "minimum": 0.6920043583604673,
+            "maximum": 2.08332199818578,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033365385606884956,
+            "root_gap": 0.45240074396133423
+          },
+          "leg_R": {
+            "p01": 0.4300027352008038,
+            "median": 1.0,
+            "p99": 1.5926783592380365,
+            "minimum": 0.25199320021288807,
+            "maximum": 1.7475620654498112,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006045520305633545,
+            "root_gap": 0.357759028673172
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "JUMP_ANTICIPATION",
+        "to": "JUMP_TAKEOFF",
+        "factor": 0.5,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.8465911072526617,
+            "median": 1.0000002570531206,
+            "p99": 1.7150316151396154,
+            "minimum": 0.7251524934814603,
+            "maximum": 2.225419750906577,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033367741852998734,
+            "root_gap": 0.44182586669921875
+          },
+          "leg_L": {
+            "p01": 0.577558634857164,
+            "median": 1.0,
+            "p99": 1.4322172190768068,
+            "minimum": 0.45376489245915,
+            "maximum": 1.5459890615661411,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006441066507250071,
+            "root_gap": 0.36629897356033325
+          },
+          "arm_R": {
+            "p01": 0.836865780980838,
+            "median": 1.0000002482241308,
+            "p99": 1.7401899087999633,
+            "minimum": 0.7217343924261262,
+            "maximum": 2.2155583643562053,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366067800670862,
+            "root_gap": 0.45257216691970825
+          },
+          "leg_R": {
+            "p01": 0.5775574330919193,
+            "median": 1.0,
+            "p99": 1.4322172408597655,
+            "minimum": 0.45376489245915,
+            "maximum": 1.5459890615614693,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006441033910959959,
+            "root_gap": 0.36629897356033325
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "JUMP_ANTICIPATION",
+        "to": "JUMP_TAKEOFF",
+        "factor": 0.75,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.8341317037801019,
+            "median": 1.0000001550490385,
+            "p99": 1.769363133016362,
+            "minimum": 0.7101065725017027,
+            "maximum": 2.3596209490102504,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366424031555653,
+            "root_gap": 0.44766417145729065
+          },
+          "leg_L": {
+            "p01": 0.7314049702440056,
+            "median": 1.0,
+            "p99": 1.2720148079507134,
+            "minimum": 0.6556225278448827,
+            "maximum": 1.344295364056556,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.0036672931164503098,
+            "root_gap": 0.3757208287715912
+          },
+          "arm_R": {
+            "p01": 0.8338904917716361,
+            "median": 1.0000000670147462,
+            "p99": 1.8007230133298622,
+            "minimum": 0.7052615464094119,
+            "maximum": 2.354312425756033,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366901334375143,
+            "root_gap": 0.4521179795265198
+          },
+          "leg_R": {
+            "p01": 0.7314039857680845,
+            "median": 1.0,
+            "p99": 1.2720150594342035,
+            "minimum": 0.6556225278448827,
+            "maximum": 1.3442953640525266,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.0036672959104180336,
+            "root_gap": 0.3757208287715912
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "JUMP_TAKEOFF",
+        "to": "JUMP_APEX",
+        "factor": 0.25,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.8224595956135643,
+            "median": 1.0000001640403458,
+            "p99": 1.8698493487587617,
+            "minimum": 0.6870913138397761,
+            "maximum": 2.498538149611187,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336713882163167,
+            "root_gap": 0.4518164098262787
+          },
+          "leg_L": {
+            "p01": 0.8234137729808072,
+            "median": 1.0,
+            "p99": 1.1779861061474235,
+            "minimum": 0.7743728275978373,
+            "maximum": 1.2255955857279541,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.0036672602873295546,
+            "root_gap": 0.3817597031593323
+          },
+          "arm_R": {
+            "p01": 0.823259206589556,
+            "median": 1.000000118481559,
+            "p99": 1.8698510933346455,
+            "minimum": 0.6813614137739474,
+            "maximum": 2.498539666847748,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336672903969884,
+            "root_gap": 0.45181646943092346
+          },
+          "leg_R": {
+            "p01": 0.9333767784060987,
+            "median": 1.0,
+            "p99": 1.0666267261399565,
+            "minimum": 0.9300049710097154,
+            "maximum": 1.0699970310969458,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.0036672831047326326,
+            "root_gap": 0.3931044936180115
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "JUMP_TAKEOFF",
+        "to": "JUMP_APEX",
+        "factor": 0.5,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.8122515116667537,
+            "median": 1.000000089907439,
+            "p99": 1.8698488352361424,
+            "minimum": 0.6443410841614604,
+            "maximum": 2.498542064701514,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366817515343428,
+            "root_gap": 0.4518163800239563
+          },
+          "leg_L": {
+            "p01": 0.7589057870754042,
+            "median": 1.0,
+            "p99": 1.2437792145975743,
+            "minimum": 0.6912353514871455,
+            "maximum": 1.3086720351951988,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.0064410618506371975,
+            "root_gap": 0.3777157664299011
+          },
+          "arm_R": {
+            "p01": 0.8122516476522005,
+            "median": 1.000000093825415,
+            "p99": 1.8698517447129588,
+            "minimum": 0.6430070532206005,
+            "maximum": 2.498544950595348,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366938587278128,
+            "root_gap": 0.4518164396286011
+          },
+          "leg_R": {
+            "p01": 0.8600128573572297,
+            "median": 1.0,
+            "p99": 1.1399895575930343,
+            "minimum": 0.8337468836037261,
+            "maximum": 1.1662336118667218,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.0064410073682665825,
+            "root_gap": 0.38313212990760803
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "JUMP_TAKEOFF",
+        "to": "JUMP_APEX",
+        "factor": 0.75,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.7700495188046856,
+            "median": 1.0000001445741613,
+            "p99": 1.8698507380725577,
+            "minimum": 0.5516250820004582,
+            "maximum": 2.4985374665950766,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336589550599456,
+            "root_gap": 0.4518164098262787
+          },
+          "leg_L": {
+            "p01": 0.6948479514178424,
+            "median": 1.0,
+            "p99": 1.309667553446919,
+            "minimum": 0.6081177241232452,
+            "maximum": 1.3917544255061403,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006045656278729439,
+            "root_gap": 0.37375640869140625
+          },
+          "arm_R": {
+            "p01": 0.7730652784619336,
+            "median": 1.0000001956131885,
+            "p99": 1.8698522946011553,
+            "minimum": 0.5595875613257346,
+            "maximum": 2.498534391573642,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336551832035184,
+            "root_gap": 0.4518164396286011
+          },
+          "leg_R": {
+            "p01": 0.7497338227892584,
+            "median": 1.0,
+            "p99": 1.2531979957203685,
+            "minimum": 0.6793637725521036,
+            "maximum": 1.3205495676520684,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.0060455226339399815,
+            "root_gap": 0.3732239902019501
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "JUMP_APEX",
+        "to": "FALL",
+        "factor": 0.25,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.7869770216315001,
+            "median": 1.0000001900950317,
+            "p99": 1.7869515905624669,
+            "minimum": 0.5778599261776505,
+            "maximum": 2.3545078865561724,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336570458486676,
+            "root_gap": 0.45113080739974976
+          },
+          "leg_L": {
+            "p01": 0.6766555549152276,
+            "median": 0.999999980926503,
+            "p99": 1.328515199621452,
+            "minimum": 0.5843767968394409,
+            "maximum": 1.415498681744478,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006045634858310223,
+            "root_gap": 0.3731391727924347
+          },
+          "arm_R": {
+            "p01": 0.7869796074936007,
+            "median": 1.000000153585897,
+            "p99": 1.7869532114270896,
+            "minimum": 0.5778606812900935,
+            "maximum": 2.354509508981969,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033365802373737097,
+            "root_gap": 0.4511309266090393
+          },
+          "leg_R": {
+            "p01": 0.6766506281536339,
+            "median": 1.0000000231757602,
+            "p99": 1.3285090546886154,
+            "minimum": 0.5843730664929708,
+            "maximum": 1.415498764447029,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006045544985681772,
+            "root_gap": 0.36011889576911926
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "JUMP_APEX",
+        "to": "FALL",
+        "factor": 0.5,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.8356817283733573,
+            "median": 1.000000232585455,
+            "p99": 1.703076464498712,
+            "minimum": 0.7172171709984848,
+            "maximum": 2.210961765178168,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336620982736349,
+            "root_gap": 0.4504414200782776
+          },
+          "leg_L": {
+            "p01": 0.7181848358281095,
+            "median": 0.9999999335432117,
+            "p99": 1.2845751131213168,
+            "minimum": 0.6437420999308701,
+            "maximum": 1.356158890327064,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006440985482186079,
+            "root_gap": 0.37661367654800415
+          },
+          "arm_R": {
+            "p01": 0.8356800826786074,
+            "median": 1.0000003174797873,
+            "p99": 1.7030745904342242,
+            "minimum": 0.7172138533954542,
+            "maximum": 2.2109761461447826,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336666151881218,
+            "root_gap": 0.4504415988922119
+          },
+          "leg_R": {
+            "p01": 0.7181823844475033,
+            "median": 0.9999999931443413,
+            "p99": 1.284576258613157,
+            "minimum": 0.6437381670295605,
+            "maximum": 1.3561592210303695,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006440997589379549,
+            "root_gap": 0.36596542596817017
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "JUMP_APEX",
+        "to": "FALL",
+        "factor": 0.75,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.8777075504518226,
+            "median": 1.000000159173367,
+            "p99": 1.6192738910036777,
+            "minimum": 0.7959429370956617,
+            "maximum": 2.0679369176836024,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033367520663887262,
+            "root_gap": 0.4497496783733368
+          },
+          "leg_L": {
+            "p01": 0.7215877927985808,
+            "median": 0.9999999732347693,
+            "p99": 1.2784332279698734,
+            "minimum": 0.7031171073660861,
+            "maximum": 1.2968131243713976,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.003667257260531187,
+            "root_gap": 0.3803059160709381
+          },
+          "arm_R": {
+            "p01": 0.8777096355857561,
+            "median": 1.0000002610393772,
+            "p99": 1.6192688511075026,
+            "minimum": 0.795940114899493,
+            "maximum": 2.0679372121363606,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366635907441378,
+            "root_gap": 0.44974955916404724
+          },
+          "leg_R": {
+            "p01": 0.7215870338289363,
+            "median": 1.0000000362319919,
+            "p99": 1.2784308931544546,
+            "minimum": 0.7031135885526857,
+            "maximum": 1.2968174068292764,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.0036672279238700867,
+            "root_gap": 0.37201955914497375
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "FALL",
+        "to": "LANDING",
+        "factor": 0.25,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.9432386413651559,
+            "median": 1.0000002563360675,
+            "p99": 1.5087530366228177,
+            "minimum": 0.8303684851559259,
+            "maximum": 1.878062386472554,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033367055002599955,
+            "root_gap": 0.44881609082221985
+          },
+          "leg_L": {
+            "p01": 0.6500937310045887,
+            "median": 1.0000000091317576,
+            "p99": 1.3499552449812096,
+            "minimum": 0.5843745930180168,
+            "maximum": 1.4154989405799354,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.0036672945134341717,
+            "root_gap": 0.37398451566696167
+          },
+          "arm_R": {
+            "p01": 0.9432404229586653,
+            "median": 1.0000001594015129,
+            "p99": 1.508761220277203,
+            "minimum": 0.8303682301815679,
+            "maximum": 1.878066036196138,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336647991091013,
+            "root_gap": 0.44881632924079895
+          },
+          "leg_R": {
+            "p01": 0.6669378393670113,
+            "median": 1.000000086081383,
+            "p99": 1.3331017175514073,
+            "minimum": 0.6500899933217609,
+            "maximum": 1.3499542076055004,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.0036672581918537617,
+            "root_gap": 0.39258772134780884
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "FALL",
+        "to": "LANDING",
+        "factor": 0.5,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.9456763492381121,
+            "median": 1.000000215915173,
+            "p99": 1.4812588751539688,
+            "minimum": 0.8390650304620039,
+            "maximum": 1.8307650714246766,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336685709655285,
+            "root_gap": 0.4484987258911133
+          },
+          "leg_L": {
+            "p01": 0.542080352152239,
+            "median": 1.0,
+            "p99": 1.4699535555131467,
+            "minimum": 0.40629186947103085,
+            "maximum": 1.5934446857382714,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.0064410557970404625,
+            "root_gap": 0.3648236095905304
+          },
+          "arm_R": {
+            "p01": 0.9456745070934971,
+            "median": 1.0000001405908532,
+            "p99": 1.4812489982434527,
+            "minimum": 0.8390588835141488,
+            "maximum": 1.8307635099303754,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336607478559017,
+            "root_gap": 0.4484987258911133
+          },
+          "leg_R": {
+            "p01": 0.6003788298556236,
+            "median": 0.9999999999999987,
+            "p99": 1.3997162517017527,
+            "minimum": 0.5801686970943626,
+            "maximum": 1.4199397902528725,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006441003642976284,
+            "root_gap": 0.37789154052734375
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "FALL",
+        "to": "LANDING",
+        "factor": 0.75,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.9481806413306453,
+            "median": 1.0000000801967026,
+            "p99": 1.4537983378436887,
+            "minimum": 0.847805573923118,
+            "maximum": 1.7835414013386688,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366186544299126,
+            "root_gap": 0.44818052649497986
+          },
+          "leg_L": {
+            "p01": 0.41337751030902387,
+            "median": 1.0000000008593242,
+            "p99": 1.6115715799114965,
+            "minimum": 0.22826330462300246,
+            "maximum": 1.7712701439266332,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006045619957149029,
+            "root_gap": 0.35686570405960083
+          },
+          "arm_R": {
+            "p01": 0.9481792314301962,
+            "median": 1.000000176300569,
+            "p99": 1.4537920593517137,
+            "minimum": 0.8478028817682184,
+            "maximum": 1.7835523043803074,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336584661155939,
+            "root_gap": 0.44818082451820374
+          },
+          "leg_R": {
+            "p01": 0.496394664147095,
+            "median": 1.000000033840483,
+            "p99": 1.5171463940963865,
+            "minimum": 0.3469367770963053,
+            "maximum": 1.6527321176115866,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006045538000762463,
+            "root_gap": 0.36233916878700256
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "LANDING",
+        "to": "REST",
+        "factor": 0.25,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.9625880378886191,
+            "median": 1.0000001678222077,
+            "p99": 1.3173608841702988,
+            "minimum": 0.8918842424985823,
+            "maximum": 1.5487279491073866,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336695022881031,
+            "root_gap": 0.44658181071281433
+          },
+          "leg_L": {
+            "p01": 0.45530783050242774,
+            "median": 1.0,
+            "p99": 1.564346755765884,
+            "minimum": 0.28760205314238,
+            "maximum": 1.7120106972054885,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006045675836503506,
+            "root_gap": 0.3592371940612793
+          },
+          "arm_R": {
+            "p01": 0.9625867810138551,
+            "median": 1.0000000681034917,
+            "p99": 1.3173613347470499,
+            "minimum": 0.8918855015792778,
+            "maximum": 1.548726564002888,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366638235747814,
+            "root_gap": 0.4465820789337158
+          },
+          "leg_R": {
+            "p01": 0.4553083542240991,
+            "median": 1.0,
+            "p99": 1.5643464605041233,
+            "minimum": 0.28760205314238,
+            "maximum": 1.7120106972054885,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006045520305633545,
+            "root_gap": 0.3592371940612793
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "LANDING",
+        "to": "REST",
+        "factor": 0.5,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.9748850405419283,
+            "median": 1.00000012325117,
+            "p99": 1.20972328668844,
+            "minimum": 0.927607588948171,
+            "maximum": 1.362805126409049,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366091083735228,
+            "root_gap": 0.4452958405017853
+          },
+          "leg_L": {
+            "p01": 0.6313698011199917,
+            "median": 1.0,
+            "p99": 1.3756321772252624,
+            "minimum": 0.5250014232190826,
+            "maximum": 1.4748164281770568,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006441091652959585,
+            "root_gap": 0.36988991498947144
+          },
+          "arm_R": {
+            "p01": 0.9748840931880686,
+            "median": 1.000000080244205,
+            "p99": 1.2097271873239799,
+            "minimum": 0.9276088974608647,
+            "maximum": 1.3628038013500594,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.003336639842018485,
+            "root_gap": 0.44529610872268677
+          },
+          "leg_R": {
+            "p01": 0.6313693860910645,
+            "median": 1.0,
+            "p99": 1.3756320365422945,
+            "minimum": 0.5250014232190826,
+            "maximum": 1.474816428178281,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.006441042292863131,
+            "root_gap": 0.36988991498947144
+          }
+        },
+        "pass": true
+      },
+      {
+        "from": "LANDING",
+        "to": "REST",
+        "factor": 0.75,
+        "envelope_issues": [],
+        "metrics": {
+          "arm_L": {
+            "p01": 0.9873599134680271,
+            "median": 1.0000001421090217,
+            "p99": 1.1037499481077915,
+            "minimum": 0.9636603597076676,
+            "maximum": 1.1794536262980961,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366933930665255,
+            "root_gap": 0.4440062344074249
+          },
+          "leg_L": {
+            "p01": 0.8141767359484505,
+            "median": 1.0,
+            "p99": 1.1873835801026844,
+            "minimum": 0.7624909460879121,
+            "maximum": 1.2374592797303758,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.003667291020974517,
+            "root_gap": 0.381939172744751
+          },
+          "arm_R": {
+            "p01": 0.9873581797028486,
+            "median": 1.0000001626933464,
+            "p99": 1.1037459734518826,
+            "minimum": 0.9636617205033524,
+            "maximum": 1.17945317424114,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "hand_gap": 0.0033366787247359753,
+            "root_gap": 0.4440068006515503
+          },
+          "leg_R": {
+            "p01": 0.8141776876462505,
+            "median": 1.0,
+            "p99": 1.1873828347412925,
+            "minimum": 0.7624909460879121,
+            "maximum": 1.2374592797245392,
+            "non_finite": 0,
+            "metric_gate": true,
+            "contact_gate": true,
+            "foot_gap": 0.003667292185127735,
+            "root_gap": 0.381939172744751
+          }
+        },
+        "pass": true
+      }
+    ],
+    "pass": true
+  },
+  "visual_review": "COMPLETE_WITH_BLOCKER",
+  "blockers": [
+    "BASIC_JUMP_POSE_LIMIT: CROUCH and JUMP_ANTICIPATION are not visually readable as compression/loading poses.",
+    "SAFE_ENVELOPE_VISUAL_COVERAGE_INCOMPLETE: several recorded joint/root/COG limits lack full visual confirmation."
+  ]
+}

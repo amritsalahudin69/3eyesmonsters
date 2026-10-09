@@ -1,0 +1,3527 @@
+{
+  "status": "BLOCKED",
+  "poses": {
+    "REST": {
+      "pose": "REST",
+      "bone_rotations_degrees_local_xyz": {},
+      "bone_locations_local": {},
+      "root_cog_offset": {
+        "ROOT": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "COG": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "safe_envelope_compliance": true,
+      "envelope_issues": [],
+      "deformation_metrics": {
+        "arm_L": {
+          "p01": 0.9999859125492054,
+          "median": 1.0,
+          "p99": 1.0000133568065568,
+          "minimum": 0.9999561669970709,
+          "maximum": 1.0000517729125031,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336704568937421,
+          "root_gap": 0.44271427392959595
+        },
+        "leg_L": {
+          "p01": 0.9999966570930106,
+          "median": 1.0,
+          "p99": 1.000003648286407,
+          "minimum": 0.9999954314205589,
+          "maximum": 1.0000065432926777,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762114051729441,
+          "root_gap": 0.39436423778533936
+        },
+        "arm_R": {
+          "p01": 0.9999851335492107,
+          "median": 1.0,
+          "p99": 1.0000140924006742,
+          "minimum": 0.9999552089886462,
+          "maximum": 1.0000792627471706,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366428688168526,
+          "root_gap": 0.4427143931388855
+        },
+        "leg_R": {
+          "p01": 0.9999966570930106,
+          "median": 1.0,
+          "p99": 1.0000037866740457,
+          "minimum": 0.9999954314205589,
+          "maximum": 1.0000065432926777,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762114051729441,
+          "root_gap": 0.39436423778533936
+        }
+      },
+      "deformation_metrics_pass": true,
+      "visual_review": "PENDING",
+      "render_paths": {
+        "front": "validation/rest/front.png",
+        "three_q": "validation/rest/three_q.png"
+      },
+      "notes": "Static FK pose only; no Action or keyframe."
+    },
+    "READY": {
+      "pose": "READY",
+      "bone_rotations_degrees_local_xyz": {
+        "UPPER_ARM.L": [
+          0,
+          0,
+          15
+        ],
+        "UPPER_ARM.R": [
+          0,
+          0,
+          -15
+        ],
+        "FOREARM.L": [
+          10,
+          0,
+          0
+        ],
+        "FOREARM.R": [
+          -10,
+          0,
+          0
+        ],
+        "THIGH.L": [
+          0,
+          0,
+          0
+        ],
+        "THIGH.R": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bone_locations_local": {},
+      "root_cog_offset": {
+        "ROOT": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "COG": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "safe_envelope_compliance": true,
+      "envelope_issues": [],
+      "deformation_metrics": {
+        "arm_L": {
+          "p01": 0.8661908080684433,
+          "median": 1.0000000272479386,
+          "p99": 1.355126001415993,
+          "minimum": 0.6240509159908082,
+          "maximum": 1.5487279491073866,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336766269057989,
+          "root_gap": 0.4465818405151367
+        },
+        "leg_L": {
+          "p01": 0.9999966570930106,
+          "median": 1.0,
+          "p99": 1.000003648286407,
+          "minimum": 0.9999954314205589,
+          "maximum": 1.0000065432926777,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762114051729441,
+          "root_gap": 0.39436423778533936
+        },
+        "arm_R": {
+          "p01": 0.8661930849432748,
+          "median": 1.0000000780502045,
+          "p99": 1.3551250264067851,
+          "minimum": 0.6240507522780787,
+          "maximum": 1.5487214811875567,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336765570566058,
+          "root_gap": 0.44658204913139343
+        },
+        "leg_R": {
+          "p01": 0.9999966570930106,
+          "median": 1.0,
+          "p99": 1.0000037866740457,
+          "minimum": 0.9999954314205589,
+          "maximum": 1.0000065432926777,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762114051729441,
+          "root_gap": 0.39436423778533936
+        }
+      },
+      "deformation_metrics_pass": true,
+      "visual_review": "PENDING",
+      "render_paths": {
+        "front": "validation/ready/front.png",
+        "three_q": "validation/ready/three_q.png",
+        "game_camera": "validation/ready/game_camera.png"
+      },
+      "notes": "Static FK pose only; no Action or keyframe."
+    },
+    "STEP_LEFT": {
+      "pose": "STEP_LEFT",
+      "bone_rotations_degrees_local_xyz": {
+        "UPPER_ARM.L": [
+          20,
+          0,
+          0
+        ],
+        "UPPER_ARM.R": [
+          -20,
+          0,
+          0
+        ],
+        "THIGH.L": [
+          -20,
+          0,
+          0
+        ],
+        "THIGH.R": [
+          20,
+          0,
+          0
+        ],
+        "SHIN.L": [
+          5,
+          0,
+          0
+        ],
+        "FOOT.L": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bone_locations_local": {},
+      "root_cog_offset": {
+        "ROOT": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "COG": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "safe_envelope_compliance": true,
+      "envelope_issues": [],
+      "deformation_metrics": {
+        "arm_L": {
+          "p01": 0.8059930575296188,
+          "median": 0.9999999311318784,
+          "p99": 1.2371367779943152,
+          "minimum": 0.6790998270204406,
+          "maximum": 1.4433380766086095,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033365697599947453,
+          "root_gap": 0.3042641878128052
+        },
+        "leg_L": {
+          "p01": 0.29851811096087977,
+          "median": 1.0,
+          "p99": 1.7532734970820458,
+          "minimum": 0.05035045909304907,
+          "maximum": 1.9489731889652604,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006441113073378801,
+          "root_gap": 0.33545440435409546
+        },
+        "arm_R": {
+          "p01": 0.7772543615087562,
+          "median": 0.9999999033333686,
+          "p99": 1.2105478008596935,
+          "minimum": 0.6470709850062806,
+          "maximum": 1.4141340951295118,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367357682436705,
+          "root_gap": 0.3139060139656067
+        },
+        "leg_R": {
+          "p01": 0.29851811096087977,
+          "median": 1.0,
+          "p99": 1.7532734970820458,
+          "minimum": 0.05035045912891004,
+          "maximum": 1.9489731889661865,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0077620865777134895,
+          "root_gap": 0.32495763897895813
+        }
+      },
+      "deformation_metrics_pass": true,
+      "visual_review": "PENDING",
+      "render_paths": {
+        "front": "validation/step_left/front.png",
+        "three_q": "validation/step_left/three_q.png",
+        "game_camera": "validation/step_left/game_camera.png"
+      },
+      "notes": "Static FK pose only; no Action or keyframe."
+    },
+    "STEP_RIGHT": {
+      "pose": "STEP_RIGHT",
+      "bone_rotations_degrees_local_xyz": {
+        "UPPER_ARM.L": [
+          -20,
+          0,
+          0
+        ],
+        "UPPER_ARM.R": [
+          20,
+          0,
+          0
+        ],
+        "THIGH.L": [
+          20,
+          0,
+          0
+        ],
+        "THIGH.R": [
+          -20,
+          0,
+          0
+        ],
+        "SHIN.R": [
+          5,
+          0,
+          0
+        ],
+        "FOOT.R": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bone_locations_local": {},
+      "root_cog_offset": {
+        "ROOT": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "COG": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "safe_envelope_compliance": true,
+      "envelope_issues": [],
+      "deformation_metrics": {
+        "arm_L": {
+          "p01": 0.7772551351214334,
+          "median": 0.9999999595995237,
+          "p99": 1.2105472949928748,
+          "minimum": 0.6470724196286873,
+          "maximum": 1.4141365002672253,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367793075740337,
+          "root_gap": 0.3139059245586395
+        },
+        "leg_L": {
+          "p01": 0.29852021326169675,
+          "median": 1.0,
+          "p99": 1.7532731495404876,
+          "minimum": 0.05035045909304907,
+          "maximum": 1.9489731889661865,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762098219245672,
+          "root_gap": 0.32495763897895813
+        },
+        "arm_R": {
+          "p01": 0.8059937879879802,
+          "median": 0.9999999288867787,
+          "p99": 1.2371361157411058,
+          "minimum": 0.6791024965524735,
+          "maximum": 1.443337881290973,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366065472364426,
+          "root_gap": 0.3042643070220947
+        },
+        "leg_R": {
+          "p01": 0.29852021326169675,
+          "median": 1.0,
+          "p99": 1.7532732945759577,
+          "minimum": 0.05035045909304907,
+          "maximum": 1.9489731889661865,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006441078148782253,
+          "root_gap": 0.33545446395874023
+        }
+      },
+      "deformation_metrics_pass": true,
+      "visual_review": "PENDING",
+      "render_paths": {
+        "front": "validation/step_right/front.png",
+        "three_q": "validation/step_right/three_q.png"
+      },
+      "notes": "Static FK pose only; no Action or keyframe."
+    },
+    "LEAN_LEFT": {
+      "pose": "LEAN_LEFT",
+      "bone_rotations_degrees_local_xyz": {
+        "COG": [
+          0,
+          0,
+          8
+        ]
+      },
+      "bone_locations_local": {},
+      "root_cog_offset": {
+        "ROOT": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "COG": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "safe_envelope_compliance": true,
+      "envelope_issues": [],
+      "deformation_metrics": {
+        "arm_L": {
+          "p01": 0.9999802690775719,
+          "median": 0.9999999606080441,
+          "p99": 1.0000206882667013,
+          "minimum": 0.9999159714031483,
+          "maximum": 1.0000927646555569,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367141149938107,
+          "root_gap": 0.44271430373191833
+        },
+        "leg_L": {
+          "p01": 0.9999950986779037,
+          "median": 1.0000000515396832,
+          "p99": 1.0000043919692592,
+          "minimum": 0.9999916433628954,
+          "maximum": 1.000007881676985,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762005086988211,
+          "root_gap": 0.39436423778533936
+        },
+        "arm_R": {
+          "p01": 0.9999805647478707,
+          "median": 0.9999999658483826,
+          "p99": 1.0000190599950982,
+          "minimum": 0.9999121888049572,
+          "maximum": 1.0000731868581227,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366000279784203,
+          "root_gap": 0.4427146315574646
+        },
+        "leg_R": {
+          "p01": 0.9999931554300886,
+          "median": 1.0000000174622974,
+          "p99": 1.0000084687211102,
+          "minimum": 0.999983542020943,
+          "maximum": 1.0000132037841836,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762052584439516,
+          "root_gap": 0.39436426758766174
+        }
+      },
+      "deformation_metrics_pass": true,
+      "visual_review": "PENDING",
+      "render_paths": {
+        "front": "validation/lean_left/front.png",
+        "three_q": "validation/lean_left/three_q.png"
+      },
+      "notes": "Static FK pose only; no Action or keyframe."
+    },
+    "LEAN_RIGHT": {
+      "pose": "LEAN_RIGHT",
+      "bone_rotations_degrees_local_xyz": {
+        "COG": [
+          0,
+          0,
+          -8
+        ]
+      },
+      "bone_locations_local": {},
+      "root_cog_offset": {
+        "ROOT": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "COG": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "safe_envelope_compliance": true,
+      "envelope_issues": [],
+      "deformation_metrics": {
+        "arm_L": {
+          "p01": 0.999979537006739,
+          "median": 0.9999999887830229,
+          "p99": 1.0000196014680636,
+          "minimum": 0.999922979488577,
+          "maximum": 1.0001024530710338,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366275019943714,
+          "root_gap": 0.44271451234817505
+        },
+        "leg_L": {
+          "p01": 0.9999929187973691,
+          "median": 1.0000000174622974,
+          "p99": 1.000008688302088,
+          "minimum": 0.999983542020943,
+          "maximum": 1.0000132037841836,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762052584439516,
+          "root_gap": 0.39436426758766174
+        },
+        "arm_R": {
+          "p01": 0.9999823475940621,
+          "median": 0.9999999692567962,
+          "p99": 1.0000177091497362,
+          "minimum": 0.9999383869610159,
+          "maximum": 1.0000728470106222,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366670832037926,
+          "root_gap": 0.44271448254585266
+        },
+        "leg_R": {
+          "p01": 0.9999951742740341,
+          "median": 1.0000000528511317,
+          "p99": 1.0000045924698304,
+          "minimum": 0.9999915045567986,
+          "maximum": 1.000007656764011,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762005086988211,
+          "root_gap": 0.39436423778533936
+        }
+      },
+      "deformation_metrics_pass": true,
+      "visual_review": "PENDING",
+      "render_paths": {
+        "front": "validation/lean_right/front.png",
+        "three_q": "validation/lean_right/three_q.png"
+      },
+      "notes": "Static FK pose only; no Action or keyframe."
+    },
+    "POINT_LEFT": {
+      "pose": "POINT_LEFT",
+      "bone_rotations_degrees_local_xyz": {
+        "UPPER_ARM.L": [
+          0,
+          0,
+          40
+        ],
+        "FOREARM.L": [
+          20,
+          0,
+          0
+        ],
+        "WRIST.L": [
+          5,
+          0,
+          0
+        ],
+        "UPPER_ARM.R": [
+          0,
+          0,
+          -8
+        ],
+        "FOREARM.R": [
+          -10,
+          0,
+          0
+        ]
+      },
+      "bone_locations_local": {},
+      "root_cog_offset": {
+        "ROOT": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "COG": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "safe_envelope_compliance": true,
+      "envelope_issues": [],
+      "deformation_metrics": {
+        "arm_L": {
+          "p01": 0.7215256283144169,
+          "median": 1.0000002849283094,
+          "p99": 1.869850202200432,
+          "minimum": 0.2758318349617183,
+          "maximum": 2.498532949958145,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003345758654177189,
+          "root_gap": 0.4518163800239563
+        },
+        "leg_L": {
+          "p01": 0.9999966570930106,
+          "median": 1.0,
+          "p99": 1.000003648286407,
+          "minimum": 0.9999954314205589,
+          "maximum": 1.0000065432926777,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762114051729441,
+          "root_gap": 0.39436423778533936
+        },
+        "arm_R": {
+          "p01": 0.8661921637095396,
+          "median": 1.0000001274449826,
+          "p99": 1.2434650167181331,
+          "minimum": 0.6240518284335498,
+          "maximum": 1.3795721281016444,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367343712598085,
+          "root_gap": 0.44478073716163635
+        },
+        "leg_R": {
+          "p01": 0.9999966570930106,
+          "median": 1.0,
+          "p99": 1.0000037866740457,
+          "minimum": 0.9999954314205589,
+          "maximum": 1.0000065432926777,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762114051729441,
+          "root_gap": 0.39436423778533936
+        }
+      },
+      "deformation_metrics_pass": true,
+      "visual_review": "PENDING",
+      "render_paths": {
+        "front": "validation/point_left/front.png",
+        "three_q": "validation/point_left/three_q.png",
+        "game_camera": "validation/point_left/game_camera.png"
+      },
+      "notes": "Static FK pose only; no Action or keyframe."
+    },
+    "POINT_RIGHT": {
+      "pose": "POINT_RIGHT",
+      "bone_rotations_degrees_local_xyz": {
+        "UPPER_ARM.R": [
+          0,
+          0,
+          -40
+        ],
+        "FOREARM.R": [
+          -20,
+          0,
+          0
+        ],
+        "WRIST.R": [
+          -5,
+          0,
+          0
+        ],
+        "UPPER_ARM.L": [
+          0,
+          0,
+          8
+        ],
+        "FOREARM.L": [
+          10,
+          0,
+          0
+        ]
+      },
+      "bone_locations_local": {},
+      "root_cog_offset": {
+        "ROOT": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "COG": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "safe_envelope_compliance": true,
+      "envelope_issues": [],
+      "deformation_metrics": {
+        "arm_L": {
+          "p01": 0.8661951904963554,
+          "median": 1.0000000692863316,
+          "p99": 1.2434695709096173,
+          "minimum": 0.6240500895584135,
+          "maximum": 1.3795781508055929,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336723893880844,
+          "root_gap": 0.4447806179523468
+        },
+        "leg_L": {
+          "p01": 0.9999966570930106,
+          "median": 1.0,
+          "p99": 1.000003648286407,
+          "minimum": 0.9999954314205589,
+          "maximum": 1.0000065432926777,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762114051729441,
+          "root_gap": 0.39436423778533936
+        },
+        "arm_R": {
+          "p01": 0.7215266867871668,
+          "median": 1.000000234052957,
+          "p99": 1.8698517478771195,
+          "minimum": 0.27583122651979386,
+          "maximum": 2.4985350666453128,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003327685408294201,
+          "root_gap": 0.4518164396286011
+        },
+        "leg_R": {
+          "p01": 0.9999966570930106,
+          "median": 1.0,
+          "p99": 1.0000037866740457,
+          "minimum": 0.9999954314205589,
+          "maximum": 1.0000065432926777,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762114051729441,
+          "root_gap": 0.39436423778533936
+        }
+      },
+      "deformation_metrics_pass": true,
+      "visual_review": "PENDING",
+      "render_paths": {
+        "front": "validation/point_right/front.png",
+        "three_q": "validation/point_right/three_q.png"
+      },
+      "notes": "Static FK pose only; no Action or keyframe."
+    },
+    "TURN_LEFT": {
+      "pose": "TURN_LEFT",
+      "bone_rotations_degrees_local_xyz": {
+        "ROOT": [
+          0,
+          -35,
+          0
+        ],
+        "HEAD": [
+          0,
+          -10,
+          0
+        ]
+      },
+      "bone_locations_local": {},
+      "root_cog_offset": {
+        "ROOT": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "COG": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "safe_envelope_compliance": true,
+      "envelope_issues": [],
+      "deformation_metrics": {
+        "arm_L": {
+          "p01": 0.9999802498203287,
+          "median": 0.99999996279147,
+          "p99": 1.0000197248703788,
+          "minimum": 0.9999475602645991,
+          "maximum": 1.0000679421021288,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366114366799593,
+          "root_gap": 0.44271430373191833
+        },
+        "leg_L": {
+          "p01": 0.9999962267718079,
+          "median": 1.0,
+          "p99": 1.0000032798887966,
+          "minimum": 0.9999919915524922,
+          "maximum": 1.0000061932220645,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0077620819211006165,
+          "root_gap": 0.39436423778533936
+        },
+        "arm_R": {
+          "p01": 0.9999824816267757,
+          "median": 0.9999999142475646,
+          "p99": 1.0000170402740332,
+          "minimum": 0.9999505409827522,
+          "maximum": 1.000060848447472,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367073629051447,
+          "root_gap": 0.44271430373191833
+        },
+        "leg_R": {
+          "p01": 0.9999963018570683,
+          "median": 1.0,
+          "p99": 1.000003330887929,
+          "minimum": 0.9999924198207794,
+          "maximum": 1.0000061932220645,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762021850794554,
+          "root_gap": 0.39436423778533936
+        }
+      },
+      "deformation_metrics_pass": true,
+      "visual_review": "PENDING",
+      "render_paths": {
+        "front": "validation/turn_left/front.png",
+        "three_q": "validation/turn_left/three_q.png"
+      },
+      "notes": "Static FK pose only; no Action or keyframe."
+    },
+    "TURN_RIGHT": {
+      "pose": "TURN_RIGHT",
+      "bone_rotations_degrees_local_xyz": {
+        "ROOT": [
+          0,
+          35,
+          0
+        ],
+        "HEAD": [
+          0,
+          10,
+          0
+        ]
+      },
+      "bone_locations_local": {},
+      "root_cog_offset": {
+        "ROOT": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "COG": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "safe_envelope_compliance": true,
+      "envelope_issues": [],
+      "deformation_metrics": {
+        "arm_L": {
+          "p01": 0.999981917153395,
+          "median": 0.9999999431724074,
+          "p99": 1.0000205902754296,
+          "minimum": 0.9999410316063513,
+          "maximum": 1.0000565848127483,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366638235747814,
+          "root_gap": 0.44271424412727356
+        },
+        "leg_L": {
+          "p01": 0.9999963250416144,
+          "median": 1.0,
+          "p99": 1.0000033336589491,
+          "minimum": 0.9999926416931381,
+          "maximum": 1.0000075612841963,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007761976681649685,
+          "root_gap": 0.39436423778533936
+        },
+        "arm_R": {
+          "p01": 0.9999829284263206,
+          "median": 0.9999999575823395,
+          "p99": 1.0000186194274219,
+          "minimum": 0.9999397981545824,
+          "maximum": 1.0000705100680913,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367073629051447,
+          "root_gap": 0.4427144527435303
+        },
+        "leg_R": {
+          "p01": 0.9999965937723783,
+          "median": 1.0,
+          "p99": 1.0000034464616114,
+          "minimum": 0.9999926416931381,
+          "maximum": 1.0000076486732212,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762066554278135,
+          "root_gap": 0.39436423778533936
+        }
+      },
+      "deformation_metrics_pass": true,
+      "visual_review": "PENDING",
+      "render_paths": {
+        "front": "validation/turn_right/front.png",
+        "three_q": "validation/turn_right/three_q.png"
+      },
+      "notes": "Static FK pose only; no Action or keyframe."
+    },
+    "CROUCH": {
+      "pose": "CROUCH",
+      "bone_rotations_degrees_local_xyz": {
+        "THIGH.L": [
+          -20,
+          0,
+          0
+        ],
+        "THIGH.R": [
+          -20,
+          0,
+          0
+        ],
+        "SHIN.L": [
+          10,
+          0,
+          0
+        ],
+        "SHIN.R": [
+          10,
+          0,
+          0
+        ],
+        "FOOT.L": [
+          -10,
+          0,
+          0
+        ],
+        "FOOT.R": [
+          -10,
+          0,
+          0
+        ]
+      },
+      "bone_locations_local": {
+        "COG": [
+          0,
+          -0.04,
+          0
+        ]
+      },
+      "root_cog_offset": {
+        "ROOT": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "COG": [
+          0,
+          -0.04,
+          0
+        ]
+      },
+      "safe_envelope_compliance": true,
+      "envelope_issues": [],
+      "deformation_metrics": {
+        "arm_L": {
+          "p01": 0.9999839883230498,
+          "median": 1.0,
+          "p99": 1.0000145145899753,
+          "minimum": 0.9999229032912474,
+          "maximum": 1.0000743253233384,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366973511874676,
+          "root_gap": 0.4427144229412079
+        },
+        "leg_L": {
+          "p01": 0.29851909923165665,
+          "median": 1.0,
+          "p99": 1.7532709992919489,
+          "minimum": 0.050342932889450215,
+          "maximum": 1.9489693638846788,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.00239376537501812,
+          "root_gap": 0.3483971059322357
+        },
+        "arm_R": {
+          "p01": 0.9999839422070325,
+          "median": 0.9999999996181923,
+          "p99": 1.0000144010626169,
+          "minimum": 0.9999396971841212,
+          "maximum": 1.0000510720391795,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366368152201176,
+          "root_gap": 0.44271451234817505
+        },
+        "leg_R": {
+          "p01": 0.29852120152524636,
+          "median": 1.0,
+          "p99": 1.7532707967870302,
+          "minimum": 0.050342932889450215,
+          "maximum": 1.9489693638856054,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0023937721271067858,
+          "root_gap": 0.3483971655368805
+        }
+      },
+      "deformation_metrics_pass": true,
+      "visual_review": "PENDING",
+      "render_paths": {
+        "front": "validation/crouch/front.png",
+        "three_q": "validation/crouch/three_q.png",
+        "side": "validation/crouch/side.png",
+        "game_camera": "validation/crouch/game_camera.png"
+      },
+      "notes": "Static FK pose only; no Action or keyframe."
+    },
+    "JUMP_ANTICIPATION": {
+      "pose": "JUMP_ANTICIPATION",
+      "bone_rotations_degrees_local_xyz": {
+        "THIGH.L": [
+          -20,
+          0,
+          0
+        ],
+        "THIGH.R": [
+          -20,
+          0,
+          0
+        ],
+        "SHIN.L": [
+          10,
+          0,
+          0
+        ],
+        "SHIN.R": [
+          10,
+          0,
+          0
+        ],
+        "FOOT.L": [
+          -10,
+          0,
+          0
+        ],
+        "FOOT.R": [
+          -10,
+          0,
+          0
+        ],
+        "UPPER_ARM.L": [
+          10,
+          0,
+          25
+        ],
+        "UPPER_ARM.R": [
+          -10,
+          0,
+          -25
+        ],
+        "FOREARM.L": [
+          10,
+          0,
+          0
+        ],
+        "FOREARM.R": [
+          -10,
+          0,
+          0
+        ]
+      },
+      "bone_locations_local": {
+        "COG": [
+          0,
+          -0.04,
+          0
+        ]
+      },
+      "root_cog_offset": {
+        "ROOT": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "COG": [
+          0,
+          -0.04,
+          0
+        ]
+      },
+      "safe_envelope_compliance": true,
+      "envelope_issues": [],
+      "deformation_metrics": {
+        "arm_L": {
+          "p01": 0.812973618800959,
+          "median": 1.0000001112894508,
+          "p99": 1.6047384396656312,
+          "minimum": 0.6240519856658532,
+          "maximum": 1.9809949040131827,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336758352816105,
+          "root_gap": 0.4283282160758972
+        },
+        "leg_L": {
+          "p01": 0.29851909923165665,
+          "median": 1.0,
+          "p99": 1.7532709992919489,
+          "minimum": 0.050342932889450215,
+          "maximum": 1.9489693638846788,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.00239376537501812,
+          "root_gap": 0.3483971059322357
+        },
+        "arm_R": {
+          "p01": 0.8020244306687613,
+          "median": 1.0000001593904355,
+          "p99": 1.6095614508752323,
+          "minimum": 0.6240506086306226,
+          "maximum": 1.9598057145315047,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033365883864462376,
+          "root_gap": 0.44612032175064087
+        },
+        "leg_R": {
+          "p01": 0.29852120152524636,
+          "median": 1.0,
+          "p99": 1.7532707967870302,
+          "minimum": 0.050342932889450215,
+          "maximum": 1.9489693638856054,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0023937721271067858,
+          "root_gap": 0.3483971655368805
+        }
+      },
+      "deformation_metrics_pass": true,
+      "visual_review": "PENDING",
+      "render_paths": {
+        "front": "validation/jump_anticipation/front.png",
+        "three_q": "validation/jump_anticipation/three_q.png",
+        "side": "validation/jump_anticipation/side.png",
+        "game_camera": "validation/jump_anticipation/game_camera.png"
+      },
+      "notes": "Static FK pose only; no Action or keyframe."
+    },
+    "JUMP_TAKEOFF": {
+      "pose": "JUMP_TAKEOFF",
+      "bone_rotations_degrees_local_xyz": {
+        "UPPER_ARM.L": [
+          0,
+          0,
+          40
+        ],
+        "UPPER_ARM.R": [
+          0,
+          0,
+          -40
+        ],
+        "FOREARM.L": [
+          0,
+          0,
+          10
+        ],
+        "FOREARM.R": [
+          0,
+          0,
+          -10
+        ],
+        "THIGH.L": [
+          -3,
+          0,
+          0
+        ],
+        "THIGH.R": [
+          -3,
+          0,
+          0
+        ]
+      },
+      "bone_locations_local": {
+        "COG": [
+          0,
+          0.05,
+          0
+        ]
+      },
+      "root_cog_offset": {
+        "ROOT": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "COG": [
+          0,
+          0.05,
+          0
+        ]
+      },
+      "safe_envelope_compliance": true,
+      "envelope_issues": [],
+      "deformation_metrics": {
+        "arm_L": {
+          "p01": 0.8143403069005127,
+          "median": 1.0000001768975288,
+          "p99": 1.8698485370424123,
+          "minimum": 0.638265364491738,
+          "maximum": 2.4985315918876925,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366200514137745,
+          "root_gap": 0.4518163800239563
+        },
+        "leg_L": {
+          "p01": 0.8882547265287639,
+          "median": 1.0,
+          "p99": 1.112292910043044,
+          "minimum": 0.8575045889791455,
+          "maximum": 1.1424832885826863,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762113586068153,
+          "root_gap": 0.3858802020549774
+        },
+        "arm_R": {
+          "p01": 0.8143416552744174,
+          "median": 1.0000001856123655,
+          "p99": 1.8698505164742987,
+          "minimum": 0.6382656193289601,
+          "maximum": 2.498538990737535,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336639842018485,
+          "root_gap": 0.4518164396286011
+        },
+        "leg_R": {
+          "p01": 0.8882546664975915,
+          "median": 1.0,
+          "p99": 1.1122930223553924,
+          "minimum": 0.8575045889791455,
+          "maximum": 1.1424832885826863,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0077621107921004295,
+          "root_gap": 0.3858802020549774
+        }
+      },
+      "deformation_metrics_pass": true,
+      "visual_review": "PENDING",
+      "render_paths": {
+        "front": "validation/jump_takeoff/front.png",
+        "three_q": "validation/jump_takeoff/three_q.png",
+        "side": "validation/jump_takeoff/side.png"
+      },
+      "notes": "Static FK pose only; no Action or keyframe."
+    },
+    "JUMP_APEX": {
+      "pose": "JUMP_APEX",
+      "bone_rotations_degrees_local_xyz": {
+        "UPPER_ARM.L": [
+          0,
+          0,
+          40
+        ],
+        "UPPER_ARM.R": [
+          0,
+          0,
+          -40
+        ],
+        "FOREARM.L": [
+          15,
+          0,
+          0
+        ],
+        "FOREARM.R": [
+          -15,
+          0,
+          0
+        ],
+        "THIGH.L": [
+          -10,
+          0,
+          0
+        ],
+        "THIGH.R": [
+          10,
+          0,
+          0
+        ],
+        "SHIN.L": [
+          5,
+          0,
+          0
+        ],
+        "SHIN.R": [
+          5,
+          0,
+          0
+        ],
+        "FOOT.L": [
+          -10,
+          0,
+          0
+        ],
+        "FOOT.R": [
+          -10,
+          0,
+          0
+        ]
+      },
+      "bone_locations_local": {
+        "COG": [
+          0,
+          0.22,
+          0
+        ]
+      },
+      "root_cog_offset": {
+        "ROOT": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "COG": [
+          0,
+          0.22,
+          0
+        ]
+      },
+      "safe_envelope_compliance": true,
+      "envelope_issues": [],
+      "deformation_metrics": {
+        "arm_L": {
+          "p01": 0.74185824247897,
+          "median": 1.000000190189307,
+          "p99": 1.8698509892036572,
+          "minimum": 0.4419660855308715,
+          "maximum": 2.4985476886299414,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367823343724012,
+          "root_gap": 0.4518164098262787
+        },
+        "leg_L": {
+          "p01": 0.6313662761489599,
+          "median": 1.0,
+          "p99": 1.3756285166712083,
+          "minimum": 0.5250014232190826,
+          "maximum": 1.4748164281770568,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0023937677033245564,
+          "root_gap": 0.3698899745941162
+        },
+        "arm_R": {
+          "p01": 0.7418551649213717,
+          "median": 1.00000022741512,
+          "p99": 1.8698504494201251,
+          "minimum": 0.4419649638029026,
+          "maximum": 2.4985487863321953,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336695721372962,
+          "root_gap": 0.4518164396286011
+        },
+        "leg_R": {
+          "p01": 0.6313662761489599,
+          "median": 1.0,
+          "p99": 1.3756285166712083,
+          "minimum": 0.5250014232225219,
+          "maximum": 1.474816428178281,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0023937737569212914,
+          "root_gap": 0.3544924259185791
+        }
+      },
+      "deformation_metrics_pass": true,
+      "visual_review": "PENDING",
+      "render_paths": {
+        "front": "validation/jump_apex/front.png",
+        "three_q": "validation/jump_apex/three_q.png",
+        "side": "validation/jump_apex/side.png",
+        "game_camera": "validation/jump_apex/game_camera.png"
+      },
+      "notes": "Static FK pose only; no Action or keyframe."
+    },
+    "FALL": {
+      "pose": "FALL",
+      "bone_rotations_degrees_local_xyz": {
+        "COG": [
+          0,
+          0,
+          -5
+        ],
+        "UPPER_ARM.L": [
+          0,
+          0,
+          25
+        ],
+        "UPPER_ARM.R": [
+          0,
+          0,
+          -25
+        ],
+        "THIGH.L": [
+          -5,
+          0,
+          0
+        ],
+        "THIGH.R": [
+          5,
+          0,
+          0
+        ],
+        "SHIN.L": [
+          5,
+          0,
+          0
+        ],
+        "SHIN.R": [
+          5,
+          0,
+          0
+        ]
+      },
+      "bone_locations_local": {
+        "COG": [
+          0,
+          0.12,
+          0
+        ]
+      },
+      "root_cog_offset": {
+        "ROOT": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "COG": [
+          0,
+          0.12,
+          0
+        ]
+      },
+      "safe_envelope_compliance": true,
+      "envelope_issues": [],
+      "deformation_metrics": {
+        "arm_L": {
+          "p01": 0.9408719361125903,
+          "median": 1.0000003031897187,
+          "p99": 1.5363121075296908,
+          "minimum": 0.8216978701796244,
+          "maximum": 1.9254319647936424,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336719237267971,
+          "root_gap": 0.44905558228492737
+        },
+        "leg_L": {
+          "p01": 0.7335304556149003,
+          "median": 1.0,
+          "p99": 1.266488132635991,
+          "minimum": 0.7200488850924287,
+          "maximum": 1.2799691911749593,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762084249407053,
+          "root_gap": 0.383264422416687
+        },
+        "arm_R": {
+          "p01": 0.9408716456790742,
+          "median": 1.0000001477624667,
+          "p99": 1.5362976266289021,
+          "minimum": 0.821719117530207,
+          "maximum": 1.925436023164998,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366333227604628,
+          "root_gap": 0.44905582070350647
+        },
+        "leg_R": {
+          "p01": 0.7335292000010868,
+          "median": 1.0000000417155,
+          "p99": 1.2664866691987187,
+          "minimum": 0.7200459443545546,
+          "maximum": 1.2799716212918997,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0077620605006814,
+          "root_gap": 0.37826818227767944
+        }
+      },
+      "deformation_metrics_pass": true,
+      "visual_review": "PENDING",
+      "render_paths": {
+        "front": "validation/fall/front.png",
+        "three_q": "validation/fall/three_q.png",
+        "side": "validation/fall/side.png"
+      },
+      "notes": "Static FK pose only; no Action or keyframe."
+    },
+    "LANDING": {
+      "pose": "LANDING",
+      "bone_rotations_degrees_local_xyz": {
+        "THIGH.L": [
+          -20,
+          0,
+          0
+        ],
+        "THIGH.R": [
+          -20,
+          0,
+          0
+        ],
+        "SHIN.L": [
+          10,
+          0,
+          0
+        ],
+        "SHIN.R": [
+          10,
+          0,
+          0
+        ],
+        "FOOT.L": [
+          -10,
+          0,
+          0
+        ],
+        "FOOT.R": [
+          -10,
+          0,
+          0
+        ],
+        "UPPER_ARM.L": [
+          0,
+          0,
+          20
+        ],
+        "UPPER_ARM.R": [
+          0,
+          0,
+          -20
+        ]
+      },
+      "bone_locations_local": {
+        "COG": [
+          0,
+          -0.035,
+          0
+        ]
+      },
+      "root_cog_offset": {
+        "ROOT": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "COG": [
+          0,
+          -0.035,
+          0
+        ]
+      },
+      "safe_envelope_compliance": true,
+      "envelope_issues": [],
+      "deformation_metrics": {
+        "arm_L": {
+          "p01": 0.9507382003337244,
+          "median": 1.000000150040341,
+          "p99": 1.4263859860668726,
+          "minimum": 0.856559934313559,
+          "maximum": 1.7364070408568753,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366454299539328,
+          "root_gap": 0.44786161184310913
+        },
+        "leg_L": {
+          "p01": 0.2985210580391713,
+          "median": 1.0,
+          "p99": 1.7532734970820458,
+          "minimum": 0.05034669498424681,
+          "maximum": 1.9489731889652604,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.00239376537501812,
+          "root_gap": 0.3483971059322357
+        },
+        "arm_R": {
+          "p01": 0.9507390303679051,
+          "median": 1.0000001165616283,
+          "p99": 1.4263867249325515,
+          "minimum": 0.8565611423820748,
+          "maximum": 1.7364053699792534,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336565103381872,
+          "root_gap": 0.44786185026168823
+        },
+        "leg_R": {
+          "p01": 0.29852316031911713,
+          "median": 1.0,
+          "p99": 1.7532732945759577,
+          "minimum": 0.05034669498424681,
+          "maximum": 1.9489731889661865,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0023937721271067858,
+          "root_gap": 0.3483971357345581
+        }
+      },
+      "deformation_metrics_pass": true,
+      "visual_review": "PENDING",
+      "render_paths": {
+        "front": "validation/landing/front.png",
+        "three_q": "validation/landing/three_q.png",
+        "side": "validation/landing/side.png",
+        "game_camera": "validation/landing/game_camera.png"
+      },
+      "notes": "Static FK pose only; no Action or keyframe."
+    }
+  },
+  "step_sequence_interpolation": [
+    {
+      "from": "REST",
+      "to": "STEP_LEFT",
+      "factor": 0.25,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.9493670795472275,
+          "median": 1.0000000128456488,
+          "p99": 1.058612096254007,
+          "minimum": 0.9072855759913233,
+          "maximum": 1.105102377143304,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367301803082228,
+          "root_gap": 0.39948907494544983
+        },
+        "leg_L": {
+          "p01": 0.8141720269743333,
+          "median": 1.0,
+          "p99": 1.1873799815991004,
+          "minimum": 0.7624947094972471,
+          "maximum": 1.2374592797303758,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.005243212450295687,
+          "root_gap": 0.3810625970363617
+        },
+        "arm_R": {
+          "p01": 0.9418769909877235,
+          "median": 0.9999999538974391,
+          "p99": 1.0516314927962884,
+          "minimum": 0.9010777496071793,
+          "maximum": 1.0982508443763503,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336637746542692,
+          "root_gap": 0.4399075210094452
+        },
+        "leg_R": {
+          "p01": 0.8141720269743333,
+          "median": 1.0,
+          "p99": 1.1873799815991004,
+          "minimum": 0.76249470949174,
+          "maximum": 1.2374592797303758,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762110326439142,
+          "root_gap": 0.3803599774837494
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "REST",
+      "to": "STEP_LEFT",
+      "factor": 0.5,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.8994666351681706,
+          "median": 1.000000024725066,
+          "p99": 1.11773749793687,
+          "minimum": 0.8220797797716898,
+          "maximum": 1.2147434311353886,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336886875331402,
+          "root_gap": 0.3408185839653015
+        },
+        "leg_L": {
+          "p01": 0.6313698011199917,
+          "median": 1.0,
+          "p99": 1.3756310399133183,
+          "minimum": 0.5250014232190826,
+          "maximum": 1.4748164281770568,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.003667275421321392,
+          "root_gap": 0.369101881980896
+        },
+        "arm_R": {
+          "p01": 0.8843111157499812,
+          "median": 0.99999995060655,
+          "p99": 1.1038485530204394,
+          "minimum": 0.8100663268872977,
+          "maximum": 1.2006397867690364,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366524148732424,
+          "root_gap": 0.3742673397064209
+        },
+        "leg_R": {
+          "p01": 0.6313698011199917,
+          "median": 1.0,
+          "p99": 1.3756310399133183,
+          "minimum": 0.5250014232225219,
+          "maximum": 1.474816428178281,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0077620577067136765,
+          "root_gap": 0.3681780695915222
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "REST",
+      "to": "STEP_LEFT",
+      "factor": 0.75,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.8517190038420381,
+          "median": 0.9999999831272492,
+          "p99": 1.1772860653740247,
+          "minimum": 0.7470318131470874,
+          "maximum": 1.327766216579941,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336534136906266,
+          "root_gap": 0.3060755729675293
+        },
+        "leg_L": {
+          "p01": 0.45530783050242774,
+          "median": 1.0,
+          "p99": 1.564346755765884,
+          "minimum": 0.28760205314238,
+          "maximum": 1.7120106972054885,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.00618851650506258,
+          "root_gap": 0.3545898497104645
+        },
+        "arm_R": {
+          "p01": 0.8288243839268702,
+          "median": 0.9999999156098511,
+          "p99": 1.156912273476968,
+          "minimum": 0.7239380926274945,
+          "maximum": 1.3061723862556778,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366552088409662,
+          "root_gap": 0.3289043605327606
+        },
+        "leg_R": {
+          "p01": 0.45530783050242774,
+          "median": 1.0,
+          "p99": 1.564346755765884,
+          "minimum": 0.28760205314238,
+          "maximum": 1.7120106972054885,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762069348245859,
+          "root_gap": 0.3448227047920227
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "STEP_LEFT",
+      "to": "REST",
+      "factor": 0.25,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.8517190038420381,
+          "median": 0.9999999831272492,
+          "p99": 1.1772860653740247,
+          "minimum": 0.7470318131470874,
+          "maximum": 1.327766216579941,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336534136906266,
+          "root_gap": 0.3060755729675293
+        },
+        "leg_L": {
+          "p01": 0.45530783050242774,
+          "median": 1.0,
+          "p99": 1.564346755765884,
+          "minimum": 0.28760205314238,
+          "maximum": 1.7120106972054885,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.00618851650506258,
+          "root_gap": 0.3545898497104645
+        },
+        "arm_R": {
+          "p01": 0.8288243839268702,
+          "median": 0.9999999156098511,
+          "p99": 1.156912273476968,
+          "minimum": 0.7239380926274945,
+          "maximum": 1.3061723862556778,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366552088409662,
+          "root_gap": 0.3289043605327606
+        },
+        "leg_R": {
+          "p01": 0.45530783050242774,
+          "median": 1.0,
+          "p99": 1.564346755765884,
+          "minimum": 0.28760205314238,
+          "maximum": 1.7120106972054885,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762069348245859,
+          "root_gap": 0.3448227047920227
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "STEP_LEFT",
+      "to": "REST",
+      "factor": 0.5,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.8994666351681706,
+          "median": 1.000000024725066,
+          "p99": 1.11773749793687,
+          "minimum": 0.8220797797716898,
+          "maximum": 1.2147434311353886,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336886875331402,
+          "root_gap": 0.3408185839653015
+        },
+        "leg_L": {
+          "p01": 0.6313698011199917,
+          "median": 1.0,
+          "p99": 1.3756310399133183,
+          "minimum": 0.5250014232190826,
+          "maximum": 1.4748164281770568,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.003667275421321392,
+          "root_gap": 0.369101881980896
+        },
+        "arm_R": {
+          "p01": 0.8843111157499812,
+          "median": 0.99999995060655,
+          "p99": 1.1038485530204394,
+          "minimum": 0.8100663268872977,
+          "maximum": 1.2006397867690364,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366524148732424,
+          "root_gap": 0.3742673397064209
+        },
+        "leg_R": {
+          "p01": 0.6313698011199917,
+          "median": 1.0,
+          "p99": 1.3756310399133183,
+          "minimum": 0.5250014232225219,
+          "maximum": 1.474816428178281,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0077620577067136765,
+          "root_gap": 0.3681780695915222
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "STEP_LEFT",
+      "to": "REST",
+      "factor": 0.75,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.9493670795472275,
+          "median": 1.0000000128456488,
+          "p99": 1.058612096254007,
+          "minimum": 0.9072855759913233,
+          "maximum": 1.105102377143304,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367301803082228,
+          "root_gap": 0.39948907494544983
+        },
+        "leg_L": {
+          "p01": 0.8141720269743333,
+          "median": 1.0,
+          "p99": 1.1873799815991004,
+          "minimum": 0.7624947094972471,
+          "maximum": 1.2374592797303758,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.005243212450295687,
+          "root_gap": 0.3810625970363617
+        },
+        "arm_R": {
+          "p01": 0.9418769909877235,
+          "median": 0.9999999538974391,
+          "p99": 1.0516314927962884,
+          "minimum": 0.9010777496071793,
+          "maximum": 1.0982508443763503,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336637746542692,
+          "root_gap": 0.4399075210094452
+        },
+        "leg_R": {
+          "p01": 0.8141720269743333,
+          "median": 1.0,
+          "p99": 1.1873799815991004,
+          "minimum": 0.76249470949174,
+          "maximum": 1.2374592797303758,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762110326439142,
+          "root_gap": 0.3803599774837494
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "REST",
+      "to": "STEP_RIGHT",
+      "factor": 0.25,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.9418765028863887,
+          "median": 0.9999999855909321,
+          "p99": 1.0516348577887047,
+          "minimum": 0.901077536527982,
+          "maximum": 1.0982517662831468,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336764872074127,
+          "root_gap": 0.43990737199783325
+        },
+        "leg_L": {
+          "p01": 0.814172978676587,
+          "median": 1.0,
+          "p99": 1.1873791940246132,
+          "minimum": 0.7624947094982384,
+          "maximum": 1.2374592797303758,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762110326439142,
+          "root_gap": 0.3803599774837494
+        },
+        "arm_R": {
+          "p01": 0.9493654431776255,
+          "median": 0.9999999876776623,
+          "p99": 1.0586084009326315,
+          "minimum": 0.9072856314958562,
+          "maximum": 1.1051024442452555,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366468269377947,
+          "root_gap": 0.39948928356170654
+        },
+        "leg_R": {
+          "p01": 0.814172978676587,
+          "median": 1.0,
+          "p99": 1.1873792362369844,
+          "minimum": 0.7624947094972471,
+          "maximum": 1.2374592797245392,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.005243214312940836,
+          "root_gap": 0.3810625970363617
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "REST",
+      "to": "STEP_RIGHT",
+      "factor": 0.5,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.8843100048882873,
+          "median": 0.9999999529567705,
+          "p99": 1.1038517774619914,
+          "minimum": 0.8100661806406255,
+          "maximum": 1.200641271533534,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367187716066837,
+          "root_gap": 0.3742673397064209
+        },
+        "leg_L": {
+          "p01": 0.6313693860910645,
+          "median": 1.0,
+          "p99": 1.375630819873878,
+          "minimum": 0.5250014232181346,
+          "maximum": 1.474816428178281,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762056775391102,
+          "root_gap": 0.3681780993938446
+        },
+        "arm_R": {
+          "p01": 0.8994636543095191,
+          "median": 1.0,
+          "p99": 1.1177374601329702,
+          "minimum": 0.8220802915681236,
+          "maximum": 1.2147434209994397,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336596069857478,
+          "root_gap": 0.3408186137676239
+        },
+        "leg_R": {
+          "p01": 0.6313693860910645,
+          "median": 1.0,
+          "p99": 1.3756308992298556,
+          "minimum": 0.5250014232190826,
+          "maximum": 1.474816428178281,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.003667278215289116,
+          "root_gap": 0.369101881980896
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "REST",
+      "to": "STEP_RIGHT",
+      "factor": 0.75,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.828824206359039,
+          "median": 0.9999999479597628,
+          "p99": 1.1569120635562338,
+          "minimum": 0.7239377518904971,
+          "maximum": 1.306173798905368,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367068972438574,
+          "root_gap": 0.32890427112579346
+        },
+        "leg_L": {
+          "p01": 0.4553083542240991,
+          "median": 1.0,
+          "p99": 1.5643463471697565,
+          "minimum": 0.28760205314238,
+          "maximum": 1.7120106972054885,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762069348245859,
+          "root_gap": 0.34482282400131226
+        },
+        "arm_R": {
+          "p01": 0.8517185408716434,
+          "median": 0.9999999822921347,
+          "p99": 1.1772854629114358,
+          "minimum": 0.7470327280284701,
+          "maximum": 1.3277660369018995,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367767464369535,
+          "root_gap": 0.3060757517814636
+        },
+        "leg_R": {
+          "p01": 0.4553083542240991,
+          "median": 1.0,
+          "p99": 1.5643464605041233,
+          "minimum": 0.28760205314238,
+          "maximum": 1.7120106972054885,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.00618851650506258,
+          "root_gap": 0.35458993911743164
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "STEP_RIGHT",
+      "to": "REST",
+      "factor": 0.25,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.828824206359039,
+          "median": 0.9999999479597628,
+          "p99": 1.1569120635562338,
+          "minimum": 0.7239377518904971,
+          "maximum": 1.306173798905368,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367068972438574,
+          "root_gap": 0.32890427112579346
+        },
+        "leg_L": {
+          "p01": 0.4553083542240991,
+          "median": 1.0,
+          "p99": 1.5643463471697565,
+          "minimum": 0.28760205314238,
+          "maximum": 1.7120106972054885,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762069348245859,
+          "root_gap": 0.34482282400131226
+        },
+        "arm_R": {
+          "p01": 0.8517185408716434,
+          "median": 0.9999999822921347,
+          "p99": 1.1772854629114358,
+          "minimum": 0.7470327280284701,
+          "maximum": 1.3277660369018995,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367767464369535,
+          "root_gap": 0.3060757517814636
+        },
+        "leg_R": {
+          "p01": 0.4553083542240991,
+          "median": 1.0,
+          "p99": 1.5643464605041233,
+          "minimum": 0.28760205314238,
+          "maximum": 1.7120106972054885,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.00618851650506258,
+          "root_gap": 0.35458993911743164
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "STEP_RIGHT",
+      "to": "REST",
+      "factor": 0.5,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.8843100048882873,
+          "median": 0.9999999529567705,
+          "p99": 1.1038517774619914,
+          "minimum": 0.8100661806406255,
+          "maximum": 1.200641271533534,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367187716066837,
+          "root_gap": 0.3742673397064209
+        },
+        "leg_L": {
+          "p01": 0.6313693860910645,
+          "median": 1.0,
+          "p99": 1.375630819873878,
+          "minimum": 0.5250014232181346,
+          "maximum": 1.474816428178281,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762056775391102,
+          "root_gap": 0.3681780993938446
+        },
+        "arm_R": {
+          "p01": 0.8994636543095191,
+          "median": 1.0,
+          "p99": 1.1177374601329702,
+          "minimum": 0.8220802915681236,
+          "maximum": 1.2147434209994397,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336596069857478,
+          "root_gap": 0.3408186137676239
+        },
+        "leg_R": {
+          "p01": 0.6313693860910645,
+          "median": 1.0,
+          "p99": 1.3756308992298556,
+          "minimum": 0.5250014232190826,
+          "maximum": 1.474816428178281,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.003667278215289116,
+          "root_gap": 0.369101881980896
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "STEP_RIGHT",
+      "to": "REST",
+      "factor": 0.75,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.9418765028863887,
+          "median": 0.9999999855909321,
+          "p99": 1.0516348577887047,
+          "minimum": 0.901077536527982,
+          "maximum": 1.0982517662831468,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336764872074127,
+          "root_gap": 0.43990737199783325
+        },
+        "leg_L": {
+          "p01": 0.814172978676587,
+          "median": 1.0,
+          "p99": 1.1873791940246132,
+          "minimum": 0.7624947094982384,
+          "maximum": 1.2374592797303758,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.007762110326439142,
+          "root_gap": 0.3803599774837494
+        },
+        "arm_R": {
+          "p01": 0.9493654431776255,
+          "median": 0.9999999876776623,
+          "p99": 1.0586084009326315,
+          "minimum": 0.9072856314958562,
+          "maximum": 1.1051024442452555,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366468269377947,
+          "root_gap": 0.39948928356170654
+        },
+        "leg_R": {
+          "p01": 0.814172978676587,
+          "median": 1.0,
+          "p99": 1.1873792362369844,
+          "minimum": 0.7624947094972471,
+          "maximum": 1.2374592797245392,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.005243214312940836,
+          "root_gap": 0.3810625970363617
+        }
+      },
+      "pass": true
+    }
+  ],
+  "jump_sequence_interpolation": [
+    {
+      "from": "REST",
+      "to": "JUMP_ANTICIPATION",
+      "factor": 0.25,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.9538187921552406,
+          "median": 1.0000002991014467,
+          "p99": 1.1460105140415506,
+          "minimum": 0.9053956384820069,
+          "maximum": 1.2377759625260552,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367115538567305,
+          "root_gap": 0.4428669512271881
+        },
+        "leg_L": {
+          "p01": 0.8141756223971803,
+          "median": 1.0,
+          "p99": 1.1873835801026844,
+          "minimum": 0.7624947094972471,
+          "maximum": 1.237463056939185,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.003667291020974517,
+          "root_gap": 0.381939172744751
+        },
+        "arm_R": {
+          "p01": 0.951083455406875,
+          "median": 1.0000002041739053,
+          "p99": 1.147252929510044,
+          "minimum": 0.9053977592871943,
+          "maximum": 1.2320222546885367,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033365890849381685,
+          "root_gap": 0.44585350155830383
+        },
+        "leg_R": {
+          "p01": 0.8141765740963076,
+          "median": 1.0,
+          "p99": 1.1873828347412925,
+          "minimum": 0.7624947094972471,
+          "maximum": 1.2374630569333482,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.003667292185127735,
+          "root_gap": 0.381939172744751
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "REST",
+      "to": "JUMP_ANTICIPATION",
+      "factor": 0.5,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.9073662848975124,
+          "median": 1.0000002367671617,
+          "p99": 1.296041714349078,
+          "minimum": 0.8110795505708435,
+          "maximum": 1.482277036719126,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366794232279062,
+          "root_gap": 0.440320760011673
+        },
+        "leg_L": {
+          "p01": 0.6313722356689045,
+          "median": 1.0,
+          "p99": 1.3756310399133183,
+          "minimum": 0.5250014232190826,
+          "maximum": 1.4748164281770568,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006441091652959585,
+          "root_gap": 0.36988991498947144
+        },
+        "arm_R": {
+          "p01": 0.9019983491620364,
+          "median": 1.0000002263476988,
+          "p99": 1.2986614966673553,
+          "minimum": 0.8110796207931145,
+          "maximum": 1.4710954790249773,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366919960826635,
+          "root_gap": 0.44890621304512024
+        },
+        "leg_R": {
+          "p01": 0.6313718206445229,
+          "median": 1.0,
+          "p99": 1.3756308992298556,
+          "minimum": 0.5250014232190826,
+          "maximum": 1.474816428178281,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006441042292863131,
+          "root_gap": 0.36988991498947144
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "REST",
+      "to": "JUMP_ANTICIPATION",
+      "factor": 0.75,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.8601564985531878,
+          "median": 1.0000001534313,
+          "p99": 1.4492166259976884,
+          "minimum": 0.7172094608119222,
+          "maximum": 1.730497785105688,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366107381880283,
+          "root_gap": 0.43655940890312195
+        },
+        "leg_L": {
+          "p01": 0.45530675122849074,
+          "median": 1.0,
+          "p99": 1.564346755765884,
+          "minimum": 0.28760205314238,
+          "maximum": 1.7120106972054885,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0060456241481006145,
+          "root_gap": 0.3592371344566345
+        },
+        "arm_R": {
+          "p01": 0.8523704037500699,
+          "median": 1.000000140105316,
+          "p99": 1.4531422148508366,
+          "minimum": 0.7172118495420406,
+          "maximum": 1.714191808993514,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366191200912,
+          "root_gap": 0.4516346752643585
+        },
+        "leg_R": {
+          "p01": 0.4553072749538526,
+          "median": 1.0,
+          "p99": 1.5643464605041233,
+          "minimum": 0.28760205314238,
+          "maximum": 1.7120106972054885,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006045520305633545,
+          "root_gap": 0.3592371344566345
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "JUMP_ANTICIPATION",
+      "to": "JUMP_TAKEOFF",
+      "factor": 0.25,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.8358993969463135,
+          "median": 1.0000002061021527,
+          "p99": 1.6616057766299308,
+          "minimum": 0.6883825265960004,
+          "maximum": 2.09851295713951,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367599826306105,
+          "root_gap": 0.4351626932621002
+        },
+        "leg_L": {
+          "p01": 0.4300033094134843,
+          "median": 1.0,
+          "p99": 1.592678640767387,
+          "minimum": 0.25199320021288807,
+          "maximum": 1.7475620654500341,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006045689806342125,
+          "root_gap": 0.357759028673172
+        },
+        "arm_R": {
+          "p01": 0.8292793116123377,
+          "median": 1.000000091233639,
+          "p99": 1.6694332080977914,
+          "minimum": 0.6920043583604673,
+          "maximum": 2.08332199818578,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033365385606884956,
+          "root_gap": 0.45240074396133423
+        },
+        "leg_R": {
+          "p01": 0.4300027352008038,
+          "median": 1.0,
+          "p99": 1.5926783592380365,
+          "minimum": 0.25199320021288807,
+          "maximum": 1.7475620654498112,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006045520305633545,
+          "root_gap": 0.357759028673172
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "JUMP_ANTICIPATION",
+      "to": "JUMP_TAKEOFF",
+      "factor": 0.5,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.8465911072526617,
+          "median": 1.0000002570531206,
+          "p99": 1.7150316151396154,
+          "minimum": 0.7251524934814603,
+          "maximum": 2.225419750906577,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367741852998734,
+          "root_gap": 0.44182586669921875
+        },
+        "leg_L": {
+          "p01": 0.577558634857164,
+          "median": 1.0,
+          "p99": 1.4322172190768068,
+          "minimum": 0.45376489245915,
+          "maximum": 1.5459890615661411,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006441066507250071,
+          "root_gap": 0.36629897356033325
+        },
+        "arm_R": {
+          "p01": 0.836865780980838,
+          "median": 1.0000002482241308,
+          "p99": 1.7401899087999633,
+          "minimum": 0.7217343924261262,
+          "maximum": 2.2155583643562053,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366067800670862,
+          "root_gap": 0.45257216691970825
+        },
+        "leg_R": {
+          "p01": 0.5775574330919193,
+          "median": 1.0,
+          "p99": 1.4322172408597655,
+          "minimum": 0.45376489245915,
+          "maximum": 1.5459890615614693,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006441033910959959,
+          "root_gap": 0.36629897356033325
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "JUMP_ANTICIPATION",
+      "to": "JUMP_TAKEOFF",
+      "factor": 0.75,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.8341317037801019,
+          "median": 1.0000001550490385,
+          "p99": 1.769363133016362,
+          "minimum": 0.7101065725017027,
+          "maximum": 2.3596209490102504,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366424031555653,
+          "root_gap": 0.44766417145729065
+        },
+        "leg_L": {
+          "p01": 0.7314049702440056,
+          "median": 1.0,
+          "p99": 1.2720148079507134,
+          "minimum": 0.6556225278448827,
+          "maximum": 1.344295364056556,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0036672931164503098,
+          "root_gap": 0.3757208287715912
+        },
+        "arm_R": {
+          "p01": 0.8338904917716361,
+          "median": 1.0000000670147462,
+          "p99": 1.8007230133298622,
+          "minimum": 0.7052615464094119,
+          "maximum": 2.354312425756033,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366901334375143,
+          "root_gap": 0.4521179795265198
+        },
+        "leg_R": {
+          "p01": 0.7314039857680845,
+          "median": 1.0,
+          "p99": 1.2720150594342035,
+          "minimum": 0.6556225278448827,
+          "maximum": 1.3442953640525266,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0036672959104180336,
+          "root_gap": 0.3757208287715912
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "JUMP_TAKEOFF",
+      "to": "JUMP_APEX",
+      "factor": 0.25,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.8224595956135643,
+          "median": 1.0000001640403458,
+          "p99": 1.8698493487587617,
+          "minimum": 0.6870913138397761,
+          "maximum": 2.498538149611187,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336713882163167,
+          "root_gap": 0.4518164098262787
+        },
+        "leg_L": {
+          "p01": 0.8234137729808072,
+          "median": 1.0,
+          "p99": 1.1779861061474235,
+          "minimum": 0.7743728275978373,
+          "maximum": 1.2255955857279541,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0036672602873295546,
+          "root_gap": 0.3817597031593323
+        },
+        "arm_R": {
+          "p01": 0.823259206589556,
+          "median": 1.000000118481559,
+          "p99": 1.8698510933346455,
+          "minimum": 0.6813614137739474,
+          "maximum": 2.498539666847748,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336672903969884,
+          "root_gap": 0.45181646943092346
+        },
+        "leg_R": {
+          "p01": 0.9333767784060987,
+          "median": 1.0,
+          "p99": 1.0666267261399565,
+          "minimum": 0.9300049710097154,
+          "maximum": 1.0699970310969458,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0036672831047326326,
+          "root_gap": 0.3931044936180115
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "JUMP_TAKEOFF",
+      "to": "JUMP_APEX",
+      "factor": 0.5,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.8122515116667537,
+          "median": 1.000000089907439,
+          "p99": 1.8698488352361424,
+          "minimum": 0.6443410841614604,
+          "maximum": 2.498542064701514,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366817515343428,
+          "root_gap": 0.4518163800239563
+        },
+        "leg_L": {
+          "p01": 0.7589057870754042,
+          "median": 1.0,
+          "p99": 1.2437792145975743,
+          "minimum": 0.6912353514871455,
+          "maximum": 1.3086720351951988,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0064410618506371975,
+          "root_gap": 0.3777157664299011
+        },
+        "arm_R": {
+          "p01": 0.8122516476522005,
+          "median": 1.000000093825415,
+          "p99": 1.8698517447129588,
+          "minimum": 0.6430070532206005,
+          "maximum": 2.498544950595348,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366938587278128,
+          "root_gap": 0.4518164396286011
+        },
+        "leg_R": {
+          "p01": 0.8600128573572297,
+          "median": 1.0,
+          "p99": 1.1399895575930343,
+          "minimum": 0.8337468836037261,
+          "maximum": 1.1662336118667218,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0064410073682665825,
+          "root_gap": 0.38313212990760803
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "JUMP_TAKEOFF",
+      "to": "JUMP_APEX",
+      "factor": 0.75,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.7700495188046856,
+          "median": 1.0000001445741613,
+          "p99": 1.8698507380725577,
+          "minimum": 0.5516250820004582,
+          "maximum": 2.4985374665950766,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336589550599456,
+          "root_gap": 0.4518164098262787
+        },
+        "leg_L": {
+          "p01": 0.6948479514178424,
+          "median": 1.0,
+          "p99": 1.309667553446919,
+          "minimum": 0.6081177241232452,
+          "maximum": 1.3917544255061403,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006045656278729439,
+          "root_gap": 0.37375640869140625
+        },
+        "arm_R": {
+          "p01": 0.7730652784619336,
+          "median": 1.0000001956131885,
+          "p99": 1.8698522946011553,
+          "minimum": 0.5595875613257346,
+          "maximum": 2.498534391573642,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336551832035184,
+          "root_gap": 0.4518164396286011
+        },
+        "leg_R": {
+          "p01": 0.7497338227892584,
+          "median": 1.0,
+          "p99": 1.2531979957203685,
+          "minimum": 0.6793637725521036,
+          "maximum": 1.3205495676520684,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0060455226339399815,
+          "root_gap": 0.3732239902019501
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "JUMP_APEX",
+      "to": "FALL",
+      "factor": 0.25,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.7869770216315001,
+          "median": 1.0000001900950317,
+          "p99": 1.7869515905624669,
+          "minimum": 0.5778599261776505,
+          "maximum": 2.3545078865561724,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336570458486676,
+          "root_gap": 0.45113080739974976
+        },
+        "leg_L": {
+          "p01": 0.6766555549152276,
+          "median": 0.999999980926503,
+          "p99": 1.328515199621452,
+          "minimum": 0.5843767968394409,
+          "maximum": 1.415498681744478,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006045634858310223,
+          "root_gap": 0.3731391727924347
+        },
+        "arm_R": {
+          "p01": 0.7869796074936007,
+          "median": 1.000000153585897,
+          "p99": 1.7869532114270896,
+          "minimum": 0.5778606812900935,
+          "maximum": 2.354509508981969,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033365802373737097,
+          "root_gap": 0.4511309266090393
+        },
+        "leg_R": {
+          "p01": 0.6766506281536339,
+          "median": 1.0000000231757602,
+          "p99": 1.3285090546886154,
+          "minimum": 0.5843730664929708,
+          "maximum": 1.415498764447029,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006045544985681772,
+          "root_gap": 0.36011889576911926
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "JUMP_APEX",
+      "to": "FALL",
+      "factor": 0.5,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.8356817283733573,
+          "median": 1.000000232585455,
+          "p99": 1.703076464498712,
+          "minimum": 0.7172171709984848,
+          "maximum": 2.210961765178168,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336620982736349,
+          "root_gap": 0.4504414200782776
+        },
+        "leg_L": {
+          "p01": 0.7181848358281095,
+          "median": 0.9999999335432117,
+          "p99": 1.2845751131213168,
+          "minimum": 0.6437420999308701,
+          "maximum": 1.356158890327064,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006440985482186079,
+          "root_gap": 0.37661367654800415
+        },
+        "arm_R": {
+          "p01": 0.8356800826786074,
+          "median": 1.0000003174797873,
+          "p99": 1.7030745904342242,
+          "minimum": 0.7172138533954542,
+          "maximum": 2.2109761461447826,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336666151881218,
+          "root_gap": 0.4504415988922119
+        },
+        "leg_R": {
+          "p01": 0.7181823844475033,
+          "median": 0.9999999931443413,
+          "p99": 1.284576258613157,
+          "minimum": 0.6437381670295605,
+          "maximum": 1.3561592210303695,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006440997589379549,
+          "root_gap": 0.36596542596817017
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "JUMP_APEX",
+      "to": "FALL",
+      "factor": 0.75,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.8777075504518226,
+          "median": 1.000000159173367,
+          "p99": 1.6192738910036777,
+          "minimum": 0.7959429370956617,
+          "maximum": 2.0679369176836024,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367520663887262,
+          "root_gap": 0.4497496783733368
+        },
+        "leg_L": {
+          "p01": 0.7215877927985808,
+          "median": 0.9999999732347693,
+          "p99": 1.2784332279698734,
+          "minimum": 0.7031171073660861,
+          "maximum": 1.2968131243713976,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.003667257260531187,
+          "root_gap": 0.3803059160709381
+        },
+        "arm_R": {
+          "p01": 0.8777096355857561,
+          "median": 1.0000002610393772,
+          "p99": 1.6192688511075026,
+          "minimum": 0.795940114899493,
+          "maximum": 2.0679372121363606,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366635907441378,
+          "root_gap": 0.44974955916404724
+        },
+        "leg_R": {
+          "p01": 0.7215870338289363,
+          "median": 1.0000000362319919,
+          "p99": 1.2784308931544546,
+          "minimum": 0.7031135885526857,
+          "maximum": 1.2968174068292764,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0036672279238700867,
+          "root_gap": 0.37201955914497375
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "FALL",
+      "to": "LANDING",
+      "factor": 0.25,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.9432386413651559,
+          "median": 1.0000002563360675,
+          "p99": 1.5087530366228177,
+          "minimum": 0.8303684851559259,
+          "maximum": 1.878062386472554,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033367055002599955,
+          "root_gap": 0.44881609082221985
+        },
+        "leg_L": {
+          "p01": 0.6500937310045887,
+          "median": 1.0000000091317576,
+          "p99": 1.3499552449812096,
+          "minimum": 0.5843745930180168,
+          "maximum": 1.4154989405799354,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0036672945134341717,
+          "root_gap": 0.37398451566696167
+        },
+        "arm_R": {
+          "p01": 0.9432404229586653,
+          "median": 1.0000001594015129,
+          "p99": 1.508761220277203,
+          "minimum": 0.8303682301815679,
+          "maximum": 1.878066036196138,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336647991091013,
+          "root_gap": 0.44881632924079895
+        },
+        "leg_R": {
+          "p01": 0.6669378393670113,
+          "median": 1.000000086081383,
+          "p99": 1.3331017175514073,
+          "minimum": 0.6500899933217609,
+          "maximum": 1.3499542076055004,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0036672581918537617,
+          "root_gap": 0.39258772134780884
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "FALL",
+      "to": "LANDING",
+      "factor": 0.5,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.9456763492381121,
+          "median": 1.000000215915173,
+          "p99": 1.4812588751539688,
+          "minimum": 0.8390650304620039,
+          "maximum": 1.8307650714246766,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336685709655285,
+          "root_gap": 0.4484987258911133
+        },
+        "leg_L": {
+          "p01": 0.542080352152239,
+          "median": 1.0,
+          "p99": 1.4699535555131467,
+          "minimum": 0.40629186947103085,
+          "maximum": 1.5934446857382714,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.0064410557970404625,
+          "root_gap": 0.3648236095905304
+        },
+        "arm_R": {
+          "p01": 0.9456745070934971,
+          "median": 1.0000001405908532,
+          "p99": 1.4812489982434527,
+          "minimum": 0.8390588835141488,
+          "maximum": 1.8307635099303754,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336607478559017,
+          "root_gap": 0.4484987258911133
+        },
+        "leg_R": {
+          "p01": 0.6003788298556236,
+          "median": 0.9999999999999987,
+          "p99": 1.3997162517017527,
+          "minimum": 0.5801686970943626,
+          "maximum": 1.4199397902528725,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006441003642976284,
+          "root_gap": 0.37789154052734375
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "FALL",
+      "to": "LANDING",
+      "factor": 0.75,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.9481806413306453,
+          "median": 1.0000000801967026,
+          "p99": 1.4537983378436887,
+          "minimum": 0.847805573923118,
+          "maximum": 1.7835414013386688,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366186544299126,
+          "root_gap": 0.44818052649497986
+        },
+        "leg_L": {
+          "p01": 0.41337751030902387,
+          "median": 1.0000000008593242,
+          "p99": 1.6115715799114965,
+          "minimum": 0.22826330462300246,
+          "maximum": 1.7712701439266332,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006045619957149029,
+          "root_gap": 0.35686570405960083
+        },
+        "arm_R": {
+          "p01": 0.9481792314301962,
+          "median": 1.000000176300569,
+          "p99": 1.4537920593517137,
+          "minimum": 0.8478028817682184,
+          "maximum": 1.7835523043803074,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336584661155939,
+          "root_gap": 0.44818082451820374
+        },
+        "leg_R": {
+          "p01": 0.496394664147095,
+          "median": 1.000000033840483,
+          "p99": 1.5171463940963865,
+          "minimum": 0.3469367770963053,
+          "maximum": 1.6527321176115866,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006045538000762463,
+          "root_gap": 0.36233916878700256
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "LANDING",
+      "to": "REST",
+      "factor": 0.25,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.9625880378886191,
+          "median": 1.0000001678222077,
+          "p99": 1.3173608841702988,
+          "minimum": 0.8918842424985823,
+          "maximum": 1.5487279491073866,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336695022881031,
+          "root_gap": 0.44658181071281433
+        },
+        "leg_L": {
+          "p01": 0.45530783050242774,
+          "median": 1.0,
+          "p99": 1.564346755765884,
+          "minimum": 0.28760205314238,
+          "maximum": 1.7120106972054885,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006045675836503506,
+          "root_gap": 0.3592371940612793
+        },
+        "arm_R": {
+          "p01": 0.9625867810138551,
+          "median": 1.0000000681034917,
+          "p99": 1.3173613347470499,
+          "minimum": 0.8918855015792778,
+          "maximum": 1.548726564002888,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366638235747814,
+          "root_gap": 0.4465820789337158
+        },
+        "leg_R": {
+          "p01": 0.4553083542240991,
+          "median": 1.0,
+          "p99": 1.5643464605041233,
+          "minimum": 0.28760205314238,
+          "maximum": 1.7120106972054885,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006045520305633545,
+          "root_gap": 0.3592371940612793
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "LANDING",
+      "to": "REST",
+      "factor": 0.5,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.9748850405419283,
+          "median": 1.00000012325117,
+          "p99": 1.20972328668844,
+          "minimum": 0.927607588948171,
+          "maximum": 1.362805126409049,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366091083735228,
+          "root_gap": 0.4452958405017853
+        },
+        "leg_L": {
+          "p01": 0.6313698011199917,
+          "median": 1.0,
+          "p99": 1.3756321772252624,
+          "minimum": 0.5250014232190826,
+          "maximum": 1.4748164281770568,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006441091652959585,
+          "root_gap": 0.36988991498947144
+        },
+        "arm_R": {
+          "p01": 0.9748840931880686,
+          "median": 1.000000080244205,
+          "p99": 1.2097271873239799,
+          "minimum": 0.9276088974608647,
+          "maximum": 1.3628038013500594,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.003336639842018485,
+          "root_gap": 0.44529610872268677
+        },
+        "leg_R": {
+          "p01": 0.6313693860910645,
+          "median": 1.0,
+          "p99": 1.3756320365422945,
+          "minimum": 0.5250014232190826,
+          "maximum": 1.474816428178281,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.006441042292863131,
+          "root_gap": 0.36988991498947144
+        }
+      },
+      "pass": true
+    },
+    {
+      "from": "LANDING",
+      "to": "REST",
+      "factor": 0.75,
+      "envelope_issues": [],
+      "metrics": {
+        "arm_L": {
+          "p01": 0.9873599134680271,
+          "median": 1.0000001421090217,
+          "p99": 1.1037499481077915,
+          "minimum": 0.9636603597076676,
+          "maximum": 1.1794536262980961,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366933930665255,
+          "root_gap": 0.4440062344074249
+        },
+        "leg_L": {
+          "p01": 0.8141767359484505,
+          "median": 1.0,
+          "p99": 1.1873835801026844,
+          "minimum": 0.7624909460879121,
+          "maximum": 1.2374592797303758,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.003667291020974517,
+          "root_gap": 0.381939172744751
+        },
+        "arm_R": {
+          "p01": 0.9873581797028486,
+          "median": 1.0000001626933464,
+          "p99": 1.1037459734518826,
+          "minimum": 0.9636617205033524,
+          "maximum": 1.17945317424114,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "hand_gap": 0.0033366787247359753,
+          "root_gap": 0.4440068006515503
+        },
+        "leg_R": {
+          "p01": 0.8141776876462505,
+          "median": 1.0,
+          "p99": 1.1873828347412925,
+          "minimum": 0.7624909460879121,
+          "maximum": 1.2374592797245392,
+          "non_finite": 0,
+          "metric_gate": true,
+          "contact_gate": true,
+          "foot_gap": 0.003667292185127735,
+          "root_gap": 0.381939172744751
+        }
+      },
+      "pass": true
+    }
+  ],
+  "final_neutral_comparison": {
+    "front": {
+      "pass": true,
+      "mean_absolute_pixel_difference": 2.191580847465957e-06,
+      "maximum_pixel_difference": 0.003921568393707275
+    },
+    "three_q_l": {
+      "pass": true,
+      "mean_absolute_pixel_difference": 2.366421142596664e-06,
+      "maximum_pixel_difference": 0.003921627998352051
+    },
+    "left": {
+      "pass": true,
+      "mean_absolute_pixel_difference": 2.139222260666429e-06,
+      "maximum_pixel_difference": 0.05882352590560913
+    },
+    "back": {
+      "pass": true,
+      "mean_absolute_pixel_difference": 2.0793839468069564e-06,
+      "maximum_pixel_difference": 0.0156862735748291
+    },
+    "right": {
+      "pass": true,
+      "mean_absolute_pixel_difference": 2.076578951459851e-06,
+      "maximum_pixel_difference": 0.05882352590560913
+    },
+    "three_q_r": {
+      "pass": true,
+      "mean_absolute_pixel_difference": 2.1897109405699666e-06,
+      "maximum_pixel_difference": 0.003921627998352051
+    }
+  },
+  "all_final_neutral_views_pass": true,
+  "source_sha256_before": "da2af5cda34b78d2ae1c07a0ede7926a459fc7c08a06e0b255a65617111f643c",
+  "source_sha256_after": "da2af5cda34b78d2ae1c07a0ede7926a459fc7c08a06e0b255a65617111f643c",
+  "working_copy_sha256_initial": "da2af5cda34b78d2ae1c07a0ede7926a459fc7c08a06e0b255a65617111f643c",
+  "actions": 0,
+  "keyframes": 0,
+  "constraints": 0,
+  "drivers": 0,
+  "initial_snapshot_equals_final_snapshot": true,
+  "topology_weights_hierarchy_and_object_transforms_unchanged": true,
+  "visual_review": "COMPLETE_WITH_BLOCKER",
+  "visual_review_findings": {
+    "REST": {
+      "status": "PASS",
+      "notes": "Canonical neutral matches the Iteration 1 reference."
+    },
+    "READY": {
+      "status": "PASS",
+      "notes": "Readable as a restrained game-ready stance."
+    },
+    "STEP_LEFT": {
+      "status": "PASS",
+      "notes": "Leg opposition is visible and the static step stays within the safe envelope."
+    },
+    "STEP_RIGHT": {
+      "status": "PASS",
+      "notes": "Mirrored leg opposition is visible and remains within the safe envelope."
+    },
+    "LEAN_LEFT": {
+      "status": "PASS",
+      "notes": "Directional body lean is visible without severe deformation."
+    },
+    "LEAN_RIGHT": {
+      "status": "PASS",
+      "notes": "Mirrored directional body lean is visible without severe deformation."
+    },
+    "POINT_LEFT": {
+      "status": "PASS",
+      "notes": "The arm reaches clearly toward the indicated side within the tested range."
+    },
+    "POINT_RIGHT": {
+      "status": "PASS",
+      "notes": "Mirrored arm reach is visible within the tested range."
+    },
+    "TURN_LEFT": {
+      "status": "PASS",
+      "notes": "Whole-rig turn is readable without destructive mesh twist."
+    },
+    "TURN_RIGHT": {
+      "status": "PASS",
+      "notes": "Mirrored whole-rig turn is readable without destructive mesh twist."
+    },
+    "CROUCH": {
+      "status": "BLOCKED",
+      "notes": "Gameplay-camera view remains too close to standing to read as a clear compressed crouch."
+    },
+    "JUMP_ANTICIPATION": {
+      "status": "BLOCKED",
+      "notes": "Gameplay-camera view does not clearly read as a pre-jump loading pose; it remains too close to standing."
+    },
+    "JUMP_TAKEOFF": {
+      "status": "PASS",
+      "notes": "Static extension pose is readable and stays within the conservative envelope."
+    },
+    "JUMP_APEX": {
+      "status": "PASS",
+      "notes": "Airborne silhouette is readable with the recorded COG vertical offset."
+    },
+    "FALL": {
+      "status": "PASS",
+      "notes": "Descending/balancing silhouette remains coherent."
+    },
+    "LANDING": {
+      "status": "PASS",
+      "notes": "Shallow impact absorption is readable and remains within the safe knee cap."
+    }
+  },
+  "game_camera_readability": {
+    "READY": true,
+    "STEP_LEFT": true,
+    "POINT_LEFT": true,
+    "CROUCH": false,
+    "JUMP_ANTICIPATION": false,
+    "JUMP_APEX": true,
+    "LANDING": true
+  },
+  "safe_envelope_status": "PARTIAL_BLOCKED_VISUAL_VALIDATION",
+  "blockers": [
+    "CROUCH and JUMP_ANTICIPATION remain too close to standing to read as compression/loading poses.",
+    "Some safe-envelope limits remain provisional pending visual confirmation."
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "iteration": "Restart Iteration 4R",
+  "status": "BLOCKED",
+  "blockers": [
+    {
+      "code": "BASIC_JUMP_POSE_LIMIT",
+      "poses": [
+        "CROUCH",
+        "JUMP_ANTICIPATION"
+      ],
+      "detail": "Gameplay-camera renders remain too close to standing to read as clear compression/loading poses within the conservative knee envelope. SHIN flexion is capped at 10 degrees; the 15-degree supporting-metric sample fails the p01 gate. This blocks the tested pose contract and is not proof that every possible FK pose is impossible."
+    },
+    {
+      "code": "SAFE_ENVELOPE_VISUAL_COVERAGE_INCOMPLETE",
+      "detail": "Some envelope values remain provisional because not every limit (notably full wrist/foot ranges and ROOT/COG translation ranges) received incremental visual confirmation."
+    }
+  ],
+  "environment": {
+    "agent": "WSL Ubuntu 24.04",
+    "blender": "Windows-native Blender 5.2",
+    "linux_blender_used": false
+  },
+  "bootstrap": {
+    "AGENTS.md": "PASS",
+    "TSA_MONSTER_KNOWLEDGE.md": "PASS",
+    "TSA_MONSTER_STATE.md": "PASS",
+    "full_repository_scan": "NO"
+  },
+  "source_immutability": {
+    "source": "tsa/alif/restart/iteration03B/alif_deform_v1.blend",
+    "sha256_before": "da2af5cda34b78d2ae1c07a0ede7926a459fc7c08a06e0b255a65617111f643c",
+    "sha256_after": "da2af5cda34b78d2ae1c07a0ede7926a459fc7c08a06e0b255a65617111f643c",
+    "pass": true,
+    "working_copy_initial_sha256_matches_source": true
+  },
+  "visual_master": {
+    "reference": "tsa/alif/iteration01/validation/",
+    "initial_neutral_six_views_match": true,
+    "final_neutral_six_views_match": true
+  },
+  "safe_pose_envelope": {
+    "status": "PARTIAL_BLOCKED",
+    "increment_degrees": 5,
+    "conservative_shin_flexion_limit_degrees": 10,
+    "shin_10_degree_supporting_metrics": {
+      "p01": 0.2985,
+      "p99": 1.7533
+    },
+    "shin_15_degree_supporting_metric_p01": 0.204,
+    "shin_15_degree_metric_gate": "FAIL",
+    "complete_visual_limit_confirmation": false,
+    "details": "See alif_safe_pose_envelope.json and logs/envelope_scan.json. Metric boundaries support, but do not replace, visual approval."
+  },
+  "poses": {
+    "REST": "PASS",
+    "READY": "PASS",
+    "STEP_LEFT": "PASS",
+    "STEP_RIGHT": "PASS",
+    "LEAN_LEFT": "PASS",
+    "LEAN_RIGHT": "PASS",
+    "POINT_LEFT": "PASS",
+    "POINT_RIGHT": "PASS",
+    "TURN_LEFT": "PASS",
+    "TURN_RIGHT": "PASS",
+    "CROUCH": "BLOCKED_VISUAL_READABILITY",
+    "JUMP_ANTICIPATION": "BLOCKED_VISUAL_READABILITY",
+    "JUMP_TAKEOFF": "PASS",
+    "JUMP_APEX": "PASS",
+    "FALL": "PASS",
+    "LANDING": "PASS"
+  },
+  "continuity": {
+    "step_numeric_interpolation": "PASS",
+    "step_visual_readability": "PASS",
+    "jump_numeric_interpolation": "PASS",
+    "jump_visual_readability": "BLOCKED"
+  },
+  "integrity": {
+    "topology_changed": false,
+    "weights_changed": false,
+    "armature_architecture_changed": false,
+    "actions": 0,
+    "keyframes": 0,
+    "constraints": 0,
+    "drivers": 0,
+    "initial_snapshot_matches_final_neutral": true,
+    "final_blend_saved_neutral": true,
+    "source_3R_B_preserved": true
+  },
+  "state_update": {
+    "TSA_MONSTER_STATE.md": "PASS",
+    "TSA_MONSTER_KNOWLEDGE.md": "PASS",
+    "iteration_5R_started": false
+  },
+  "primary_working_artifact": "tsa/alif/restart/iteration04/alif_poseproof_v1.blend",
+  "pose_definitions": "tsa/alif/restart/iteration04/poses/",
+  "validation_report": "tsa/alif/restart/iteration04/alif_pose_validation_report.json"
+}

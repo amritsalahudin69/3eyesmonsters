@@ -1,0 +1,116 @@
+{
+  "pose": "CROUCH",
+  "bone_rotations_degrees_local_xyz": {
+    "THIGH.L": [
+      -20,
+      0,
+      0
+    ],
+    "THIGH.R": [
+      -20,
+      0,
+      0
+    ],
+    "SHIN.L": [
+      10,
+      0,
+      0
+    ],
+    "SHIN.R": [
+      10,
+      0,
+      0
+    ],
+    "FOOT.L": [
+      -10,
+      0,
+      0
+    ],
+    "FOOT.R": [
+      -10,
+      0,
+      0
+    ]
+  },
+  "bone_locations_local": {
+    "COG": [
+      0,
+      -0.04,
+      0
+    ]
+  },
+  "root_cog_offset": {
+    "ROOT": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "COG": [
+      0,
+      -0.04,
+      0
+    ]
+  },
+  "safe_envelope_compliance": true,
+  "envelope_issues": [],
+  "deformation_metrics": {
+    "arm_L": {
+      "p01": 0.9999839883230498,
+      "median": 1.0,
+      "p99": 1.0000145145899753,
+      "minimum": 0.9999229032912474,
+      "maximum": 1.0000743253233384,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.0033366973511874676,
+      "root_gap": 0.4427144229412079
+    },
+    "leg_L": {
+      "p01": 0.29851909923165665,
+      "median": 1.0,
+      "p99": 1.7532709992919489,
+      "minimum": 0.050342932889450215,
+      "maximum": 1.9489693638846788,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.00239376537501812,
+      "root_gap": 0.3483971059322357
+    },
+    "arm_R": {
+      "p01": 0.9999839422070325,
+      "median": 0.9999999996181923,
+      "p99": 1.0000144010626169,
+      "minimum": 0.9999396971841212,
+      "maximum": 1.0000510720391795,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.0033366368152201176,
+      "root_gap": 0.44271451234817505
+    },
+    "leg_R": {
+      "p01": 0.29852120152524636,
+      "median": 1.0,
+      "p99": 1.7532707967870302,
+      "minimum": 0.050342932889450215,
+      "maximum": 1.9489693638856054,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.0023937721271067858,
+      "root_gap": 0.3483971655368805
+    }
+  },
+  "deformation_metrics_pass": true,
+  "visual_review": "BLOCKED",
+  "render_paths": {
+    "front": "validation/crouch/front.png",
+    "three_q": "validation/crouch/three_q.png",
+    "side": "validation/crouch/side.png",
+    "game_camera": "validation/crouch/game_camera.png"
+  },
+  "notes": "Static FK pose only; no Action or keyframe.",
+  "visual_review_notes": "Gameplay-camera view remains too close to standing to read as a clear compressed crouch."
+}

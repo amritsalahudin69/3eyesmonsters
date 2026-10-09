@@ -1,0 +1,120 @@
+{
+  "pose": "FALL",
+  "bone_rotations_degrees_local_xyz": {
+    "COG": [
+      0,
+      0,
+      -5
+    ],
+    "UPPER_ARM.L": [
+      0,
+      0,
+      25
+    ],
+    "UPPER_ARM.R": [
+      0,
+      0,
+      -25
+    ],
+    "THIGH.L": [
+      -5,
+      0,
+      0
+    ],
+    "THIGH.R": [
+      5,
+      0,
+      0
+    ],
+    "SHIN.L": [
+      5,
+      0,
+      0
+    ],
+    "SHIN.R": [
+      5,
+      0,
+      0
+    ]
+  },
+  "bone_locations_local": {
+    "COG": [
+      0,
+      0.12,
+      0
+    ]
+  },
+  "root_cog_offset": {
+    "ROOT": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "COG": [
+      0,
+      0.12,
+      0
+    ]
+  },
+  "safe_envelope_compliance": true,
+  "envelope_issues": [],
+  "deformation_metrics": {
+    "arm_L": {
+      "p01": 0.9408719361125903,
+      "median": 1.0000003031897187,
+      "p99": 1.5363121075296908,
+      "minimum": 0.8216978701796244,
+      "maximum": 1.9254319647936424,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.003336719237267971,
+      "root_gap": 0.44905558228492737
+    },
+    "leg_L": {
+      "p01": 0.7335304556149003,
+      "median": 1.0,
+      "p99": 1.266488132635991,
+      "minimum": 0.7200488850924287,
+      "maximum": 1.2799691911749593,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.007762084249407053,
+      "root_gap": 0.383264422416687
+    },
+    "arm_R": {
+      "p01": 0.9408716456790742,
+      "median": 1.0000001477624667,
+      "p99": 1.5362976266289021,
+      "minimum": 0.821719117530207,
+      "maximum": 1.925436023164998,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.0033366333227604628,
+      "root_gap": 0.44905582070350647
+    },
+    "leg_R": {
+      "p01": 0.7335292000010868,
+      "median": 1.0000000417155,
+      "p99": 1.2664866691987187,
+      "minimum": 0.7200459443545546,
+      "maximum": 1.2799716212918997,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.0077620605006814,
+      "root_gap": 0.37826818227767944
+    }
+  },
+  "deformation_metrics_pass": true,
+  "visual_review": "PASS",
+  "render_paths": {
+    "front": "validation/fall/front.png",
+    "three_q": "validation/fall/three_q.png",
+    "side": "validation/fall/side.png"
+  },
+  "notes": "Static FK pose only; no Action or keyframe.",
+  "visual_review_notes": "Descending/balancing silhouette remains coherent."
+}

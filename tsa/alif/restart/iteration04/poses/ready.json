@@ -1,0 +1,109 @@
+{
+  "pose": "READY",
+  "bone_rotations_degrees_local_xyz": {
+    "UPPER_ARM.L": [
+      0,
+      0,
+      15
+    ],
+    "UPPER_ARM.R": [
+      0,
+      0,
+      -15
+    ],
+    "FOREARM.L": [
+      10,
+      0,
+      0
+    ],
+    "FOREARM.R": [
+      -10,
+      0,
+      0
+    ],
+    "THIGH.L": [
+      0,
+      0,
+      0
+    ],
+    "THIGH.R": [
+      0,
+      0,
+      0
+    ]
+  },
+  "bone_locations_local": {},
+  "root_cog_offset": {
+    "ROOT": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "COG": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "safe_envelope_compliance": true,
+  "envelope_issues": [],
+  "deformation_metrics": {
+    "arm_L": {
+      "p01": 0.8661908080684433,
+      "median": 1.0000000272479386,
+      "p99": 1.355126001415993,
+      "minimum": 0.6240509159908082,
+      "maximum": 1.5487279491073866,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.003336766269057989,
+      "root_gap": 0.4465818405151367
+    },
+    "leg_L": {
+      "p01": 0.9999966570930106,
+      "median": 1.0,
+      "p99": 1.000003648286407,
+      "minimum": 0.9999954314205589,
+      "maximum": 1.0000065432926777,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.007762114051729441,
+      "root_gap": 0.39436423778533936
+    },
+    "arm_R": {
+      "p01": 0.8661930849432748,
+      "median": 1.0000000780502045,
+      "p99": 1.3551250264067851,
+      "minimum": 0.6240507522780787,
+      "maximum": 1.5487214811875567,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "hand_gap": 0.003336765570566058,
+      "root_gap": 0.44658204913139343
+    },
+    "leg_R": {
+      "p01": 0.9999966570930106,
+      "median": 1.0,
+      "p99": 1.0000037866740457,
+      "minimum": 0.9999954314205589,
+      "maximum": 1.0000065432926777,
+      "non_finite": 0,
+      "metric_gate": true,
+      "contact_gate": true,
+      "foot_gap": 0.007762114051729441,
+      "root_gap": 0.39436423778533936
+    }
+  },
+  "deformation_metrics_pass": true,
+  "visual_review": "PASS",
+  "render_paths": {
+    "front": "validation/ready/front.png",
+    "three_q": "validation/ready/three_q.png",
+    "game_camera": "validation/ready/game_camera.png"
+  },
+  "notes": "Static FK pose only; no Action or keyframe.",
+  "visual_review_notes": "Readable as a restrained game-ready stance."
+}
